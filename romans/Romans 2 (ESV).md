@@ -1,0 +1,101 @@
+# Romans 2 (ESV)
+**God's Righteous Judgment**
+*1 Therefore you have no excuse, O man, every one of you who judges. For in passing judgment on another you condemn yourself, because you, the judge, practice the very same things.*
+
+When passing a judgment on a transgression or sin this should apply to everyone who commits this same transgression. This includes the person who passed the judgment himself as well. This even goes for God. God has put up a standard of holiness to which He "abides" Himself—although He does not have to because He is the *definition* of holiness, righteousness and all His other characteristics.
+
+*2 We know that the judgment of God rightly falls on those who practice such things. 3 Do you suppose, O man—you who judge those who practice such things and yet do them yourself—that you will escape the judgment of God?*
+
+Now the problem is not that these people passed judgments. It is not even a problem when these persons themselves are indicted for their own trespasses. The problem starts when these people think that *they* are excluded. This too leads to false promises to the people when they say: "Do like I do and you will be on the safe side—on the *right* side of history."
+In fact, that is literally what the Left has said. I am not sure about the Jews and Gentiles who passed judgment here, but the Left is ever passing judgment on the Right for racism and all kinds of other *-isms*. The worst thing is that politicians and policymakers know they are wrong and yet they stimulate people with this lie of being on the right side.  
+
+*4 Or do you presume on the riches of his kindness and forbearance and patience, not knowing that God's kindness is meant to lead you to repentance?* 
+
+This is an important verse because it not only shows God's character but also one of His purposes for us. He wants us to be saved and be with Him, and for that we need to be forgiven, and for that we need to have repentance. 
+God is patient and therefore He gives us time so that we can rethink our actions, He gives us opportunities and minimized punishments so that we have another chance for repentance in order to escape the big punishment to come. 
+God is forbearing and though He does not overlook the small things, He does not require an equal payment for every sin, though He could require—He pays for it Himself!
+God is kind and He shows this by the many *hints*, if you will, in life through which we keep being reminded of repenting
+
+*5 But because of your hard and impenitent heart you are storing up wrath for yourself on the day of wrath when God's righteous judgment will be revealed.*
+
+This part is meant for the Jews as is clear from verse 4. It is about those who know God and know His kindness, although they mistake His kindness for unconditional gifts. The condition we are speaking of is explained in the previous verse as well and states that repentance is necessary. If this is not done, then wrath is stored up. What does this mean? First of all, storing means that this wrath will not dissipate by itself. It will not diminish in value by any external factor, such as good deeds. Only God can remove this wrath. 
+It also means that if this wrath is not diminishing then it is ever increasing because all people sin daily and without repentance the punishment for all of this sin gets stored as well. 
+When will this barn open and show all the stored up wrath? On the day of God's *righteous* judgment. 
+
+*6 He will render to each one according to his works: 7 to those who by patience in well-doing seek for glory and honor and immortality, he will give eternal life; 8 but for those who are self-seeking and do not obey the truth, but obey unrighteousness, there will be wrath and fury.*
+
+God renders to each one according to His works. This does not mean that we deserve eternal life or any other gift of God, not even temporal life here on Earth or even one breath, but it does mean that God's gifts are in line with what people have done. God gives gifts to everyone, He lets it rain on both the wicked and the righteous, but eternal life will be for those who seek glory, honor and immortality. 
+You might wonder how this applies for people who do not believe in Jesus Christ and have heard of Him, or those who have not heard of Him. The answer to that is given in verse 12, but from this verse we can already see a coherence between following God through the Law and outside of the law, in the requirements stated here for eternal life.
+The first requirement is being patient in well-doing. There are lots of atheists who are patient and persistent in well-doing and have sacrificed their whole life for good causes. 
+Now as for the cause, verse 7 states that this needs to be glory, honor and immortality. People like Jane Goodall #todo/opzoeken  who spent her life on protecting gorillas (cf. the movie *Gorillas in the Mist*) may have done good things, all of them not self-seeking, but had they brought about the aforementioned requirements? She had definitely not aimed for immortality, but a case can perhaps be made for glory and honor, although she wanted to protect gorillas because of her own feelings for them, not because of a higher cause, which is God, for Whom she wanted to protect nature. 
+Now what is striking in the next part, is that Paul specifies what these people *do* obey. He does not leave it at "they do not obey the truth" because that would cause someone to think that they must then obey the lie. However, Paul makes clear that it is *unrighteousness* that they obey. The lie is indeed the opposite of the truth, but the lie is a very broad concept. The obey the lie by selling unrighteousness as righteousness. 
+I have already given the example of food coupons, another example would be minimum wages and labor union (with excessive power and demands). The Left demands minimum wages, which will cause the employer to hire less workers. He will then have to work harder with less people, while those who are fired, will have trouble finding a job because competition will steadily rise. That is not a form of righteousness for either party. 
+
+*9 There will be tribulation and distress for every human being who does evil, the Jew first and also the Greek, 10 but glory and honor and peace for everyone who does good, the Jew first and also the Greek. 11 For God shows no partiality.*
+
+It is important to notice that *the Jew first* means that the Jew gets tribulation first but gets glory first as well. God does *not* show partiality. It is a distribution of responsibilities and higher responsibilities go hand in hand with higher rewards, just like higher risk, which has almost become like a law of nature in business economics. 
+The Jewish Christians carry the greater responsibility because he has received the commandment to spread the Gospel first to other peoples. Without this Gospel other peoples would not even have any responsibility as Christians because there would not be any Christians. 
+The non-Christian Jews also carry a greater responsibility because they have received the Gospel first and all the messages foretelling the coming of the Messiah in the form of our Lord Jesus Christ. If they decide not to do anything with that, they are foregoing two of their responsibilities, which are to act on that which has been given them (i.e. the news of the Messiah) and to pass on this message to others. 
+Even though the Jews are God's children, God treats them fairly and punishes them more harshly than He does other peoples and nations, because the latter do not know Him nor His Law and have never heard the message of the Messiah. 
+
+**God's Judgment and the Law**
+*12 For all who have sinned without the law will also perish without the law, and all who have sinned under the law will be judged by the law. 13 For it is not the hearers of the law who are righteous before God, but the doers of the law who will be justified.* 
+
+There is an emphasis on doing. Martin Luther could not understand, after his conversion, how doing the Law could save someone, as salvation is only possible through grace. However, he did not see that salvation entails conversion and conversion leads to good works and obedience to the Law. 
+So what happens then when a person converts but he does not have enough time to live to do any good works? Then grace comes into play.  But when a person does have enough time His good works show the fruit of his salvation. It is then not by this fruit that he has been saved or justified, but by the work of God that caused the salvation, or in other words, the salvation that God worked in us. 
+So who are those doers of the Law? They are those who have salvation worked in them, when they know God. When they do not know God, it is those who listen to their conscience. 
+However, what do we say then of those people who do everything perfectly according to the law of the country they live in, even inwardly? There are two kinds of situations, one where they have heard of God and one where they have not. 
+In the first case, if inwardly they have the right intention to abide by the Law, unlike the Pharisees, and they practice it as well, I do not see why they would not come to Christ. Ben Shapiro and many other Jews would fall in this category, as well as many people who grew up in a Reformed environment but who have not had the right teaching. This is a difficult case. 
+In the second case, when they do not have any knowledge of God, it is easier, because then what is lacking about their faith can be attributed to this lack of knowledge. 
+
+*14 For when Gentiles, who do not have the law, by nature do what the law requires, they are a law to themselves, even though they do not have the law.* 
+
+The question arises what is meant by verse 14 when Paul describes how the Gentiles are a law to themselves by doing what the law requires. In my interpretation this means that for example male Gentiles *usually* marry females ones, so that is normal; Usually people are free, and not slaves, so that is normal; Usually people are dressed and sex is prohibited to one's spouse only and only within a marriage, so that is the way it should be. 
+Paul uses the argument of what is standard within society to show that nature exists and the Law of God is already written in human nature. By deviating from that, one is already doing something against their conscience. 
+By nature, suppose no one knows where this comes from, one has to be pledged, betrothed and then get married to one before starting a family with this person. One feels instinctively that it is wrong to betroth one and then break up and start a family with another woman, or to start two at the same time. These laws come from God. 
+
+Modern society, however, especially the Left, claims that there is no such thing as nature. They claim that "everything" is imposed by man. Girls should behave like girls, because that is how we as a society have put pressure on people, women should not stay home at work, but should get a career themselves, etc. 
+By denying there is such as thing as nature, they can say that there is no such thing as "going against one's nature" nor that it is wrong. However, they cannot disprove the fact that both in nature as in mankind it always requires two people or animals of the opposite sex to be able to reproduce. So this already proves there is something as nature and that going against it will have consequences. 
+
+*15 ::They show that the work of the law is written on their hearts, while their conscience also bears witness, and their conflicting thoughts accuse or even excuse them:: 16 on that day when, according to my gospel, God judges the secrets of men by Christ Jesus.*
+#biblestudy/memorization/todo
+ 
+Now aside from what nature says, people also have a conscience and this conscience causes conflicts in their minds. That too is proof of nature's existence—or would the Left say that even the conscience of a person has been indoctrinated by society? It would be strange then that peoples and tribes all over the world have this same nature.
+What is important to notice here is that these conflicting thoughts may accuse them, but also *excuse* them for sinning.  
+So first they have what we call nature, not the environment, but the logical and natural way of order in this world, which everyone knows—not *feels* but knows—from what is taught, seen in nature (the environment) and in the people around you. 
+Secondly, they have their conscience which tells them that something is right or wrong, even when people around them do this. In the case of child sacrifices I would expect that even when someone has grown up with this ritual, he would not feel it is right to do such a thing. 
+Thirdly, they have conflicting thoughts as a cause of this conflict between conscience and nature. Now as I interpret this, even when some sin, they could be excused, because of these conflicting thoughts. For example, if a German soldier growing up in WWII was severely indoctrinated from his youth on to see the Jewish race as a threat, and all around him he would see the same thing happening as he was taught, for example, he would see Jews killing Nazis, then his conscience might still tell him that it is not right to kill human beings, but it would be on the lesser side as everything else in him is saying otherwise. This conscience is bearing witness against him, but at the same time—I think—this person would be considered innocent. 
+
+*17 But if you call yourself a Jew and rely on the law and boast in God 18 and know his will and approve what is excellent, because you are instructed from the law; 19 and if you are sure that you yourself are a guide to the blind, a light to those who are in darkness, 20 an instructor of the foolish, a teacher of children, having in the law the embodiment of knowledge and truth—*
+
+Before we go on to the conclusion in the next verse, it is important to note the summing up of functions that Jews should have. Paul is not speaking to the scribes or to the Pharisees or any group specifically. No, he is writing to the Jews in Rome, to *every* Jew, whether he has turned Christian or not. Of course there exceptions, because not everyone can be a teacher, but in general we should all—as Christians—be
+* a guide to the blind,
+* a light to those who are in darkness, 
+* an instructor of the foolish, 
+* a teacher of children, 
+The last *requirement* as I would call it, is that Jews should have in the law the embodiment of knowledge and truth, which could mean that whenever Jews (or Christians) are in a position to change or vote for a law, they should do so according to the Bible—this goes for everyone able to vote and for politicians—or it could mean that no matter what the law is of the country, among Jews and Christians alike there should be laws embodying knowledge and truth. This is a stark contrast with the Left where they replace the truth with their feelings. Where they lie even about the Constitution and deliberately interpret it otherwise. 
+The Left has replaced freedom of speech with incriminating "hate speech" where the latter is defined as anything they do not like to hear, which goes right against the First Amendment #tags/politics/amendments/first.
+
+Either way, *all* of the above are important. All of the above the Left are not doing or doing wrong on purpose, but even Christians are not doing all of these. They may teach their own children but not others, they may do good things in their own community (i.e. family and friends), but they are not leading the blind (those with a different world view) and shining light on those in darkness (such as beggars).
+
+*21 you then who teach others, do you not teach yourself? While you preach against stealing, do you steal? 22 You who say that one must not commit adultery, do you commit adultery? You who abhor idols, do you rob temples?*
+
+It is so easy to point at others but not do these things yourself. It is also so easy, especially for teachers, to define a specific sin but not accuse oneself because this specific sin was not committed by you in the exact way you described. I must say I am guilty of this myself as well. The more I know about the Law, the better I can find the loopholes in it. However, this only goes up to a certain point. After a certain point, the more you know about the Law, the more you realize that God does not have any loopholes and if He had, He has many covers for those. Love one another, love and fear God. Do not sin against your conscience. This last commandment alone is enough for most people in the world to stop sinning.
+
+*23 You who boast in the law dishonor God by breaking the law. 24 For, as it is written, “::The name of God is blasphemed among the Gentiles because of you.::”*
+
+Now it is clear that all are sinning, as we will also see in the next chapter (cf. Romans 3:23) but who would be the worse sinner: the teacher of the student, the ones who grew up and studied the Law, or those who do not know about it or have just heard of it? Of course it is the former. 
+Now sinning against God is one bad thing to do, causing other people to sin is another much worse thing to do, *not evangelizing* is another form of disobedience to the Law and this latter thing is exactly what these Jews are doing—and once again, this goes for us as well. 
+The worst thing one can do is not sinning for yourself, because that would only cause yourself to be removed from God's presence and that is only one person. However, causing others to be removed from God's presence by blaspheming God's name, especially to the Gentiles who have no other way but to know God through you (unless God intervenes) is probably one of the most worst sins one can do. 
+
+*25 For circumcision indeed is of value if you obey the law, but if you break the law, your circumcision becomes uncircumcision. 26 So, if a man who is uncircumcised keeps the precepts of the law, will not his uncircumcision be regarded as circumcision? 27 Then he who is physically uncircumcised but keeps the law will condemn you who have the written code and circumcision but break the law.* 
+
+A circumcision in itself does not have strength in the relationship with God. Yes, the promise of God to Abraham has caused God to be "more" merciful and patient, if I may disrespectfully say so—without implying that God is more merciful and patient to Jews than to the heathens—but it is not because of the circumcision, but because of being "of God", and one shows he is "of God" by being circumcised. 
+Paul says here in verse 25 that this circumcision, however, is as easily undone as it is done. 
+Also, circumcision does not atone for part of the committed sins. Verse 27 makes this clear. It is more important to keep the law, even if it is not an expanded law such as the Bible's, and not be circumcised, than to have the Bible and break the Law.
+
+*28 For no one is a Jew who is merely one outwardly, nor is circumcision outward and physical. 29 But a Jew is one inwardly, and circumcision is a matter of the heart, by the Spirit, not by the letter. His praise is not from man but from God.*
+If being Jewish is a matter of the heart, then why would God distinguish between the Jew and Gentile and the Jew first? I understand why the Jew gets the responsibility first, because he knows more about it. I understand that one people needs to be trained first, because that is the logical order of processes—it always starts with one. So it follows from the responsibility, that if one gets the responsibility first, he gets the rewards first as well. That is why salvation (i.e. Jesus) came from the Jews and for the Jews first and then to the rest of the world.
+God did decide to choose the Jews as His people as a consequence of His promise to Abraham. He did that because He wanted a people who was different, excluded and holy for Him, not to exclude *others* out of it. Everyone could join this group, provided they were devout in keeping the commandments and devoted to God. People like Rahab (from Jericho), Ruth (from Moab) and the two Samaritan women (at the well and the Jesus' table) were all included to God's people after having pledged their faith to the One true God. 
+
+#biblestudy/devotionals/romans
