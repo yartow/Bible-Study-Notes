@@ -43,7 +43,9 @@ What is especially remarkable is that Abraham did not have any unbelief. Even th
 *22 That is why his faith was “counted to him as righteousness.” 23 But the words “it was counted to him” were not written for his sake alone, 24 but for ours also. It will be counted to us who believe in him who raised from the dead Jesus our Lord, 25 who was delivered up for our trespasses and raised for our justification.*
 
 #biblestudy/questions wat wordt er bedoeld met vers 22 waarin staat dat het geloof aan Abraham wordt toegerekend uit rechtvaardigheid? Heeft Abraham iets gedaan waardoor hij zo'n sterk geloof gekregen heeft? 
+Antwoord: waarschijnlijk is dit een verkeerde vertaling. In de ESV, HSV en ASV staat simpelweg dat "het" hem is toegerekend, maar of niet wat deze "het" inhoudt of dat deze "het" de belofte inhoudt. De ESV heeft dit echter ingevuld met "faith". 
 
-These words were written so that we may know that what happened to Abraham is available to us as well. First of all for the Jews, because they read it first and because they have received the promise, but second of all for us as well, because this promise is dependent on faith and to anyone who has faith. 
+These words were written so that we may know that what happened to Abraham is available to us as well. First of all for the Jews (1:16), because they read it first and because they received the promise, but second of all for us as well, because this promise is dependent on faith and to anyone who has faith. 
+(See also notes on 1 Thessalonians 5:23-24.)
 
 #biblestudy/devotionals/romans

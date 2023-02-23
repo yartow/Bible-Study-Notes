@@ -1,0 +1,68 @@
+# 1 Timothy 1 (ESV) 
+***Greeting***
+*1 Paul, an apostle of Christ Jesus by command of God our Savior and of Christ Jesus our hope,*
+*2 To Timothy, my true child in the faith:*
+*Grace, mercy, and peace from God the Father and Christ Jesus our Lord.*
+
+***Warning Against False Teachers***
+*3 As I urged you when I was going to Macedonia, remain at Ephesus so that you may charge certain persons not to teach any different doctrine, 4 nor to devote themselves to myths and endless genealogies, which promote speculations rather than the stewardship from God that is by faith. 5 The aim of our charge is love that issues from a pure heart and a good conscience and a sincere faith. 6 Certain persons, by swerving from these, have wandered away into vain discussion, 7 desiring to be teachers of the law, without understanding either what they are saying or the things about which they make confident assertions.*
+*8 Now we know that the law is good, if one uses it lawfully,*
+
+The law is good. It is understandable why many hate the law, and it is exactly for this reason the law exists. The law commands and ascribes those rules that are not being kept, and the people mentioned in v.10 know that it is about them.
+
+They hate that they cannot do the things they want and they hate that they are or will be discovered.
+Now I, too, am one of those of whom Paul says in Colossians 3:5 #todo/opzoeken that they were walking in sin when they were living in them. However, I too have died and no longer live in sin but my life is in Christ. Still, I frequently sin, and confess my sin of course, but the main difference between my former life and now is that where I once hated the law (small letter "l", that is the law of this world) and wanted it to be adjusted to me, I now love the law, even though it incriminates me (although it cannot condemn me anymore), but I know that it is good because even though the law will not save me, it shows a clear guideline of the boundaries of our freedom and of God's will, and the punishments we are warned of help me to stay on the right path.
+What then is the difference with criminals? They know the same things and perhaps are just as good or bad as we are. They take care of their friends and some might be very philanthropic. However, they have no desire to know and do God's will. They do good, because *they* want to do it. They know the difference between good and bad according to their conscience, but they have a second conscience that tells them whether something is good or bad. One might say that the first conscience is merely of knowledge of the law, but many of these criminals have never read any book or article or learning anything concerning these laws. They simply know something is wrong, because they can feel it. However, they have a layer of their second conscience covering the first one telling them that it is "ok" to cross some lines and not OK to cross others. They have mixed in their own reasoning with the law, rationalizing, relativating and in effect justifying their behavior. 
+Take for example the issue of divorce #tags/divorce. The world approves divorce by using the "rational" argument that it is better for children to live in peace with a single parent at a time, than with two parents who are constantly arguing. While this might be true, they are missing the other—even simpler—option to let these parents reconcile. Their argument then it is either impossible or that these parents do not *want* to reconcile, which *makes* it impossible. Now again, that latter part is true. If anyone does not want to change, he will not change, but it does not mean that that person is not able to change in *what he wants*. 
+Sometimes it takes a story or a testimony to let someone change. Charles Dickens' book #tags/books *A Christmas Carol* about the stingy Ebenezer Scrooge is an example of how someone changed merely by seeing the effect he caused on the lives of his employees and what he was missing out. 
+There are many ways in letting married couples know what they are missing out and there are successful methods for bringing them back together and make their marriage even stronger. The book and eponymous marriage course *His Needs, Her Needs* #tags/books by Willard F. Harley is one I recommend, as well as the course and all related books and materials of Mark Gungor's #tags/famouspeople/christian *Laugh Your Way to a Happy Marriage*. These courses show the good sides of good marriage, which some might have had in the first years of their marriage, but others might never have had.
+Aside from these testimonies, an even better testimony is that of Jesus Christ Who showed what it is like to have a relationship with God and what heaven would be like. His testimony and that of the disciples is written in the Gospels. Ultimately, every problem—whether divorce, abortion or homosexuality—can be resolved through the Gospel. It is not a prerequisite to have a happy marriage for some couples, but when people tend to use the impossibility-argument, then the Gospel surely provides a way—not to fix their marriage, but to fix *them* who caused the problems, and in turn fix the marriage. 
+See also the notes on v.9-11 where a list serious sins is listed **in accordance with the gospel**. The Law and the Gospel work together. These people who want to divorce should know they are sinners and that is exactly because of that their marriage is failing. But it is the Gospel that can help them despite the existence of the Law and to live freely within the boundaries of the Law and save their marriage. 
+
+*9 understanding this, that the law is not laid down for the just but for the lawless and disobedient, for the ungodly and sinners, for the unholy and profane, for those who strike their fathers and mothers, for murderers, 10 the sexually immoral, men who practice homosexuality, enslavers, liars, ::perjurers:: , and whatever else is contrary to sound doctrine, 11 in accordance with the gospel of the glory of the blessed God with which I have been entrusted.*
+
+It is a long list of sins of which one might think that these are far from himself, but in fact we have been all of these *figuratively*—when we take into account Jesus' strict conditions for applicability (e.g. looking at a woman with lust equals adultery)—and I myself am guilty of most of these *literally*, except for homosexuality and murder. The latter has even come up in my mind several times in my life during fits of rage, and I cannot say if I were really to have done this if it was not for God Who intervened. 
+Just like Paul's guilt is felt throughout many of his letters—when he says for example that he is the least among the disciples—and through the fact that he no feelings of anger towards the Pharisees and all others who persecute and slander him—due to his knowledge of his humble moral background, that is he knows where he morally came from, in other words his previous life of a moralist and legalist Pharisee and percecutor of Christ Himself—in the same way I cannot boast of anything without being reminded of my own humble moral background and, unfortunately, the morally poor ground I still stand on, which are the sins I still commit on a daily basis.   
+
+Paul then lists a number of the **lawless and disobedient, for the ungodly and sinners, for the unholy and profane**, many of which are descriptive of my own person. It is not certain whether  this lists is an elaboration or an expansion of the first part of the sentence, the former seems to be the case, as everything in this list is in fact lawlessness, disobedience, ungodliness etc. 
+
+* those who strike their fathers and mothers, -> 
+* for murderers, 
+* the sexually immoral, -> 
+* men who practice homosexuality, 
+* enslavers, -> marriage, enslaving of wife
+* liars, -> work
+* perjurers -> police, OV, etc. purchases
+Now I shall not exaggerate and say that I definitely am one of those that Paul means here, for I have not constantly done all of these things, but on the other hand when one has stolen something, he is a thief and he will stay one until he has repented and returned it. Even then, though, he will be recorded in history as a thief, albeit a former or exhonorated thief. 
+
+***Christ Jesus Came to Save Sinners***
+*12 I thank him who has given me strength, Christ Jesus our Lord, because he judged me ::faithful::, appointing me to his service, 13 though formerly I was a blasphemer, persecutor, and insolent opponent. But I received mercy because I had acted ignorantly in unbelief, 14 and the grace of our Lord overflowed for me with the faith and love that are in Christ Jesus. 15 The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost.*
+
+
+
+*16 But I received mercy for this reason, that in me, as the ::foremost::, Jesus Christ might display his perfect patience as an example to those who were to believe in him for eternal life.*
+
+Both in v.13 and here Paul notes that **mercy** has been given for a **reason**. One might think that God gives freely (cf. Romans 3:24) and independently of one's work—that is correct, but this does not mean that God gives mercy without limits to everyone. In v.13 Paul clearly states that he received mercy because he had **acted ignorantly in unbelief**. This is, however, not the only reason why God provides mercy, for many other Christians have received mercy from God despite knowing clearly what they were doing. The question is whether they believed in God or not. There are many stories of criminals who became Christians later on in life, but even though they were aware of their criminal activities, they were not aware of the existence of God, and they did not deliberately hurt God. Josh McDowell #tags/famouspeople/christian as well tried to humiliate Christians, but it was because he did not know God. 
+Can this argument then not be used for every person? Can we not use this argument for all the critics mentioned in this devotional, all the way from communist Kim Jong-Un until Bart Ehrman #tags/famouspeople/critics? I believe not. Now, of course we cannot look into their hearts and of course they do not know God, but we are tempted to assume that the former has had many chances of knowing God but he refused all of these. The latter has known many of the good sides of God and has even tasted of the fellowship with the Body of Christ, and has still discarded God's gift. He knows what he is discarding and he knows how much he has hurt God, though not in his heart, but only in his mind. #todo/nogaftemaken 
+Concluding, God only gives to those who are innocent in their belief. This is hard to distinguish whether one acts sinfully because of a lack of faith he has, or because of a lack of will to believe
+
+
+#todo/nogaftemaken 
+
+Three interpretations for thing which the **foremost** refers to: 
+1. The Jews
+2. One of the chosen ones, like the disciples were, but more than that, Paul was also chosen because  of his intelligence, his background, his education and his prowess to evangelize (even before he was converted).
+3. The foremost sinner, as Paul not only persecuted Christians, he even led groups and acquired the rights to persecute them.
+
+The answer is already given in v.15, but the former two are definitely worth taking a look at.  
+
+*17 To the King of the ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen.*
+*18 This charge I entrust to you, Timothy, my child, in accordance with the prophecies previously made about you, that by them you may wage the good warfare, 19 holding faith and a good conscience. By ::rejecting:: this, some have made shipwreck of their faith, 20 among whom are Hymenaeus and Alexander, whom I have handed over to Satan that they may learn not to blaspheme.*
+
+What would be the object of **rejecting** here, the charge, the prophecies, the warfare or the faith and a good conscience? Implicitly and consequently all of these things are rejected when God or faith in God is rejected. We should therefore be careful in every of our decisions not to reject God the Father, the Son or the Holy Spirit. In fact, the rejection in v.19 could refer to the rejection of the Holy Spirit or His works. 1 Thessalonians 5:19 says the Holy Spirit can be *quenched* so that it is not heard anymore. This verse seems to be related to the next verse of despising prophesy. This means that the rejection of a prophecy could decrease the Christian's sensitivity to the Holy Spirit which in turn the **shipwreck of their faith** and the loss of all the abovementioned things. 
+The Christian life can be compared to a **good warfare** for the same things that happen in war, happen in the Christian's life as well.  One of these is the possibility of kidnapping. In war, however, this is not always the soldier's fault, but in the spiritual war, this is, as in the case of **Hymenaeus and Alexander** in v.20 who were not kidnapped, but have been *handed over* to the enemy by their own people. 
+This seems to be harsh, if one's own people hands one to the enemy, but this is logical when one betrays and infests the people. Spies are not even handed over to the enemy but killed immediately. Here too it is better that one suffers (one who is not even innocent) than that the whole people perish. #todo/nogaftemaken 
+
+
+
+#biblestudy/devotionals/1timothy

@@ -1,0 +1,5 @@
+# Luke 16 (ESV)
+#biblestudy/questions
+
+Luke 16:9 (KJV) 9 And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations. 
+#biblestudy/devotionals/luke
