@@ -9,7 +9,7 @@
 4. The Scope of Salvation -> Who is in charge and for whom is salvation meant? 
 5. The Service of Salvation
 
-![]((null)/Screen%20Shot%202020-02-08%20at%2012.45.51.png)
+![](Overview%20of%20Romans/Screen%20Shot%202020-02-08%20at%2012.45.51.png)
 
 
 ### MacSBNnkjv overview

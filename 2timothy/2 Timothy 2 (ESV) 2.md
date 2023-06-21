@@ -107,7 +107,7 @@ Surrounding all of this, before, during and after a talk or discussion, gentlene
 *God may perhaps grant them repentance leading to a knowledge of the truth, 26 and they may come to their senses and escape from the snare of the devil, after being captured by him to do his will.* 
 
 The consequences for these quarrelsome persons are immense. Paul speaks here of repentance, which is needed for every sin, regardless of its size, but this sin leads to a snare of the devil being captured by him to do his will. In other words, quarrelsomeness is in fact doing the devil's will! This is no small sin and may lead to great disturbances. This has in fact been the case and the cause for many factions within Christianity. Now I am not necessarily speaking divisions into denominations or sects such as the Plymouth Brethren and the Jehova's Witnesses, for the founders of these groups were not necessarily quarrelsome, but I am saying that quarrelsomeness may lead to divisions as big as those *eventually*. Take the examples of the many fractures of denominations within The Netherlands. This is only the *Calvinist* section within *Protestantism* (see for the full list https://nl.wikipedia.org/wiki/Lijst_van_richtingen_in_het_christendom en https://nl.wikipedia.org/wiki/Christelijke_denominaties_in_Nederland)
-![]((null)/Screen%20Shot%202021-01-14%20at%2011.25.45.png)
+![](2%20Timothy%202%20(ESV)/Screen%20Shot%202021-01-14%20at%2011.25.45.png)
 
 What is even more surprising is the *reason* which caused some of these factions to come to exist, which could be as simple as the wearing of hats and the size thereof. 
 

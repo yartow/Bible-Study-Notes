@@ -13,7 +13,7 @@ The extent to which Luke provides details is amazing. It is almost as if he want
 We can think of one reason now why God inspired Luke to provide these details, which is for us as later readers who would not know the names of the cities mentioned in this letter, as names would change—as they often did—and be different in other languages and sometimes complete cities could even disappear by destruction—as the Romans often had done, by burning these down to the ground and then covering them with salt so that nothing would ever grow there—just like God had done with Jericho. This is merely one of the reasons, however, but for sure there must be more. Other reasons why these details were added could be to judge the credibility of corroborating facts such as the approximate time of the events (after the Fast of Yom Kippur, that is Atonement Day), the size and type of the ship (for 276 people, see picture below), where they were exactly and why anyone would decide to go out on sea in approximately November, how the captain managed the ship and whether it wrecked due to mismanagement (see also https://timesofmalta.com/articles/view/St-Paul-s-voyage-and-shipwreck-the-ship-and-its-wise-captain.638728) or actually because of the magnitude of the storm. 
 Another reason why I personally think these details are added, is that these details add to the excitement for the reader, and to relive the story. 
 
-![]((null)/external-content.duckduckgo.jpg)
+![](Acts%2027%20(ESV)/external-content.duckduckgo.jpg)
 
 
 *10 saying, “Sirs, I perceive that the voyage will be with injury and much loss, not only of the cargo and the ship, but also of our lives.” 11 But the centurion paid more attention to the pilot and to the owner of the ship than to what Paul said.*

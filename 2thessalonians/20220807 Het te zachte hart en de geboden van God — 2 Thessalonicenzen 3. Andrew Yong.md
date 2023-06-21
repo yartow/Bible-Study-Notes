@@ -7,7 +7,7 @@ Engels: Softheartedness and the commands of God
 
 Paul and his team need prayers as well, just like any other person, but rather than asking prayer for specific personal items he asks that the **word of the Lord** is spread *quickly* and is **honored**. 
 He also has a second prayer request for him and his team, which is to **be delivered from wicked and evil men**. This is referring to those people persecuting him for spreading Christianity, not so much because they claim Jesus is God, but more because Christianity was gaining a lot of traction and followers. Then men did not *honor the Word* as Paul just mentioned. They misinterpreted the Word in such a way that the prophecies did not refer to Jesus. 
-When Stephen gave his #todo/opzoeken/engels betoog on the prophets of Israel, for example, the Scribes #todo/opzoeken of ook Farizeeën could find no wrongs, but were agitated because of his #todo/opzoeken/engels beschuldiging accusation that they had now murdered the next prophet, Jesus Christ, God's own Son, as well. These men, by murdering God's children who spread the Word, are not honoring the Word of the Lord. 
+When Stephen gave his #todo/opzoeken/engels betoog on the prophets of Israel, for example, the Scribes #todo/opzoeken of ook Farizeeën could find no wrongs, but were agitated because of his accusation that they had now murdered the next prophet, Jesus Christ, God's own Son, as well. These men, by murdering God's children who spread the Word, are not honoring the Word of the Lord. 
 
 *2 and that we may be delivered from wicked and evil men. For ::not all:: have faith.*
 

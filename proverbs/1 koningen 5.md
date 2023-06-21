@@ -9,4 +9,4 @@ We hebben geleerd dat als je hulp nodig hebt,dan moet je om hulp vragen.
 
 ### Gebed 
 
-#biblestudy/devotionals/1kings #biblestudy/devotionals/1kings/nathan
+ #biblestudy/devotionals/1kings/nathan

@@ -10,7 +10,7 @@ More snippets perhaps available on Evernote (imported) from the CadreBible app, 
 	* 7 November 2015 – 11 May 2017
 	* Break in-between to work on Hosea.
 * ::Hosea:: #biblestudy/devotionals/hosea
-	* Only snippets, no complete chapter commentaries. 
+	* Only snippets, no complete verse-by-verse chapter commentaries. 
 	* December 2016
 * Ecclesiastes #biblestudy/devotionals/ecclesiastes
 	* 22 may 2017 – 4 August 2017
@@ -30,7 +30,7 @@ More snippets perhaps available on Evernote (imported) from the CadreBible app, 
 	* Still missing: John 1-11..
 	* 17 March 2021 – 7 May 2021
 	* Continued at 9/22 with John 1
-	* Partially done with the LSB instead of the ESV, due to the discovery of this former Bible translation which is more literal and better. 
+	* Partially done with the LSB instead of the ESV, due to the discovery of the former Bible translation which is more literal and better. 
 * ::Ephesians:: #biblestudy/devotionals/ephesians
 	* @cdate(2021-05-08) – ... #todo/opzoeken 
 	* De rest in Evernote?

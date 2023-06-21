@@ -23,10 +23,16 @@ Even when they are testifying of such greatness of God, they do not realize it i
 *prostrate with weeping.*
 *4 Heshbon and Elealeh cry out,*
 *their voices are heard all the way to Jahaz.*
+
+I cannot determine the tone with which this is written. Is it an objective tone of mere observations? I think not, because God does say in the next verse that His heart cries out over Moab.
+God seems like an anguished father who is reluctantly punishing his children, and He probably is, though the Moabites are not His children, but they still are His creation. 
+
 *Therefore the armed men of Moab cry out,*
 *and their hearts are faint.*
 
 God realizes how much this hurts the people. No matter how hard-hearted they were, towards poor people and towards God, and no matter how cruel they were in the idolatrous practices, they still had feelings, if only for their family and friends. 
+
+This is a part that strikes me. I imagine men with weapons, physically strong enough to fight, but spiritually (actually, mentally and emotionally) drained because of having seen all the bloodshed in their own people. What is the use of fighting? For whom are they still fighting? The cause is gone. There is no power in their hearts anymore.
 
 *5 My heart cries out over Moab;*
 *her fugitives flee as far as Zoar,*

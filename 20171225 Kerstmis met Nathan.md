@@ -25,7 +25,7 @@ Wie heeft er gelijk?
 - [x] Lucas -> Mens
 - [x] Johannes -> God
 
-![]((null)/Afbeeldingsresultaat%20voor%20bible%20four%20animals.jpeg)
+![](20171225%20Kerstmis%20met%20Nathan/Afbeeldingsresultaat%20voor%20bible%20four%20animals.jpeg)
 
 Ezechiël zag een dier. Welk dier staat voor Jezus? 
 - [x] Mens -> Hij is mens en Hij begrijpt ons mensen ook

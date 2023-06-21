@@ -48,7 +48,7 @@ In de woestijn ging iedereen dood, behalve Mozes (en misschien ook Aäron). De e
 In het jaar 35 na Christus ongeveer werd Jezus aan het kruis genageld. Alleen de mensen die Jezus aannemen zullen worden gered van de eeuwige dood. 
 Jezus heeft in Johannes 3:14-15 gezegd dat iets dat aan het hout genageld is, vervloekt is. Omdat Jezus aan het kruis hing, is Hij voor ons vervloekt en heeft Hij onze zonden gedragen. 
 
-![]((null)/Made+Sin+For+Us+devotional+John+3-14.jpg)
+![](Typologie%20van%20Jezus%20Christus/Made+Sin+For+Us+devotional+John+3-14.jpg)
 
 
 ### De Profeet die zal komen

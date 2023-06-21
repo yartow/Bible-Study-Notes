@@ -40,7 +40,7 @@ The fact they **found brothers** is more than a mere coincidence and serves mult
 Paul perhaps spread the Gospel on the streets, when he had the chance, and this would then attract attention upon which the Word spread. Perhaps this got into the ears of Christian brothers, who then spread the word very fast, for on their next stop, Rome, brothers all the way from **the Forum of Appius and Three Taverns**—which was a few days walking by foot—had come to see Paul. 
 In any case, it was not a common thing to see brothers from abroad, especially not imprisoned ones and those who came to plead with the emperor. Imprisonment of Christians was not a rare thing in Rome—Aquila and Priscilla left because of this reason—but it still might have attracted attention. This is perhaps why word got to spread this fast and why the Christian brothers in Puteoli heard about Rome.
 
-![]((null)/Screen%20Shot%202022-05-27%20at%2008.10.09.png)
+![](Acts%2028%20(ESV)/Screen%20Shot%202022-05-27%20at%2008.10.09.png)
 
 
 What is incredible is that these brothers allowed 276 people (or 76 according to some translations) from this ship to **stay with them for seven days**, among which unbelievers and even those who guarded Paul. It could also be that they guards had such trust in Paul that they let him go on their own, while the rest slept aboard the ship which was being prepared for another trip. #todo/opzoeken how far to Rome from Puteoli? 

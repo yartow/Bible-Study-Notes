@@ -30,9 +30,9 @@ What was royal about the captives? Descending from David?
 Map of Samaria in Israel and why Galilee was not part of the ten tribes which should be called Samaria as well. 
 Why was Galilee never mentioned in the Old Testament? How has it come into existence? 
 
-![]((null)/Afbeeldingsresultaat%20voor%20map%20of%20samaria%20in%20the%20bible.gif)
+![](Isaiah%2017%20(NIV)/Afbeeldingsresultaat%20voor%20map%20of%20samaria%20in%20the%20bible.gif)
 
-![]((null)/Afbeeldingsresultaat%20voor%20map%20of%20samaria%20in%20the%20bible%20twelve%20tribes.gif)
+![](Isaiah%2017%20(NIV)/Afbeeldingsresultaat%20voor%20map%20of%20samaria%20in%20the%20bible%20twelve%20tribes.gif)
 
 
 *5 It will be as when reapers harvest the standing grain,*

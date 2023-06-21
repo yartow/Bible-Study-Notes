@@ -135,7 +135,7 @@ The Pharisees would consider it a great insult if anyone were to tell them they 
 See also v.18ff. The source of their hatred is unknown. Of course we know there is jealousy, or better said envy, at play here, because Jesus had more followers than they did, and there was the reprimand and harsh words of Jesus against the actions of the Pharisees and Scribes. Not much was said about the Sadducees, but we know that the Sanhedrin and most of the priests were Sadducees. Just like most of the Senate has become Democrat (Footnote: To be exact, 48 seats belong to the Democrats, 2 to Independents but the Vice-President is also a Democrat and Independents often vote for Democrats. Also, the picture below shows the Democrats are part of the majority.
 
 
-![]((null)/Screen%20Shot%202021-07-28%20at%2010.30.08.png)
+![](John%2015%20(ESV)/Screen%20Shot%202021-07-28%20at%2010.30.08.png)
 *Source: Wikipedia, screenshot taken on 28 Jul 2021.*) since the elections in November 6th, 2020 #tags/politics, this formation can be traced back because there was a comprehensive administration of all positions in the Sanhedrin for each term, if there were one. #todo/opzoeken is er werkelijk zoiets gevonden? Wel voor de hogepriester, maar niet voor de Sanhedrin toch? Hoe weten ze anders dat het voornamelijk Sadduceeërs waren?
 
 *26 “But when the Helper comes, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will bear witness about me. 27 And you also will bear witness, because you have been with me from the beginning.* 

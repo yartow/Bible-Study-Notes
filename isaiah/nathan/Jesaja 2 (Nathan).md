@@ -29,7 +29,7 @@ Elke dag bidden, vóór het Bijbellezen voor:
 * Ons Hem leren kennen
 * Concentratie
 
-![]((null)/Afbeeldingsresultaat%20voor%20mammoetboom.jpeg)
+![](Jesaja%202%20(Nathan)/Afbeeldingsresultaat%20voor%20mammoetboom.jpeg)
 
 ### Gebed
 *Lieve Here God,* 

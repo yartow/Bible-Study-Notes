@@ -69,7 +69,7 @@ In death all are equal, that is equally poor and equally weak.
 *“I will ascend to the heavens;*
 *I will raise my throne*
 *above the stars of God;*
-*I will sit enthroned on the mount of assembly,*
+*I will sit ehnthroned on the mount of assembly,*
 *on the utmost heights of Mount Zaphon.*
 *14 I will ascend above the tops of the clouds;*
 *I will make myself like the Most High.”*

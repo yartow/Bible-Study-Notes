@@ -59,7 +59,7 @@ A major difference between existing doctrines and what I write here, is that (ag
 
 Perhaps this explanation is added to explain why Jesus went from Jerusalem to Galilee, instead of to His hometown of Capernaum, where He lived. In the picture below Capernaum is located at the northern point of the Sea of Galilee. 
 
-![]((null)/600px-Lower_Galilee_map.svg.png)
+![](John%204%20(ESV)/600px-Lower_Galilee_map.svg.png)
 
 *45 So when he came to Galilee, the Galileans welcomed him, having seen all that he had done in Jerusalem at the feast. For they too had gone to the feast.*
 

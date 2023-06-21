@@ -1,11 +1,11 @@
 # Jesaja 1 (Nathan)
 #biblestudy/devotionals/isaiah/nathan
 
-![]((null)/Afbeeldingsresultaat%20voor%20israel%20north%20and%20south%20kingdoms.jpeg)
+![](Jesaja%201%20(Nathan)/Afbeeldingsresultaat%20voor%20israel%20north%20and%20south%20kingdoms.jpeg)
 
 
 
-![]((null)/4EED9986-3190-4AFC-BA0D-2D349B270BA5.png)
+![](Jesaja%201%20(Nathan)/4EED9986-3190-4AFC-BA0D-2D349B270BA5.png)
 
 
 ## Jesaja 1:1-20 (20170909)
@@ -21,13 +21,13 @@ Maar, God zegt ook, als we bereid zijn te luisteren naar Hem, dan kan Hij ons he
 *Amen*
 
 
-![]((null)/Leiderschap.png)
+![](Jesaja%201%20(Nathan)/Leiderschap.png)
 
 ## Jesaja 1:20-28 (20170916)
 God heeft vandaag in Jesaja gezegd dat Hij heel boos is op Jeruzalem, omdat de leiders van Jeruzalem niet zorgen voor de weduwen en wezen. Dat is heel erg, omdat weduwen en wezen helemaal geen geld hebben en er is niemand die voor hen zorgt. 
 God is ook heel boos op de rechters, omdat zij oneerlijk zijn. God is daarnaast ook heel boos op de mensen van Jeruzalem, omdat zij Hem *ontrouw* zijn geweest. Ze zijn naar een andere god gegaan, een afgod, en dat mag niet! Ze mogen alleen maar trouw zijn aan God. 
 
-![]((null)/Trouw%20en%20ontrouw.png)
+![](Jesaja%201%20(Nathan)/Trouw%20en%20ontrouw.png)
 
 
 **Gebed**

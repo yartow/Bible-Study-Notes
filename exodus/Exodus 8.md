@@ -1,5 +1,5 @@
 # Exodus 8
 
 #biblestudy/devotionals/exodus
-![]((null)/proxy.duckduckgo.jpg)
-![]((null)/10plagues.gif)
+![](Exodus%208/proxy.duckduckgo.jpg)
+![](Exodus%208/10plagues.gif)

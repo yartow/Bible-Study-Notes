@@ -15,7 +15,7 @@ B. Greece 8:3-8, 20, 21; 10:20, 21; 11:2-35
 C. Revived Rome 8:9-12, 23-26; 11:36-45.
 
 
-![]((null)/Unknown.jpeg)
+![](Daniel%202/Unknown.jpeg)
 
 
 **Wat heb je gelezen?** 

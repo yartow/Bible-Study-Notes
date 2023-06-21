@@ -47,7 +47,7 @@ Paul even gives them a leeway by saying they should otherwise say what he did wr
 Luke probably mentions that Drusilla was "Jewish" so that the reader is not confused with Felix' first or third wife, whose name was also Drusilla. #todo/opzoeken 
 Drusilla was not actually Jewish, because her father, Agrippa I, was a grandson of Herod the Great, who was an Edomite (a descendant of Esau), and her mother was probably Greek, for her name was Cypros, although there is no information on her background on Wikipedia. Agrippa I was only a quarter Jewish on his father Aristobulus' mother's side, Mariamne I. Furthermore, Agrippa I's mother was Berenice I, daughter of Salome I (sister of Herod the Great) and Costobarus (a Greek, I think), so Berenice (Agrippa I's wife) was *not* Jewish at all. This means that Drusilla was only 1/8th Jewish.  
 
-![]((null)/unknown.png)
+![](Acts%2024%20(ESV)/unknown.png)
 
 
 *25 And as he reasoned about righteousness and self-control and the coming judgment, Felix was ::alarmed:: and said, “Go away for the present. When I get an opportunity I will summon you.”*
