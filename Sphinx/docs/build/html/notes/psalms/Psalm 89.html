@@ -1,0 +1,325 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 89 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-89">
+<h1>Psalm 89<a class="headerlink" href="#psalm-89" title="Link to this heading">#</a></h1>
+<p><em>Psalm 89:1-4 NIV</em></p>
+<p><em>I will sing of the Lord ’s great love forever; with my mouth I will make your faithfulness known through all generations.</em></p>
+<p>The best job would be to be able to sing of the Lord’s great love forever. To have the gift of seeing God’s love in everything and to tell others about it, seeing them being touched by God’s love, is the greatest thing to see.
+Lord, I pray to you to let more people in my surrounding believe in You and to know Your love. Amen.</p>
+<p><em>I will declare that your love stands firm forever, that you have established your faithfulness in heaven itself. You said, “I have made a covenant with my chosen one, I have sworn to David my servant, ‘I will establish your line forever and make your throne firm through all generations.’ ”</em></p>
+<p>Not only would I want to get the honor to write about God’s love, but also to boast that it lasts forever. It is a love that nine can compete with, nothing has ever come close to resemble God’s love.
+His love is equal to His faithfulness, both shall never cease.
+You did not have to swear anything, neither did You have to swear that David ‘s lone would be forever nor that it would be firm. You gave him, and therefore us, three grants we did not and still do not deserve.
+Oh how great is Your love, Lord, that you can overlook our transgressions.</p>
+<p>Thank You that You love us so much, even before we loved You, even though we knowingly hurt You, You still made this promise, gave us a covenant, not a contract, which would have been broken all along.</p>
+<p><em>Psalm 89:5-8 NIV</em></p>
+<p><em>The heavens praise your wonders, Lord , your faithfulness too, in the assembly of the holy ones. For who in the skies above can compare with the Lord ?</em></p>
+<p>No matter with who or what we compare You, nothing gets even close. First of all, because You created it all, and second of all, because what we define as superb, magnificent and fear, is defined by You, with You as the ultimate standard, nothing can or will ever get close.</p>
+<p><em>Who is like the Lord among the heavenly beings?</em></p>
+<p>The heavenly beings (the angels perhaps?) do not come even close to You, yet the Satan thought he was mightier than You, and even thinks He can outwit You, O Lord. No he cannot, for surely everything he does, is known to You. How can he not understand that?
+His demons shuddered with fear when they met Jesus and Jesus only had to say one word and they obeyed Him. How can the Satan ever defeat Jesus?</p>
+<p><em>In the council of the holy ones God is greatly feared; he is more awesome than all who surround him. Who is like you, Lord God Almighty? You, Lord , are mighty, and your faithfulness surrounds you.</em></p>
+<p>Perhaps I can ask the same question in human councils. We have a church because of You, Lord, You are the main protagonist. Every Sunday the reason we worship is You. Yet there are people who think they are mightier than God, who think they can control and abuse people and think that God does not see it.</p>
+<p>Show them Your might, Lord, take away from them their power as easily as You have given it to them. Let them fear You and regret their mistakes.</p>
+<p><em>Psalm 89:9-13 NIV</em></p>
+<p><em>You rule over the surging sea; when its waves mount up, you still them. You crushed Rahab like one of the slain; with your strong arm you scattered your enemies. The heavens are yours, and yours also the earth; you founded the world and all that is in it. You created the north and the south; Tabor and Hermon sing for joy at your name. Your arm is endowed with power; your hand is strong, your right hand exalted.</em></p>
+<p>Is David speaking of Egypt right now, and of the Exodus from Egypt?</p>
+<p>In any case, God created the and everything in it, which means also the things we cannot see. Everything always has two sides, good and bad, up and down, north and south etc.
+Most important of those is the beginning and the end. Where we see only a world, we do not see Who created it and Who will end it, but we know Who has done and will do that, our Mighty God.</p>
+<p><em>Psalm 89:14-18 NIV</em></p>
+<p><em>Righteousness and justice are the foundation of your throne; love and faithfulness go before you.</em></p>
+<p>When we get near You, we need to learn about righteousness and justice first. We need to know that You work according to this principle, it is not that You are bound by rules, but it is because of Your character that these rules have come into existence.
+And after we know You a little bit better, we must learn that love and faithfulness go first in life. We must remain faithful to You, and we must keep on loving You, to remember at every step that we take whether we do it out of love for You or whether it contradicts Your love for us.</p>
+<p><em>Blessed are those who have learned to acclaim you, who walk in the light of your presence, Lord .</em></p>
+<p>Those who acclaim You, that is - I think - those who acknowledge You and love You and are not afraid to shout it out loud.
+Yes, they are blessed, for they walk in the light, they publicly declare You are God, are not afraid to show they are Christians and thus are not afraid of being tested to be speaking and living out the truth.</p>
+<p><em>They rejoice in your name all day long; they celebrate your righteousness. For you are their glory and strength, and by your favor you exalt our horn.</em></p>
+<p>Because of Your righteousness, we can be strong. We celebrate that You are righteous, that You do not look down on the poor and untalented, but that You give us everything and even more so than we need.
+And because of You, we can be strong as well.</p>
+<p><em>Indeed, our shield belongs to the Lord , our king to the Holy One of Israel.</em></p>
+<p>my protection comes from the Lord only. He reigns over me, He is my King and He protects me from the enemy.</p>
+<p><em>Psalm 89:19-29 NIV</em></p>
+<p><em>Once you spoke in a vision, to your faithful people you said: “I have bestowed strength on a warrior; I have raised up a young man from among the people. I have found David my servant; with my sacred oil I have anointed him. My hand will sustain him; surely my arm will strengthen him.</em></p>
+<p>When you have chosen someone, You will also protect this person and strengthen him, just like You did with David.</p>
+<p><em>The enemy will not get the better of him; the wicked will not oppress him. I will crush his foes before him and strike down his adversaries.</em></p>
+<p>His adversaries will not even get close to him, for God protects him from long ago.</p>
+<p>TODO OPZOEKEN
+Get the better of him, look up in other translations</p>
+<p><em>My faithful love will be with him, and through my name his horn will be exalted.</em></p>
+<p>Not the strength of the person, but of God will be exalted. Everyone will know that not he was strong, but the Lord Almighty.</p>
+<p><em>I will set his hand over the sea, his right hand over the rivers.</em></p>
+<p>Does this mean that God gave David power over the seas and rivers?</p>
+<p><em>He will call out to me, ‘You are my Father, my God, the Rock my Savior.’ And I will appoint him to be my firstborn, the most exalted of the kings of the earth. I will maintain my love to him forever, and my covenant with him will never fail. I will establish his line forever, his throne as long as the heavens endure.</em></p>
+<p>Notice that David first calls out that God is his father and then God appoints him as his firstborn.
+God loves us forever and will uphold his promises forever.</p>
+<p>TODO OPZOEKEN difference between note and notice</p>
+<p><em>Psalm 89:30-37 NIV</em></p>
+<p><em>“If his sons forsake my law and do not follow my statutes, if they violate my decrees and fail to keep my commands, I will punish their sin with the rod, their iniquity with flogging; but I will not take my love from him, nor will I ever betray my faithfulness.</em></p>
+<p>God loves us so much that He does not even pose the condition to have obedient children. He does not only take care of us, but also of our children.
+Even though it hurts Him, He punishes our children, for their good but also for ours, because we did not teach our children correctly.</p>
+<p><em>I will not violate my covenant or alter what my lips have uttered. Once for all, I have sworn by my holiness— and I will not lie to David— that his line will continue forever and his throne endure before me like the sun; it will be established forever like the moon, the faithful witness in the sky.”</em></p>
+<p>God’s promises last longer than we can imagine. We know so little about the moon and the sun, we have been on the moon a few times, but can’t even get close to the sun.
+There is no way to measure God’s faithfulness, so God uses the sun and the moon as examples, but even they are examples far too little expressing God’s true faithfulness.
+The sun and the moon will disappear and both have not always existed, but God’s faithfulness has always been there as long as God exists.</p>
+<p><em>Psalm 89:38-45 NIV</em></p>
+<p><em>But you have rejected, you have spurned, you have been very angry with your anointed one. You have renounced the covenant with your servant and have defiled his crown in the dust. You have broken through all his walls and reduced his strongholds to ruins.</em></p>
+<p>Even David, a man after Your own heart, has been rejected by You. He needed it to come back to You. If David has done this, and He is far better than I would have been as a king.
+When reading this I can only ask for forgiveness for all that I have done, and als for mercy to live on.</p>
+<p><em>All who pass by have plundered him; he has become the scorn of his neighbors. You have exalted the right hand of his foes; you have made all his enemies rejoice.</em></p>
+<p>You have let David’s enemies win battles over him. I know You are the Holy One of Israel, and everything You allow, is for the good of Your people and happens according to Your plan.</p>
+<p><em>Indeed, you have turned back the edge of his sword and have not supported him in battle. You have put an end to his splendor and cast his throne to the ground. You have cut short the days of his youth; you have covered him with a mantle of shame.</em></p>
+<p>If we keep disobeying You, it can even go so far that You will not support us in battle and the only outcome then is that we will lose. There is no way we can win against the Satan on our own power.
+Even more so, we van lose our throne, our crown, for You only promise the crown to those who persevere.</p>
+<p><em>Psalm 89:46-51 NIV</em></p>
+<p><em>How long, Lord ? Will you hide yourself forever? How long will your wrath burn like fire? Remember how fleeting is my life. For what futility you have created all humanity!</em>
+Lord, I ask You to remember why You created men. Was it not to love them and let them live? When will Your wrath stop?
+The people om Syria are suffering, in northern Iran they are being persecuted. Israel is discriminated and judged as the plaintiff while it was only defending itself and Your children in Pakistan like Asia Bibi are telling about You and yet risk life sentence or execution.</p>
+<p><em>Who can live and not see death, or who can escape the power of the grave? Lord, where is your former great love, which in your faithfulness you swore to David? Remember, Lord, how your servant has been mocked, how I bear in my heart the taunts of all the nations, the taunts with which your enemies, Lord , have mocked, with which they have mocked every step of your anointed one.</em></p>
+<p>Lord, I have suffered as well, not as much as all of the above, but I have received Your grace in being preserved by You and Your protection.
+You give us opportunities to help out the Body of Christ, to help out our fellowmen even when they are not Christians.
+Thank You for giving me this insight.</p>
+<p><em>Psalm 89:52 NIV</em></p>
+<p><em>Praise be to the Lord forever! Amen and Amen.</em></p>
+<p>Praise the Lord always, every day and in every situation, for He is good. Everything we see and cannot see is His work. We cannot always see it is good, but we must trust God that it is, for He only makes good things.</p>
+<p><em>TODO OPZOEKEN Rahab, Tabor, Hermon</em>
+Rahab, mythical sea creature,
+Tabor and Hermon, mounts North and South</p>
+<p>TODO opschrijven verschil tussen de oude en nieuwe vrijwilligers.
+Strak aan de regels houden, maar wel vaste bediening en trouw daaraan (ook frequentie)</p>
+<p>TODO Commissie vertellen over moeilijkheden in het welkomstteam</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

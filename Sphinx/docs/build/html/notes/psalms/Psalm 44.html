@@ -1,0 +1,313 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 44 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-44">
+<h1>Psalm 44<a class="headerlink" href="#psalm-44" title="Link to this heading">#</a></h1>
+<p>Hoi Psalm 44:1-3 NIV</p>
+<p>We have heard it with our ears, O God; our ancestors have told us what you did in their days, in days long ago.</p>
+<p>It is of importance that we tell next generations about the wonders of God.
+In my case I should be telling next generations of leadership in the summer conference and other events, that God has controlled and still controls everything.
+I must make sure that they hear about it.</p>
+<p><em>With your hand you drove out the nations and planted our ancestors;</em>
+<em>you crushed the peoples and made our ancestors flourish.</em>
+<em>It was not by their sword that they won the land, nor did their arm bring them victory;</em>
+<em>it was your right hand, your arm, and the light of your face, for you loved them.</em></p>
+<p>Whatever has happened in the past, we must remember that the good things are from God. He gave us the victory, we did nothing, or could do nothing if it were not for His presence.</p>
+<p><em>You are my King and my God, who decrees victories for Jacob.</em></p>
+<p>You <em>decree</em> victories, You command them. Fighting with the devil can hardly be called fighting, for if You do not allow the devil any space, he will not have any. Rather yet, the devil is trembling just by hearing Your Name!
+I understand now that we have to call on You for the victory, because You are the One deciding whether there will be a victory or not. Asking for power, faith and strength is one way, but only after asking You for the victory.
+If You control victory, You control everything, even if we do not have any power or strength, then faith is all we need, faith that You can give us the victory. Amen!</p>
+<p><em>Through you we push back our enemies; through your name we trample our foes.</em></p>
+<p>It is the Name of The Lord that defeats the enemies. Everytime I think I have own, I must know that it is because the satan sees Gods Name on my forehead, and that is why he is afraid.</p>
+<p><em>I put no trust in my bow, my sword does not bring me victory;</em></p>
+<p><em>I put no trust in my bow</em>, this has been my mistake, I still trusted too much on what I could. It I’d so difficult, Lord, I may not even once think <em>I can fix that</em>. At least, not with pride. But I know that is necessary for us to grow, in humbleness and total dependence of You.</p>
+<p><em>but you give us victory over our enemies, you put our adversaries to shame.</em></p>
+<p>Yes, once again, You <em>give</em>  us victory. No matter what bow we have, even if it is given by You, You will decide whether we are victorious or not.</p>
+<p><em>In God we make our boast all day long, and we will praise your name forever. (Psalm 44:4-8 NIV)</em></p>
+<p>Yes, God, in You I boast about my weaknesses. I can show that even with my weaknesses I can give You honor, for You provide me with strength and You make things happen that obviously are not my works, for I was weak. Whether weak in spirit or in body, you always have my back.</p>
+<p><em>9 But now you have rejected and humbled us;</em>
+<em>you no longer go out with our armies.</em>
+<em>10 You made us retreat before the enemy,</em>
+<em>and our adversaries have plundered us.</em></p>
+<p>As for retreating, I know, or think so, why the CCGN Jongerendag did not attain the 200-people goal. It could be because we were not ready for it using the current organizational structure.
+But Your ways are inscrutable (cf. Romans 11:34). I know You are doing this to let us all grow and learn things, even though I can only guess what that is.</p>
+<p><em>11 You gave us up to be devoured like sheep</em>
+<em>and have scattered us among the nations.</em></p>
+<p>I also understand better now why You would allow something like a split in our church, many years ago.
+The situation has shown us the true nature of some people, their strength in You, or rather weakness, and the character that still needed to be formed. The people who left, in my eyes, could be a danger for us, for our spiritual growth, for they were not as spiritual as leaders should be. At the same time it provided a way for younger people to grow and take leadership and gain experience.
+Another explanation is like what happened with Gideon and where his army got smaller and smaller. You did that to show us Your power and to know that You will do the work. I am wondering why I had never thought of that.</p>
+<p><em>12 You sold your people for a pittance,</em>
+<em>gaining nothing from their sale.</em></p>
+<p>It is really hard for outsiders, and even for Christians, to understand why we have to suffer, even if our hearts are not away from You. Fortunately, though, the answer is given in verse 22. Everything is for <em>Your</em> sake. We do not know what is going on in Your mind, like Job did not know either. But we can hold on to the promises You have given us.</p>
+<p>I understand better now, after rereading verse 4 that You can command victory and You can also make sure it does not happen.
+Everything goes according to Your will.</p>
+<p><em>13 You have made us a reproach to our neighbors,</em>
+<em>the scorn and derision of those around us</em>. <em>14 You have made us a byword among the nations;</em>
+<em>the peoples shake their heads at us.</em>
+<em>15 I live in disgrace all day long,</em>
+<em>and my face is covered with shame</em>
+<em>16 at the taunts of those who reproach and revile me,</em>
+<em>because of the enemy, who is bent on revenge.</em></p>
+<p>Not only has David lost against his enemies, but also are his neighboring countries mocking him and blaming him. David now is in deep disgrace.
+The enemy attacks us from multiple sides, and even after losing he still is not satisfied. Why? Because he does not care about whether we lose or win, but about whether we are faithful to God or not.</p>
+<p>So, do not be worried if you lose a fight, if you remain faithful to God, the devil has lost.</p>
+<p><em>17 All this came upon us,</em>
+<em>though we had not forgotten you;</em>
+<em>we had not been false to your covenant.</em>
+<em>18 Our hearts had not turned back;</em>
+<em>our feet had not strayed from your path.</em>
+<em>19 But you crushed us and made us a haunt for jackals;</em>
+<em>you covered us over with deep darkness.</em></p>
+<p>I would not know my weakness if I was not crushed by You. But knowing this prepares me for the next battle, in order not to lose it.</p>
+<p><em>20 If we had forgotten the name of our God</em>
+<em>or spread out our hands to a foreign god,</em>
+<em>21 would not God have discovered it,</em>
+<em>since he knows the secrets of the heart?</em>
+<em>22 Yet for your sake we face death all day long;</em>
+<em>we are considered as sheep to be slaughtered.</em></p>
+<p>This is the most powerful verse in this Psalm. It lets me know that everything is under Your command and according to Your plan.</p>
+<p><em>Psalm 44:23-24 NIV</em></p>
+<p><em>Awake, Lord! Why do you sleep? Rouse yourself! Do not reject us forever. Why do you hide your face and forget our misery and oppression?</em></p>
+<p><em>Psalm 44:25-26 NIV</em></p>
+<p><em>We are brought down to the dust; our bodies cling to the ground.</em>
+<em>Rise up and help us; rescue us because of your unfailing love.</em></p>
+<p>I have to keep believing that the Lord will rescue me.</p>
+<p>Pittance, schijntje
+Taunt, beschimpen
+Revile, idem
+Arouse, wekken</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

@@ -1,0 +1,334 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 136 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-136">
+<h1>Psalm 136<a class="headerlink" href="#psalm-136" title="Link to this heading">#</a></h1>
+<p><em>Give thanks to the Lord , for he is good. His love endures forever.</em>
+<em>Give thanks to the God of gods. His love endures forever.</em>
+<em>Give thanks to the Lord of Lords: His love endures forever.</em>
+<em>Psalm 136:1-3 NIV</em>
+<em>http://bible.com/111/psa.136.1-3.NIV</em></p>
+<p>Thank You, Lord, for You are good to me. You take care of me, as a lord over his servant. Even though I do not serve you perfectly, You still reward me and much more than I deserve.</p>
+<p>Thank you, God, for You are my God, You have created me but also everything around me and every situation around me. You have given me a wonderful body with which I can do amazing things.
+You have everything under control, so I do not need to worry about anything.</p>
+<p>You are more than just a lord, You are the Lord of Lords, as a name but also literally the lord of lords, that is the greatest lord of all. We always see that everyone has someone above them, even the president. And that’s true, because You are above our secular lord’s lords, be it our boss at work or someone else.</p>
+<p><em>to him who alone does great wonders, His love endures forever.</em></p>
+<p>Only God does great wonders. All the wonders of men, are powered by God or the devil, but everything by the devil is powered by God Himself as well.
+I do not understand why the devil does not realize that he has been created by God. Has he not seen enough of God’s power to understand His might?
+Or is he on a die or try course heading to hell?</p>
+<p><em>who by his understanding made the heavens, His love endures forever.</em></p>
+<p>What does <em>by His understanding</em> mean? In Dutch <em>understanding</em> can mean <em>wisdom</em> as well. God created the heavens by merely using His wisdom, there was no need to use His hands <em>.</em></p>
+<p><em>who spread out the earth upon the waters, His love endures forever.</em></p>
+<p>The Earth used to be much dryer before the Flood, but perhaps it was fully covered with water because during the Flood water from beneath the Earth sprang up. And even still scientists say the two thirds of all water is below the earth crust. So yes, it seems like the land, which covers much less of the earth than the waters, is spread out upon the waters.</p>
+<p><em>who made the great lights— His love endures forever.</em>
+<em>the sun to govern the day, His love endures forever.</em></p>
+<p>Note that only here a dash has been used, because the next two verses refer to the first one about <em>great lights</em>, which are the sun and the moon.
+The sun God created for us, for the day, and the moon and stars for the night. I could give whole classes about just these two verses.
+What does the sum provide us with?
+Light to see
+Warmth to feel
+Growth of ourselves, and others are including animals, vitamin D
+Growth of food, for everyone to eat, process of photosynthesis, creating sugar from light through chlorofyl
+Multiplication of flowers and plants, by Wind, to spread seeds to other places,
+Transportation, by sailing on the wind,
+Energy, because plants turn into oil which is our energy, the same goes for wind energy and water energy is of course because water has dampened into clouds because of heat
+Life in the ocean, for without currents (because of wind and warmth) there would be no life
+Life on earth because the oceans provide 80% of all oxygen through its algae.
+Communication, visual communication by light of course, but everything based on energy such as radio and wifi is powered by electricity.</p>
+<p><em>the moon and stars to govern the night; His love endures forever.</em>
+<em>Psalm 136:4-9 NIV</em>
+<a class="reference external" href="http://bible.com/111/psa.136.4-9.NIV">http://bible.com/111/psa.136.4-9.NIV</a></p>
+<p>What would happen without the moon?
+The moon gives us light in the night,
+and it causes the currents and tides, providing many animals with food when shells stay on the beach
+The moon also indicates the day of the month</p>
+<p>The stars are our way to navigate on sea and
+indicate the day of the year.
+They give insight in the universe, its history (supposedly the Big Bang)
+and show the wonders of God such as the expansion of the universe, and the exact parameters needed to sustain the universe.</p>
+<p><em>to him who struck down the firstborn of Egypt His love endures forever.</em>
+<em>and brought Israel out from among them His love endures forever.</em>
+<em>with a mighty hand and outstretched arm; His love endures forever.</em>
+<em>to him who divided the Red Sea asunder His love endures forever.</em>
+<em>and brought Israel through the midst of it, His love endures forever.</em>
+<em>but swept Pharaoh and his army into the Red Sea; His love endures forever.</em>
+<em>Psalm 136:10-15 NIV</em>
+<em>http://bible.com/111/psa.136.10-15.NIV</em></p>
+<p>Even the striking of the firstborn of Egypt, is correlated with God’s love. What does death have to with God’s love? Especially in this sense?
+It is true the Egyptians were punished for the behavior or the Pharaoh, although they themselves were sinful as well. But it was necessary to redeem the people of Israel in order to bring forth the Messiah, Who would eventually save the whole world, including the Egyptians.
+Even an act such as the division of the Red Sea was done out of love. God’s motivation is love because He is love. He wanted the people to believe He can do such great things and that He will do it in His time. Out of love He wants the Israelites to believe this, because it is for the better for them. We will see later in the story of the 12 spies that disbelief caused them to sin and miss out on the Promised Land.</p>
+<p>In the same way God swept Pharaoh and his army into the Red Sea out of love for Israel and the world. In a sense He even did a good thing to the people of Egypt by removing their bad pharaoh.</p>
+<p><em>to him who led his people through the wilderness; His love endures forever.</em>
+<em>Psalm 136:16 NIV</em>
+<em>http://bible.com/111/psa.136.16.NIV</em></p>
+<p>It is noticeable that this verse is separated from the others. It is not in the middle, I do not see it sandwiching the following verses with the last single vers, which is separated as well. But it does look like an ending to the part about the Exodus and the start to the next part, the conquer of Israel, described in the book of Joshua.
+You lead us, Lord, <em>through</em> the wilderness. We need to go through some bad things in life in order to obtain the good.
+In this wilderness we are tested, some of us for a long time, while others never pass the test.
+But if we are led by You, the Lord Himself and the Holy Spirit, we will make it through the wilderness.</p>
+<p><em>to him who struck down great kings, His love endures forever.</em>
+<em>and killed mighty kings— His love endures forever.</em>
+<em>Sihon king of the Amorites His love endures forever. and Og king of Bashan— His love endures forever.</em></p>
+<p>Unfortunately I cannot remember who these kings were, but I know that God can easily strike down and kill kings no matter how great or mighty they seem. After all, all power on earth is given to Him. The kings only have power because God gave it to them.</p>
+<p><em>and gave their land as an inheritance, His love endures forever.</em>
+<em>an inheritance to his servant Israel. His love endures forever.</em>
+<em>Psalm 136:17-22 NIV</em>
+<em>http://bible.com/111/psa.136.17-22.NIV</em></p>
+<p>You did all the work, Lord. You defeated the kings, You withstood the insults of the other peoples , who were created by You as well, You had to kill Your own creation. All of that You did in order to give Israel the inheritance of the land Israel.</p>
+<p>Even though You knew that Israel would betray You and cheat on You, Your love for them is so immensely big that You are willing to sacrifice so much.
+Your love truly endures forever.</p>
+<p><em>He remembered us in our low estate</em>
+<em>His love endures forever.</em></p>
+<p>You knew us in our difficult situations, You remember everything. You remember when we were sinful, which we still are, and You do not hold it against us when we have asked You for forgiveness.
+But <em>remember</em> here means something else, You remembered <em>us</em> in our <em>low</em> estate. You always hear everything we say, but You take action whenever we are humble. We <em>need</em> to be humble before we can come before You, we need to bow down and get on our knees, because we cannot face You, first of all, and second of all because our ego does not fit through the tiny entrance to enter Your Kingdom.</p>
+<p><em>and freed us from our enemies. His love endures forever.</em></p>
+<p>I have to believe You will free me from my enemies. Do I have more than one enemy? Except for the devil, I have my own will which serves as a stumbling block, and certain people in my life whom I consider as my enemies though they might not know that or even think that of me.</p>
+<p><em>He gives food to every creature. His love endures forever.</em></p>
+<p>You feed me everyday with many a thing I am not aware of. It is as Jesus Christ has said, we live from Your Word.
+Not by food alone, but everything that happens in my life, is something given by You and Your Word explains it all.</p>
+<p><em>Give thanks to the God of heaven. His love endures forever.</em>
+<em>Psalm 136:23-26 NIV</em>
+<em>http://bible.com/111/psa.136.23-26.NIV</em></p>
+<p>Thank You, Lord, for Your love endures forever and always, every day, everywhere, never-ending and for everyone.</p>
+<p>TODO OPZOEKEN
+Pharaoh died in the Red Sea as well?</p>
+<p>Verschil tussen
+Heathen, pagan, Gentile</p>
+<p>TODO</p>
+<p>Hoeveel punten toekennen aan aanwezigheid en toetsen? Huiswerk? En overige bonuspunten?</p>
+<p>Motivatie van Michel om zondagsschooldocent te worden.
+Vindt het belangrijk dat kinderen les krijgen, maar vooral ook om mensen zoals Mou Shan en Lysa een mentor te geven.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

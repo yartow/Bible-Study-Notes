@@ -1,0 +1,299 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 51 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-51">
+<h1>Psalm 51<a class="headerlink" href="#psalm-51" title="Link to this heading">#</a></h1>
+<p><em>Psalm 51:1-2 NIV</em></p>
+<p><em>Have mercy on me, O God, according to your unfailing love; according to your great compassion blot out my transgressions. Wash away all my iniquity and cleanse me from my sin.</em></p>
+<p>Have mercy on me, Lord. I really need your mercy, for I sin every day and need forgiveness every day. All these negative thoughts, perhaps planted by the devil in my mind, I need them to go away, and I need to be clean and have clean thoughts before I can come before You.</p>
+<p><em>Psalm 51:3-6 NIV</em></p>
+<p><em>For I know my transgressions, and my sin is always before me.</em></p>
+<p>Yes, I know the sins I have done. I think that with <em>my sin is always before me</em> David means that he can always see his own sin, for if it were behind him he could not, or that it means that he knows that in the future he will sin as well, as we can try, but never are able to really stop sinning.</p>
+<p><strong>Against you, you only, have I sinned and done what is evil in your sight; so you are right in your verdict and justified when you judge.</strong></p>
+<p>How can David say he has only sinned against God when it is clear he has sinned against Bathseheba and Uriah as well? I do not know, but can only guess that either Bathsheba knew very well what she was doing, or that sin is always something against God, never against man.
+TODO OPZOEKEN</p>
+<p><em>Surely I was sinful at birth, sinful from the time my mother conceived me. Yet you desired faithfulness even in the womb; you taught me wisdom in that secret place.</em></p>
+<p>Can I say David had the privilege of knowing God from the womb already, unlike many of us? Just like he was much more of a believer than his surroundings when he was only a shepherd boy?
+One thing is for sure though, God <em>desires</em> faithfulness in the womb, and that counts for everyone!</p>
+<p>Todo Opzoeken
+Is any person sinful from the moment of conception? Then it is really hard to say whether babies will go to heaven.</p>
+<p><em>Psalm 51:7-9 NIV</em></p>
+<p><em>Cleanse me with hyssop, and I will be clean; wash me, and I will be whiter than snow. Let me hear joy and gladness; let the bones you have crushed rejoice. Hide your face from my sins and blot out all my iniquity.</em></p>
+<p>Father, I need your cleansing, today and every day. I need a clean and clear mind and conscience, before I can read in Your Word or do my job at work.
+As for crushed bones, I do not think I have been crushed as much by You as David has, or Luther. What great mercy You have given me, although I deserve it more than they do.
+Let me rejoice as well, for You are the merciful God, the God Who loves His people and cares more for them than a king does.
+Even though I’m sinful You love me and look at me. You removed my sin from me and forgave them, one by one, even before I was born. I cannot imagine the pain it must have caused You.</p>
+<p><em>Psalm 51:10-12 NIV</em></p>
+<p><em>Create in me a pure heart, O God, and renew a steadfast spirit within me.</em>
+<em>Do not cast me from your presence or take your Holy Spirit from me.</em>
+<em>Restore to me the joy of your salvation and grant me a willing spirit, to sustain me.</em></p>
+<p>If I summarize what David asked of God, it is this.
+He wants to be pure and steadfast.
+He wants to be with God.
+He wants to be sustained.</p>
+<p>In fact that is much like what we ask for in our prayers, usually before we have a big task to do.
+We ask for wisdom, God’s presence and strength to maintain.
+Somehow, though, David’s words sound much more sincere. He is not just asking for God’s presence, but he is begging God not to cast him out of His presence, or take away His Spirit.</p>
+<p>He is asking for a pure heart, because he knows he does not have one at the moment of writing.</p>
+<p>He knows he cannot keep on living, living life as Jesus intended in John 10:10, living in joy, not if God does not grants it to him.</p>
+<p><em>Psalm 51:13-17 NIV</em></p>
+<p><em>Then I will teach transgressors your ways, so that sinners will turn back to you.</em></p>
+<p>David asks for this heart and the renewal of his spirit not just for his own benefit, but for those of others as well.</p>
+<p><em>Deliver me from the guilt of bloodshed, O God, you who are God my Savior, and my tongue will sing of your righteousness.</em>
+<em>Open my lips, Lord, and my mouth will declare your praise.</em></p>
+<p>Is there any book aside from the Bible where a king admits he is wrong and sorrowful as publicly as David?</p>
+<p><em>You do not delight in sacrifice, or I would bring it; you do not take pleasure in burnt offerings.</em>
+<em>My sacrifice, O God, is a broken spirit; a broken and contrite heart you, God, will not despise.</em></p>
+<p>It is noticeable to see that God does not ask sacrifices of David, even though he has so much wealth. It is because David does not care about his wealth, and what God wants from him is to have something he does care about.</p>
+<p><em>Psalm 51:18-19 NIV</em></p>
+<p><em>May it please you to prosper Zion, to build up the walls of Jerusalem. Then you will delight in the sacrifices of the righteous, in burnt offerings offered whole; then bulls will be offered on your altar.</em></p>
+<p>If God is pleased in building up Jerusalem, then he will be delighted in the sacrifices of men. What would that mean?</p>
+<p>Perhaps it means, because David was talking about himself and his own sin, that he represents Zion, or a king represents Zion, and that God cannot build a city if the king does not realize and mourn over his own sins and puts God first.</p>
+<p>Afspraak maken met Celine voor oefenen piano
+Sandra vertellen over huisregels en dagen in de week</p>
+<p>I think it’s too easy to say this is just a hyperbole as in the link below.</p>
+<p><a class="reference external" href="https://www.christiancourier.com/articles/197-did-david-sin-against-god-only">https://www.christiancourier.com/articles/197-did-david-sin-against-god-only</a></p>
+<p><strong>Did David Sin against God Only?</strong></p>
+<p>BY WAYNE JACKSON</p>
+<p><strong>“In Psalm 51, it appears that David is praying for forgiveness after having committed fornication with Bathsheba (as indicated in the superscription). How then could he have said to God, ‘Against thee,</strong> <strong>*thee only*** **, have I sinned’ (v. 4)?”</strong></p>
+<p>The solution to this problem is to be found in the <strong>sense</strong> in which Israel’s great king is using the language.</p>
+<p>There is no question that, in reality, David’s transgression was encompassing in its damage. He had sinned against the woman with whom he committed this act of vileness. He had sinned against Uriah, Bathsheba’s husband. He had sinned against his family. He had sinned against his own body (cf. 1 Corinthians 6:18). David had sinned against his men, who had a right to expect fidelity from their leader; similarly, in an even broader sense, he has betrayed the nation he led. These are facts beyond dispute.</p>
+<p>However, the king’s confession must be taken in the larger context of his disposition on this occasion. It is a psalm of penitence that is saturated with agony. This broken-hearted man, who once had served the Lord so devoutly as the brave shepherd lad, had horribly violated the law of the God he loved so dearly. It was a crushing moment in his life.</p>
+<p>A careful examination of the psalm reveals that it abounds in hyperbole. This is the explanation, for example, of his affirmation that he had been in sin since the time of his conception (v. 5)—a confession that was not true <strong>literally</strong>. It is, therefore, in this light that the expression “only thee” is to be viewed.</p>
+<p>David’s remorse over having disappointed his Creator was so great that the offense, with reference to all others, paled into insignificance. One must ever remember that the psalms are <strong>poetry</strong>, and considerable literary license is employed therein. Viewed from this vantage point, then, there is no problem with the inspired writer’s language.</p>
+<p><a class="reference external" href="https://www.christiancourier.com/articles/276-original-sin-and-a-misapplied-passage">https://www.christiancourier.com/articles/276-original-sin-and-a-misapplied-passage</a></p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

@@ -1,0 +1,291 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 48 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-48">
+<h1>Psalm 48<a class="headerlink" href="#psalm-48" title="Link to this heading">#</a></h1>
+<p><em>Psalm 48:1-3 NIV</em></p>
+<p><em>Great is the Lord , and most worthy of praise, in the city of our God, his holy mountain.</em></p>
+<p><em>Beautiful in its loftiness, the joy of the whole earth,</em>
+<em>like the heights of Zaphon is Mount Zion,</em>
+<em>the city of the Great King.</em>
+<em>God is in her citadels;</em>
+<em>he has shown himself to be her fortress.</em></p>
+<p>So God is in the citadels of Mount Zion?
+TODO OPZOEKEN</p>
+<p>Mount Zion is like Zaphon, because it is so holy. It seems strange to me that David would use a pagan object of worship to compare something as holy as Mount Zion with.
+On the other hand, one can see it as really unholy. Zaphon is not holy and neither is Zion itself. It is the presence of God that makes something or some place holy.
+As the verse says, it is God Who protects the city, God is the fortress. Even if Zion were holy it could not protect herself.</p>
+<p><em>Psalm 48:4-7 NIV</em></p>
+<p><em>When the kings joined forces,</em>
+<em>when they advanced together,</em>
+<em>they saw her and were astounded;</em>
+<em>they fled in terror.</em></p>
+<p>TODO Who is her? Mount Zion?</p>
+<p>The (pagan) kings were not afraid of Zion herself, but of the One protecting her, that is God! They were afraid of everything God has ever done in the past. Such powerful are the works of God that even kings are afraid just by looking at her.</p>
+<p><em>Trembling seized them there, pain like that of a woman in labor.</em></p>
+<p>They were so afraid they even had pain.
+You only tremble with fear when you know what the Lord is capable of. He can take everything away, even more than your life.</p>
+<p><em>You destroyed them like ships of Tarshish shattered by an east wind.</em></p>
+<p>Is this a forward reference to Tarshish of Jonah?
+TODO OPZOEKEN</p>
+<p>As easy as wind can destroy ships, probably.</p>
+<p><em>Psalm 48:8 NIV</em></p>
+<p><em>As we have heard, so we have seen in the city of the Lord Almighty, in the city of our God: God makes her secure forever.</em></p>
+<p>God makes Zion secure, just as no one has conquered Jerusalem before, while God was with them.</p>
+<p>We have proof of this, we have seen it in the history of Israel, up until today!</p>
+<p>Remember, it is God Who makes me secure. Not anything I have or think I am, but because God lives within me, as He lived (or lives) in Zion, so He makes me secure as well, both in my eternal destination as in my time here in Earth.</p>
+<p><em>Psalm 48:9-11 NIV</em></p>
+<p><em>Within your temple, O God, we meditate on your unfailing love.</em></p>
+<p>We can think of Your mighty deeds all day long, hear about them as if they were adventures, pray that You will do these things in our life too.
+We remember Your deeds and think about the implications.
+Help us to let our next generation know what You have done for us.</p>
+<p><em>Like your name, O God, your praise reaches to the ends of the earth; your right hand is filled with righteousness.</em></p>
+<p>Your name reaches to the end of the earth. Everyone in the world has heard or You, whether they can read of not. People, however, often mistake You for being a god who grants people’s wishes, that you can make exceptions in your righteousness.
+But we praise You for Who You are. You are God our Lord, our only God, Almighty, full of righteousness.</p>
+<p><em>Mount Zion rejoices, the villages of Judah are glad because of your judgments.</em></p>
+<p>Mount Zion can rejoice because she knows she is innocent. If not, they would not rejoice, for God would equally punish them as he has punished the heathens.</p>
+<p><em>Psalm 48:12-14 NIV</em></p>
+<p><em>Walk about Zion, go around her,</em>
+<em>count her towers,</em>
+<em>consider well her ramparts,</em>
+<em>view her citadels,</em>
+<em>that you may tell of them to the next generation.</em></p>
+<p>You will understand the beauty of Mount Zion, of Israel, when you have been there. When you have walked where Jesus walked, where David walked, where Jeremiah built the wall, where God blessed His people, You will know the beauty of Israel and Jerusalem.</p>
+<p><em>For this God is our God for ever and ever;</em>
+<em>he will be our guide even to the end.</em></p>
+<p>You will understand that God is a God of all ages, that He existed then and still is now. Forever and always will He be our Guide.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

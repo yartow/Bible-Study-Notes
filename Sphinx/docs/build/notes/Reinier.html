@@ -1,0 +1,354 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Reinier - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="reinier">
+<h1>Reinier<a class="headerlink" href="#reinier" title="Link to this heading">#</a></h1>
+<p>I was preparing a sermon for half a year, John 7, and all of a sudden, Sam asked me to preach on John 7. What a coincidence.</p>
+<p>The sermon is called:</p>
+<blockquote>
+<div><p>::Even His brothers did not believe in Him.::<span class="raw-html-m2r"><br></span>
+We can put an emphasis on each of these words!</p>
+</div></blockquote>
+<p>JESUS TEACHES AT THE FEAST OF BOOTHS
+And after these things Jesus was walking in Galilee, for He was unwilling to walk in Judea because the Jews were seeking to kill Him.
+2
+Now the feast of the Jews, the Feast of Booths, was near.
+3
+Therefore His brothers said to Him, “Leave here and go into Judea, so that Your disciples also may see Your works which You are doing.
+4
+For no one does anything in secret when he himself seeks to be <em>known</em>openly. If You do these things, show Yourself publicly to the world.”
+5
+For not even His brothers were believing in Him.
+6
+So Jesus said to them, “My time is not yet here, but your time is always here.
+7
+The world cannot hate you, but it hates Me because I bear witness about it, that its deeds are evil.
+8
+Go up to the feast yourselves; I am not yet going up to this feast because My time has not yet been fulfilled.”
+9
+Having said these things to them, He stayed in Galilee.
+<a href="#id1"><span class="problematic" id="id2">**</span></a>10 **
+But when His brothers had gone up to the feast, then He Himself also went up, not publicly, but as in secret.
+11
+So the Jews were seeking Him at the feast and saying, “Where is He?”
+12
+And there was much grumbling among the crowds concerning Him; some were saying, “He is a good man”; others were saying, “No, on the contrary, He leads the crowd astray.”
+13
+Yet no one was speaking openly about Him for fear of the Jews.</p>
+<p>Children, do you ever use the computer? Go to Google  Maps and then you zoom in on your own house, and then click on “Street View”, and then you can see your own house. And then when you zoom out you’ll see the Netherlands, Belgium, Europe. You can zoom out.</p>
+<p>And what we’re doing every  Sunday is that we’re zooming in on a pericope, a chapter. But if we do this, we’ll forget about what this whole world looks like.
+So last week brother Jürgen did something, he spoke about John 1 and said that Christ is the lamb. In Chapter 3, Christ is the the risen slang. Chapter 4, Jesus is the source, in Chapter 5, Jesus is …?
+Chapter 6, Jesus is the bread.
+Next week brother Jürgen will test you again.
+But the question is: who is Jesus? For everything we learned from this gospel of John has to do with this, for he does everything  with  a purpose.
+The children might not all know this, but why does John write this letter. The answer is written here. The children should know if their parents taught them well, but I see that no one knows it. Not even the teenagers and the tweeners.
+Now the adults: the purpose of this is letter is written so that we may know that Jesus is the Lord. See John 20:31</p>
+<blockquote>
+<div><p>but these have been written so that you may believe that Jesus is the Christ, the Son of God; and that believing you may have life in His name.</p>
+</div></blockquote>
+<p>So that was the zoom-out to provide an overview, but everything we hear from now on has one purpose, and that is so that we will believe in the Lord Jesus so that we may have <strong>life</strong>.</p>
+<p>And today it is about unbelief, for His brothers do not yet believe in Him. If belief leads to <em>life</em>, what does unbelief lead to then? Death.
+Belief and life belong together, and unbelief and death belong together, so they are dead.
+And if the Lord Jesus spoke to Nicodemus about life, so that whoever believes in Him will not perish… then we see a big contrast.
+And we have already discussed the part of light (as in the light of the world) and John does this purposely, so that we will believe and through belief find life.</p>
+<p>Jürgen talked about John 6:20-71, but he did not emphasize the last pericope. And there is one part that says: “After this”, and this “this” means the part that happened before, which is Peter’s conversion.
+For Jesus asked: Who do the people say that I am. But who do <em>you</em> think I am?
+You are the Messiah, the anointed One of God, the Christ (in Greek), not merely a prophet but the <em>promised</em> and foretold prophet.
+Peter said: where should we go to, for You have words of life.</p>
+<p>But think about brother Jürgen’s sermon, about that man who was longing to walk for 38 years.
+If I get emotional, I will start speaking louder.
+But perhaps Jesus, when he called the storm to become quiet, he didn’t shout at all, He just said it quietly. And in the same way he told the man: stand up.
+But the man said: “But, Lord Jesus, I’ve been lying here for 38 years already, I can’t walk!”
+This is unbelief. But what does John do? He writes this <strong>so that we may believe.</strong> So when John writes this, he wants us to realize that we do not say:</p>
+<ul class="simple">
+<li><p>I cannot believe</p></li>
+<li><p>I do not have the power
+No, he wants us to know that the unbelief is from the devil, and the devil is from hell. When Jesus calls on us to believe, then there’s only one thing we have to do, and that is to believe. Everything else is from hell.
+But the bread from heaven, that provides us with life.</p></li>
+</ul>
+<p>Jesus is so patient, when he spoke with Nicodemus. But the Jews are so angry and try to kill Him, and so Jesus leaves Jerusalem and goes to Galilee. There the pressure of the Pharisees  is somewhat less. And then the Lord Jesus encounters new oppression against Him. Who? His own brothers.</p>
+<p>Who has a brothers and sisters? Suppose you’re the middle one, so you still have an older brother.
+Now suppose the older brother is the Lord Jesus. And now suppose the Lord Jesus has always been very holy and obedient.</p>
+<p>So when mother asks, who will cover the table? Jesus would stand up and cover the table. And then Maria would say:
+“Listen to me, because the Lord has said that you should listen to your parents in the Bible”
+And then the little children would say: “Yes, just like our brother Jesus,r ight? He always listens to you.”
+Even His own brothers would starting hating him or be jealous at Him.
+And this is what Jesus already mentioned, when he said that the world would hate Him.</p>
+<p>In middle school you learn about the walking conscience of the Second Chamber (Parliament), called “Van der Staaij”. He is a member of the Reformed Party. I think this is very good because he is a Christian. When Van der Staaij starts talking that “this is not good, because the Bible says…” then everyone knows that they have made the wrong decision in the government.
+And in the same way Jesus’s brothers knew they were wrong, but still they did not agree with Jesus/ Why?. Because deep inside they do not want to obey Jesus.</p>
+<p><strong>Example.</strong> I was working on a farm and during lunch I wanted to eat, so I asked the people of these people could be quiet, because I wanted to pray.
+Then one boy told me: “I do not care about religion anymore.”
+Then I told him: “You KNOW that God exists. Even if you don’t care about Him, you still know this.”
+And he said: “Yes, that’s true.”
+If you know He exists, then you know that you have to listen to him. So that’s why you tell yourself that he does not exist.</p>
+<p>And this man who had been lying there for 38 years listened to Jesus… #todo/opzoeken
+this is the whole purpose of the Gospel, it is the Gospel for the dead.</p>
+<p>His Word is life. Who are we that we may have a response at His Word. Jesus has everything under His feet. He walked on the water, He even changed water into wine. All of nature is obedient when Jesus speaks, and it happens in the way He wants it.
+But we, man, have a negative response, and we say “no” when He calls us to serve.
+We don’t want to serve Him, because we prefer to serve ourselves.
+We hate those people who tell us that there is something we are not allowed to do. That is the resistance we have against Christ, but as believers we have to become obedient.
+Jesus’ brothers said: If you want them to know you, why don’t you show yourself?
+They do not know what they are doing. But Jesus is calm and controlled. And He says: Your time will be always, but my time has not yet come.</p>
+<p>It was the Feast of Tabernacles in Jerusalem, and there was the Temple, and who could we see in the temple? The house of God. And how does Jesus calls God? His Father.
+Your time is always, to go to Jerusalem and to go the Father. And the one who does not know Jesus, who has not obeyed Him, and who has not responded yet, this is the invitation for you. This time is always present. How can we go to the Father? Jesus is the Way.
+Through Jesus we can go to the Father and this time is always.</p>
+<p>Today, if you hear His voice, do not harden your hearts, but let yourself be led. And do not be like your fathers in the desert, for it did not bring them in the land of milk and honey, but brought them into the desert for 40 years.
+While God wants to bless us abundantly, we prefer to go to the desert, bounded as slaves to sin.
+This is what we are if we do not accept Jesus, we are slaves to sin and death.
+But Jesus said that He will set us free, and those who accept Him will be truly set free.
+His time was not present yet to hang on the cross.</p>
+<p>Jesus did nothing without permission. How is this in our life? Do I do something directly, or do I ask the Father first?
+“Father, let me listen to you and that I will talk when you want me to talk, and walk when you want me to.”</p>
+<p>Do you know why the world could not hate Jesus’ brothers? They were part of the world themselves.
+The world will hate us, if we are Christians. We do not join the world’s wordly and fleshly activities.
+The light of Christ can flow through you.
+What happens if all the lights go out? If you live in the dark and your father all of a sudden opens the lights? Your eyes will hurt.</p>
+<p>This is what happened in the world. When Jesus came, the people’s eyes hurt and they said: “Close that light! We do not want the light.”
+But no one lights a lamp and then puts a bucket over this. We need to be a light on the mountain that provides light.
+And His words provide life.</p>
+<p>Jesus goes to Jerusalem, after His brothers have gone, secretly. And then everyone aks where Jesus is. Some say that Jesus is good, others say that you shouldn’t listen to Jesus because he will make your eyes hurt.
+But no one spoke of the Lord Jesus. It is as if there was a cloth from hell and covered over our speaking, out of fear. And I want to end with this.</p>
+<p>Do you have this, this fear that something  is being put over you, so that you are afraid to speak about the Lord Jesus. This is not necessary, you have no need to be afraid/ Why? Because the Lord is with you. That fear that you feel is not from the Lord. Because fear is always from hell.
+This fear, I sometimes feel as well. Sometimes I testify at my job, but sometimes I have fear as well, and this is not fair to Jesus, because He died for me. He put on tat thorn cross on His head for me. This is not fair of me to treat Him that way.
+I am one who avoids pain. If I think i am going to  have pain, i will go another route.
+But Jesus suffered pain for me and now tells me: Come and follow me, take up your cross and become like me.</p>
+<p>This morning I was thinking about this: The lord says: Know him in all your paths (Proverbs 3:5-6). Do you know what this means?
+“Knowing” as in Adam “knew” Eve, this is sex, as intimate as knowing the other. The Lord Jesus Jesus wants us to <em>know</em> Him in every  step we take. Every  thought we allow in our minds, every  word on our lips—we need to <em>know</em> Him.
+And knowing Him has everything  to do with today’s theme: belieing Him. If a man knows a woman, they trust each other. Not like in the world, but if there’s real love, there’s trust.</p>
+<p>Even the brothers of the Lord Jesus did not believe in Him <em>yet</em>. And we know that James and Jude wrote letters, two of His brothers. They did not believe <em>yet</em>, and so we can say that about ourselves as well.</p>
+<p>The Bible calls us not to be unbelievers, but to believers, so that we will have Life, in His Name, the Name of Jesus. Name above all names.</p>
+<p>Amen.</p>
+<p><a class="reference external" href="mailto:hurrytojesus&#37;&#52;&#48;yahoo&#46;com">hurrytojesus<span>&#64;</span>yahoo<span>&#46;</span>com</a></p>
+</section>
+<section id="biblestudy-devotionals">
+<h1>biblestudy/devotionals<a class="headerlink" href="#biblestudy-devotionals" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

@@ -1,0 +1,301 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 69 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-69">
+<h1>Psalm 69<a class="headerlink" href="#psalm-69" title="Link to this heading">#</a></h1>
+<p><em>Psalm 69:1-4 NIV</em></p>
+<p><em>Save me, O God, for the waters have come up to my neck. I sink in the miry depths, where there is no foothold. I have come into the deep waters; the floods engulf me.</em></p>
+<p>At moments when I cannot stand on the ground anymore, that is Earth, when there is nothing in the world that can help me or give me peace, but I also cannot go upwards, that is to heaven, because I am too tired to swim or even stay afloat (in all of my problems), I know I should let it go and then You will save me.</p>
+<p><em>I am worn out calling for help; my throat is parched. My eyes fail, looking for my God.</em></p>
+<p>I want to cry out, but I can not, for there is no moist in my throat. Only soundless air comes out. A parched throat is like an ego, or arrogance or pride, that dries up everything that is supposed to aid the parts with which one praises God, that is the voice, the vocal cords, the tongue and mouth. Pride dries up relations, peace, love and self sacrifice, everything that honors God.
+Thank You, Lord, for helping me realize this. Help me, please, to let go of or flee from my pride and arrogance.</p>
+<p><em>Those who hate me without reason outnumber the hairs of my head; many are my enemies without cause, those who seek to destroy me. I am forced to restore what I did not steal.</em></p>
+<p>I was joking about the number of hairs on my head, that it is unknown even to us how many we have, and that there must be a relation between that verse and this one.
+But I think it is true, we do not know how many people hate us, how many enemies we have. We do not know whom we can trust and not even who really is a Christian.
+Or arrogance lets us think we are safe, it makes us stop praying.
+We do not even know why some people are our enemies, or what we have done to them, and what we have to do to make it up. Yes, as Christians we always have to take the initiative in making things up and that will cost us a lot.</p>
+<p><em>Psalm 69:5-12 NIV</em></p>
+<p><em>You, God, know my folly; my guilt is not hidden from you.</em></p>
+<p>Perhaps David wants to make clear that he knows he is guilty as well towards God, before he starts saying the next verses. Yet not guilty in the same way as his enemies.</p>
+<p><em>Lord, the Lord Almighty, may those who hope in you not be disgraced because of me; God of Israel, may those who seek you not be put to shame because of me.</em></p>
+<p>Could this mean that he does not want to demotivate other people in believing by letting them see that he has to suffer? David perhaps knows that all who follow God will suffer for the sake of God, but he does not want that to be a reason for people not to follow God anymore.
+Or, he does not want other followers to suffer because of him.</p>
+<p><em>For I endure scorn for your sake, and shame covers my face.</em></p>
+<p>I do not understand why or when he was enduring scorn for God’s sake.</p>
+<p><em>I am a foreigner to my own family, a stranger to my own mother’s children; for zeal for your house consumes me, and the insults of those who insult you fall on me.</em></p>
+<p>David is saying here that because of zeal for God’s house, he is a foreigner to his family, which is true with such bad sons as his.</p>
+<p><em>When I weep and fast, I must endure scorn; when I put on sackcloth, people make sport of me. Those who sit at the gate mock me, and I am the song of the drunkards.</em></p>
+<p>Yes, I do know that David was estranged from his own family, and his sons were trying to kill him and that the city treated him with scorn.</p>
+<p><em>Psalm 69:13-15 NIV</em></p>
+<p><em>But I pray to you, Lord , in the time of your favor; in your great love, O God, answer me with your sure salvation. Rescue me from the mire, do not let me sink; deliver me from those who hate me, from the deep waters. Do not let the floodwaters engulf me or the depths swallow me up or the pit close its mouth over me.</em></p>
+<p>I know I have to go through all of this, perhaps not as bad as David, but still, I need it in order to get to this conclusion David has as well: I pray to <em>You</em> and I ask You for <em>Your salvation</em>.
+I also ask that this process will not be too hard, so hard that floodwaters engulf me, that is, so high that I cannot breathe anymore, will faint and be all alone for a while.
+That is what I am afraid of. But if You feel it is necessary, I will endure it, Lord, with Your power and presence, and let not my will be done, but Yours, forever. Amen!</p>
+<p><em>Psalm 69:16-18 NIV</em></p>
+<p><em>Answer me, Lord , out of the goodness of your love; in your great mercy turn to me. Do not hide your face from your servant; answer me quickly, for I am in trouble. Come near and rescue me; deliver me because of my foes.</em></p>
+<p>Father, I need Your answers. Without Your answers I might think I know everything. But I do not. I need You to withhold me, to tell me I am wrong.
+I need Your help to to be rescued by You. All of my troubles are small, but only when I compare them to the magnitude of You, God. That is why I ask You to come near me and so that I can be with You.</p>
+<p><em>Psalm 69:19-21 NIV</em></p>
+<p><em>You know how I am scorned, disgraced and shamed; all my enemies are before you. Scorn has broken my heart and has left me helpless; I looked for sympathy, but there was none, for comforters, but I found none. They put gall in my food and gave me vinegar for my thirst.</em></p>
+<p>Does David mean with “his enemies before God” that he has put them in prayer before God?
+David was scorned, for being a bad king, a bad father and a bad army leader. And at some point in time no one was on his side anymore.
+And it was not just that no one helped him, but people made his life bitter as well.</p>
+<p>How could coincidental is it that Jesus used this verse? Did Jesus use this because His life was the same as David’s in this sense, or because it was a prophecy? And if it was a prophecy, did David know all of the happenings of Jesus and that had to die for our sins, something even the disciples did not know until the end?
+How would people in David’s time, when reading this Psalm, have interpreted this?</p>
+<p><em>Psalm 69:22-28 NIV</em></p>
+<p><em>May the table set before them become a snare; may it become retribution and a trap. May their eyes be darkened so they cannot see, and their backs be bent forever. Pour out your wrath on them; let your fierce anger overtake them. May their place be deserted; let there be no one to dwell in their tents. For they persecute those you wound and talk about the pain of those you hurt.</em></p>
+<p>Perhaps it is allowed to wish for these things if it is to protect the innocent.</p>
+<p><em>Charge them with crime upon crime; do not let them share in your salvation. May they be blotted out of the book of life and not be listed with the righteous.</em></p>
+<p>I find it so hard to wish these kind of things to my enemies. Is that not against the teachings of our Lord Jesus?
+Then again, though David wrote this under divine inspiration, it does not mean that God agrees with this, but that this is merely to let us know how David felt.
+Better yet, now we know how David felt, we also know he did not take revenge, but let God take revenge. That is something we can learn.</p>
+<p><em>Psalm 69:29 NIV</em></p>
+<p><em>But as for me, afflicted and in pain— may your salvation, God, protect me.</em></p>
+<p>Would there be a reason why this stands alone by itself? Does it have to do with verse 5 that stands alone as well?
+I need Your salvation, that is a fact, for I have sinned, too many times. I need Your protection, for I have too many enemies in this world. I need your comfort, for as a result of both causes, my sins and enemies, I am in utter pain and affliction and I need Your comfort to be relieved of this pain. In order to live a normal life, I need you.</p>
+<p><em>Psalm 69:30-33 NIV</em></p>
+<p><em>I will praise God’s name in song and glorify him with thanksgiving. This will please the Lord more than an ox, more than a bull with its horns and hooves. The poor will see and be glad— you who seek God, may your hearts live! The Lord hears the needy and does not despise his captive people.</em></p>
+<p>Two things is David doing, praising God’s Name and glorifying Him, in two ways: song and thanksgiving.
+How often do I sing for Him? Only on church. Sometimes I listen to gospel music, but not with the intention to praise Him. We have media everywhere now thanks to the Internet and technology. We have multiple ways of listening, through Spotify, YouTube and streaming audio services such as iCloud and Play Music. But we’re not using it, at least not to praise God.
+Do I give God thanksgiving? Not enough. Though I try to be thankful for everything around me and to notice as much that things as possible to be thankful for, I know there are still a lot of invisible to things for which I do not thank God (enough).
+I do not thank God enough for the good and God-fearing wife He has chosen for me, for our smart and mild character child. I do not thank for the church we have, not the building, but the community in it. With all of its flaws it still is a church, with experience, love and worship.
+Perhaps I will only get to realize that much more when I do not have it anymore, such as if I go on a missionary trip.</p>
+<p><em>Psalm 69:34-36 NIV</em></p>
+<p><em>Let heaven and earth praise him, the seas and all that move in them, for God will save Zion and rebuild the cities of Judah. Then people will settle there and possess it; the children of his servants will inherit it, and those who love his name will dwell there.</em></p>
+<p>God is building a place for everyone to live in, everyone who serves Him.
+The children of his servants, so not His servants themselves, they will inherit it, but will they dwell in it as well? I see for example that Jewish people possess the country of Israel, but they are not dwelling, knowingly, in the presence of God.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

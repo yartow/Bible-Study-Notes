@@ -1,0 +1,284 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 74 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-74">
+<h1>Psalm 74<a class="headerlink" href="#psalm-74" title="Link to this heading">#</a></h1>
+<p><em>Psalm 74:1-3 NIV</em></p>
+<p><em>O God, why have you rejected us forever? Why does your anger smolder against the sheep of your pasture? Remember the nation you purchased long ago, the people of your inheritance, whom you redeemed— Mount Zion, where you dwelt.</em></p>
+<p>TODO Did God purchase the nation of Israel? I know that God paid the highest price for His people, by giving His Son, but what about the people of Israel back in the times of Egypt?</p>
+<p><em>Turn your steps toward these everlasting ruins, all this destruction the enemy has brought on the sanctuary.</em></p>
+<p>Does Asaph mean by everlasting ruins the nation of Israel, because it is constantly under fire and attack of the neighboring countries?</p>
+<p><em>Psalm 74:4-8 NIV</em></p>
+<p><em>Your foes roared in the place where you met with us; they set up their standards as signs. They behaved like men wielding axes to cut through a thicket of trees. They smashed all the carved paneling with their axes and hatchets. They burned your sanctuary to the ground; they defiled the dwelling place of your Name. They said in their hearts, “We will crush them completely!” They burned every place where God was worshiped in the land.</em></p>
+<p>It is Your foes who have caused Israel to become a ruin. Not only did they destroy everything that belonged to You, but also did they purposely destroy everything and every place where you were worshipped.
+Not only did they destroy it, thy defiled it, and in their arrogance they said they would crush us completely!
+They did not know that no one at this time has ever heard of them, but Your children are still heard of and have reached the upper ranks in this world.</p>
+<p>Destroy Your foes, Lord, in Your time and in Your way. Protect us, Your children and give us hope that we will be saved. Let Your nation be widespread, as big as the world, and Your people as many as there are humans.</p>
+<p><em>Psalm 74:9-11 NIV</em></p>
+<p><em>We are given no signs from God; no prophets are left, and none of us knows how long this will be.</em></p>
+<p>One of the most difficult things in life is that we do not know how long anything lasts. We do not know how long we will stay this way, happy or sad, in plenty or want, we do not even know how long we will live.
+You, Lord, have Your plans and Your time, and from what we know of You, from what is written in Your Word, we know that You are always in time. No timing is better than Yours, anything earlier would be too soon, and anything later would be too late.</p>
+<p><em>How long will the enemy mock you, God? Will the foe revile your name forever? Why do you hold back your hand, your right hand? Take it from the folds of your garment and destroy them!</em></p>
+<p>We can always ask why, but we can never act as if we know better than God. Does this harm God? No. Does it hurt God? Yes, of course, the people He created are mocking Him.</p>
+<p>But God is confident. He does not need to stand ready for such measly people with threats like thin air. God confidently puts His arm in the folds of His garments and awaits the time that they go too far, or until His children cry out to Him.</p>
+<p>So next time you are waiting for God to act, consider this. He could be waiting for the enemy to cross the line, so He can punish Him, or He could be waiting for your cry for His help.</p>
+<p><em>Psalm 74:12 NIV</em></p>
+<p><em>But God is my King from long ago; he brings salvation on the earth.</em></p>
+<p>God is my King and has always been my King. It is crucial to realize that God brings salvation, that was His purpose of sending Jesus Christ, that was what He did when freeing the Israelites from Egypt, and during all the wars of the two kingdoms. So why would anything not be salvation or contradict it?
+Thus everything God does or does not do, or allows others or the devil to happen, is to bring, ultimately, salvation.</p>
+<p><em>Psalm 74:13-17 NIV</em></p>
+<p><em>It was you who split open the sea by your power; you broke the heads of the monster in the waters. It was you who crushed the heads of Leviathan and gave it as food to the creatures of the desert. It was you who opened up springs and streams; you dried up the ever-flowing rivers. The day is yours, and yours also the night; you established the sun and moon. It was you who set all the boundaries of the earth; you made both summer and winter.</em></p>
+<p>God created the day and night, and the dangerous places on earth and the liveable. Everything on earth is created by Him, and every boundary set by Him is good.
+Winter is not bad, neither is night, but we cannot enter a place during the night or winter as we would during the day or summer, that would be dangerous.</p>
+<p>Sometimes you destroy in order to create. The Leviathan was destroyed and gave life to the desert, the rivers stopped flowing, but You created new springs instead.
+Old river beds can serve as fertile fields, expose many treasures, fossils and useful minerals and show us the wonders of nature, that is, of Your hand.</p>
+<p><em>Psalm 74:18-23 NIV</em></p>
+<p><em>Remember how the enemy has mocked you, Lord , how foolish people have reviled your name.</em></p>
+<p>To keep the Name of the Lord high, we ask You to punish the foolish people.
+Of course when we say <em>remember</em> it means something else for You, for we remember with regret, pain and sorrow, and unforgiven memories.</p>
+<p><em>Do not hand over the life of your dove to wild beasts; do not forget the lives of your afflicted people forever.</em></p>
+<p>You, Lord, can do whatever You want to with our lives. Our lives are in Your hands. What right do we have to ask of You to spare us, especially when we deserve to die.
+No, what we ask for is that is we die, may we die in Your mercy, and not by the hands of our enemies, but by You.</p>
+<p><em>Have regard for your covenant, because haunts of violence fill the dark places of the land.</em></p>
+<p>Your covenant says that You will punish those who do not keep Your Law. Therefore we ask You to regard Your own covenant. Of course You already know this, but we ask You to let You know we really want Your way to happen.</p>
+<p><em>Do not let the oppressed retreat in disgrace; may the poor and needy praise your name.</em></p>
+<p>We also ask this for the oppressed, there are so many among us who are poor and needy, oppressed by the rich and wicked, who are only getting richer.</p>
+<p><em>Rise up, O God, and defend your cause; remember how fools mock you all day long.</em></p>
+<p>We ask You, God, to stand strong and let no person make You or Your children out for a fool. Let them know You are right and they are wrong.</p>
+<p><em>Do not ignore the clamor of your adversaries, the uproar of your enemies, which rises continually.</em></p>
+<p>Take into account everything Your foes say and do. They are also stirring up others to go against You and letting the whole world know this.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

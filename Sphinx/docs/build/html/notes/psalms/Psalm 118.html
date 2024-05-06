@@ -1,0 +1,329 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 118 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-118">
+<h1>Psalm 118<a class="headerlink" href="#psalm-118" title="Link to this heading">#</a></h1>
+<p><em>Psalm 118:1-4 NIV</em></p>
+<p><em>Give thanks to the Lord , for he is good; his love endures forever.</em></p>
+<p><em>Let Israel say: “His love endures forever.” Let the house of Aaron say: “His love endures forever.”</em>
+<em>Let those who fear the Lord say: “His love endures forever.”</em></p>
+<p>It is true, God’s love endures forever. Not only quantity wise to but also quality wise. His love will endure until long after you die. And while you are living the worst things you or anyone can imagine will be forgiven by God if you are truly repenting. Is there any love greater than that?</p>
+<p>Once again (ref. Psalm 115:9) the psalmist mentions three groups in this order, Israel, the house of Aaron and everyone who fears the Lord.
+I do not see a logical order in this. In size Israel is by definition greater than the house of Aaron. But everyone who fears the Lord is many more, including Christians, especially now, than the house of Aaron.
+It could be that both in Psalm 115 and here the psalmist wants God to hear us, and the more people are crying out to Him, or praising Him, the more chance there is that God will hear us.
+So not in general the people of Israel, but specifically the priesthood which is only given to Aaronites, and to everyone who fears the Lord, because the Lord listens to those, and for this age, where we have the Holy Spirit, where God can hear us even better.</p>
+<p><em>Psalm 118:5-7 NIV</em></p>
+<p><em>When hard pressed, I cried to the Lord ; he brought me into a spacious place.</em></p>
+<p>When David is - in our way of speaking - pushed into a corner, we would think God would give Him strength to push back, but instead God gives him a spacious place.
+He does not give us what we want, but instead He gives us what we need. And sometimes it is very unexpected.</p>
+<p><em>The Lord is with me; I will not be afraid. What can mere mortals do to me? The Lord is with me; he is my helper. I look in triumph on my enemies.</em></p>
+<p>Know this, the Lord is with you, and mere mortals cannot do anything to your soul. In fact it is the Lord against your enemies, who is going to win, you think?
+I have already won if I keep this in mind, the devil has already lost. He just wants to make me afraid, so I will make the wrong choices so that he can gain as much out of his loss as possible.</p>
+<p><em>Psalm 118:8-14 NIV</em></p>
+<p><em>It is better to take refuge in the Lord than to trust in humans. It is better to take refuge in the Lord than to trust in princes.</em></p>
+<p>No matter whether a person was poor or powerful, could I trust Him? Of course, if a person had no power, how could he give me what I needed? That was an extra doubt, but as for trust, they are both untrustworthy.
+I have, in so far, not met people I could out my trust in. People, including myself, are selfish in the end and take of themselves and their priorities first.
+Even Christians first take care of themselves and their families, before taking care of the church and others, which is the right thing to do, but it leaves others without trust for when you really need them.
+Only God is trustworthy, when He promises something, you can be sure that is <em>able</em> <em>to do it, and you can be sure that He will do it, because He does not have restrictions as in</em> <strong>first</strong> taking care of His own things and <em>then</em> of others, because He lives outside the scope of time. And even if He was not, He can do everything at the same time all around the world.
+Also, I am at ~the top priority of his list~. His children is who He loves, His church is His bride, His purpose is for me to worship Him. That is me whom He is talking about!</p>
+<p><em>All the nations surrounded me,</em>
+<em>but in the name of the Lord I cut them down.</em>
+<em>They surrounded me on every side,</em>
+<em>but in the name of the Lord I cut them down.</em>
+<em>They swarmed around me like bees, but they were consumed as quickly as burning thorns;</em>
+<em>in the name of the Lord I cut them down.</em></p>
+<p>If I can rely on God’s promises, and I do not have to do that blindly, because so many went before me, I can be sure that in the Name of the Lord I can cut all nations down. The Lord has shown how mighty rulers of the greatest empires ever, such as the Babylonians, Assyrians and Persians were all under God’s influence. Whenever He decided on something, that would happen, and all the while these emperors or kings were thinking they were in charge.
+Even everything that is not written in the Bible, such as Alexander the Great and Charles the Great (Charlemagne) were under the influence of God and everything happened so that we are in the situation we are in right now.</p>
+<p><em>I was pushed back and about to fall, but the Lord helped me.</em></p>
+<p>The Lord helps at His own time which is by definition never too late, even more so by definition it is the best time He could have helped at. Were He sooner, it would not have made us shout out to the Lord, were it later, we would have been gone.
+Take the Lord seriously, and His time and plan as well (ref. Jeremiah 11:30 where the Lord says that everything He has in mind for us, is good).</p>
+<p><em>The Lord is my strength and my defense ; he has become my salvation.</em></p>
+<p>Coincidentally these same words are used in Isaiah 12:3 as well, where defense can also mean song.
+My song is my strength, because I can sing about God’s strength. What else would my songs be about?
+When my songs are about sadness, they are in fact about God’s comfort; when they are about me breaking down, they are telling about God’s healing.
+Of course when they are about my happiness Whom else can I praise but God alone?
+The Lord is the greatest of all, in every field.</p>
+<p><em>Psalm 118:15-21 NIV</em></p>
+<p><em>Shouts of joy and victory resound in the tents of the righteous: “The Lord ’s right hand has done mighty things!</em></p>
+<p>Only the righteous will shout out that the Lord has done mighty things. The unrighteous would know this but would not be happy about it at all. And perhaps they would not even notice that it is God Who is behind all these marvelous acts.</p>
+<p><em>The Lord ’s right hand is lifted high; the Lord ’s right hand has done mighty things!”</em></p>
+<p>And it is not the Lord God Himself, but His Son, Jesus Christ Who is doing all these acts. He is at - no He <em>is</em> the right hand of God!</p>
+<p><em>I will not die but live, and will proclaim what the Lord has done. The Lord has chastened me severely, but he has not given me over to death.</em></p>
+<p>Even after chastening, a righteous person would still proclaim the works of the Lord. He understands that he has not died for a reason, and that is because God did not let him die.
+A righteous man understands he needs to be chastened, for no matter how righteous, he still sins and what God gives is righteous.</p>
+<p><em>Open for me the gates of the righteous; I will enter and give thanks to the Lord . This is the gate of the Lord through which the righteous may enter.</em></p>
+<p>And the righteous may enter the gates, he gates by which the righteous are known in this world. We know of some written in history as being righteous persons, the apostles, Abraham and Hudson Taylor for example. It takes a lot to be in this list, but this list is only for the world, God has His own list and He will decide whether I am on it or not.</p>
+<p><em>I will give you thanks, for you answered me; you have become my salvation.</em></p>
+<p>You always answer me, Father, sometimes I just cannot hear You. It has always been You Who has saved me. In every field You are my Savior.</p>
+<p><strong>Psalm 118:22-24 NIV</strong></p>
+<p><em>The stone the builders rejected has become the cornerstone; the Lord has done this, and it is marvelous in our eyes. The Lord has done it this very day; let us rejoice today and be glad.</em></p>
+<p>The cornerstone had to be a stone the builders rejected. Otherwise it would fit in between all the other stones, do as they do and be indistinguishable.
+<em>The Lord has done this</em>, this could either mean that He let Jesus be rejected, or He made Jesus become a cornerstone.
+So now, realize that a rejection is not always bad, but is a rejection for a job, a rejection by a girl, or even in church for an assignment for example.</p>
+<p><em>Psalm 118:25 NIV</em></p>
+<p><em>Lord , save us! Lord , grant us success!</em></p>
+<p>A single verse of major significance.
+First of all, it is You, Lord, Who saves us, and You, Who grants us success.
+Second of all, You <em>save</em> us. If it were not for Your help, we would be dead right now. His whole world would not have existed farther than the first generation after Adam, or perhaps not even that far.
+We cannot even help ourselves, we are like babies, not even able to get our own food or dress ourselves.
+So the Lord has brought us from death to life, and from life to adulthood, bringing us in such a state where we can take a little care of ourselves, and make our choices.</p>
+<p>Now we get to the stage where success is granted to us, be it in education or in society or at work, all of it is given to us by God.</p>
+<p><em>Psalm 118:26-27 NIV</em></p>
+<p><em>Blessed is he who comes in the name of the Lord . From the house of the Lord we bless you.</em></p>
+<p>Everyone who comes in the Name of the Lord is welcome to join us at our celebration for the Lord. You get our blessing, for together we have more voice and volume to praise our Lord.
+Even those we do not like, we should welcome to join in our praise, for they have not come to be united with us, but first to praise God, and second breaking the unity will cause less glory to be given to God. On the other hand, strong unity will cause the glory to be given to God be even greater than the sum of the two separately.</p>
+<p>I should bless the people leading the summer conference right now, no matter how little faith I have in them or how much I disagree with their decisions.</p>
+<p><em>The Lord is God, and he has made his light shine on us.</em></p>
+<p>The Lord has made his light shine on us, which means we can not do any more sinful things, because now everyone will see it.
+It also means that now He is blessing us, which is related to the previous explanation, as God blesses you when you do not sin anymore.</p>
+<p><em>With boughs in hand, join in the festal procession up to the horns of the altar.</em></p>
+<p>I do not understand this part, because it could either mean what it says or mean that we have to tie up the offers with ropes.</p>
+<p><em>You are my God, and I will praise you; you are my God, and I will exalt you.</em></p>
+<p>I did not realize how fortunate I am to have You as my Lord and God. If other gods were real and if I were to have any of them as my Lord, I would have a miserable life.
+Other gods are the total opposite of what You are. They care more about themselves than about the people, they live in their own world and want to make that as pleasant as possible. The only reason they go into the world of humans is to take a wife for their own, on top of the many wives they already have.
+They have emotions and are led by them, often leading up to war and thereby sacrificing many humans.
+I do not see much difference between gods and kings, only the true triune God and King, Jesus Christ is different. He is the definition of good Himself. All He does, is for the good of us.</p>
+<p><em>Give thanks to the Lord , for he is good; his love endures forever.</em></p>
+<p>I thank You, Father, because You <em>are</em> good, that is just what You are, and You have been good to me as well, all my life, and I know from this statement of the psalmist, David, that Your love endures forever.</p>
+<p><em>David has said this as his testimony, I take it as His promise for me.</em> #church/material</p>
+</section>
+<section id="todo-opzoeken-engels-pronunciation-and-meaning-of-further-and-farther">
+<h1>todo/opzoeken/engels Pronunciation and meaning of further and farther<a class="headerlink" href="#todo-opzoeken-engels-pronunciation-and-meaning-of-further-and-farther" title="Link to this heading">#</a></h1>
+</section>
+<section id="todo-opzoeken-betekenis-psalm-118-spurgeon">
+<h1>todo/opzoeken  Betekenis Psalm 118 Spurgeon<a class="headerlink" href="#todo-opzoeken-betekenis-psalm-118-spurgeon" title="Link to this heading">#</a></h1>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

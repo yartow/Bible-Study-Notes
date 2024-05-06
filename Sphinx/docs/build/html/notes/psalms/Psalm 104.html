@@ -1,0 +1,290 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 104 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-104">
+<h1>Psalm 104<a class="headerlink" href="#psalm-104" title="Link to this heading">#</a></h1>
+<p><em>Psalm 104:1 NIV</em></p>
+<p><em>Praise the Lord , my soul. Lord my God, you are very great; you are clothed with splendor and majesty.</em></p>
+<p>This Psalm like the previous one begins with “praise the Lord, my soul”. We need to praise the Lord with our souls, or inmost being, just like Psalm 103 instructs us to in the first few verses.
+This Psalm, I think, lets us know how great He is. He is so great that (it seems like) He is clothed with splendor and majesty.
+Normally one would need to know a person to know his splendor and greatness. But with God, You need only look at Him and you will notice.</p>
+<p><em>Psalm 104:2-4 NIV</em></p>
+<p><em>The Lord wraps himself in light as with a garment; he stretches out the heavens like a tent and lays the beams of his upper chambers on their waters. He makes the clouds his chariot and rides on the wings of the wind. He makes winds his messengers, flames of fire his servants.</em></p>
+<p>There is nothing on Earth that can describe God’s appearance or His greatness. The biggest things we, human beings, can see are used to by God as simple materials. He can use wind and clouds and flames of fire. We cannot control the weather or the wind.</p>
+<p><em>Psalm 104:5-9 NIV</em></p>
+<p><em>He set the earth on its foundations; it can never be moved.</em></p>
+<p>We cannot move the Earth off of its course around the sun, but perhaps something else is meant by this. The foundation of the Earth is God’s laws, and the physical laws such as gravity. We can never change the latter, and we can never change the moral laws God has given us. Logic will always exist and the truth will always exist as well.</p>
+<p><em>You covered it with the watery depths as with a garment; the waters stood above the mountains. But at your rebuke the waters fled, at the sound of your thunder they took to flight; they flowed over the mountains, they went down into the valleys, to the place you assigned for them. You set a boundary they cannot cross; never again will they cover the earth.</em></p>
+<p>Even the waters listen to You, Lord, for You are God Almighty. There is nothing that does not obey You. You bring salvation to everyone, because there is not a problem too difficult for You.</p>
+<p><em>Psalm 104:10-18 NIV</em></p>
+<p><em>He makes springs pour water into the ravines; it flows between the mountains. They give water to all the beasts of the field; the wild donkeys quench their thirst. The birds of the sky nest by the waters; they sing among the branches.</em></p>
+<p>God can produce so much water He can easily pour it into the ravines. It will not dry up for He will create so much water that it will flow between the mountains. There will be so much water to give <em>all</em> the beasts of the field their portion and the water will also be a <em>home</em> for the birds.
+God’s blessings are abundant and much more than we can imagine. There is not a country or a need that can need so much of God’s blessings, that the blessings will dry up, that is can not been seen anymore or that it is not enough for everyone.
+God’s blessings will become a home for people, a source of hope where people can get new hope as often and regular as a person comes home.</p>
+<p><em>He waters the mountains from his upper chambers; the land is satisfied by the fruit of his work.</em></p>
+<p>The mountains are like little humps of dirt for God, He waters them like we would water a seed.
+God also really works like a farmer works for his land. We know God does not get tired, but perhaps we might make the comparison with our working. The land is not automatically satisfied or fertile, God needs to do work for that. We all assume nature is balanced by itself, but we do not know that every cell is merely matter and “dead” material if God had not given it life.
+How can a dead seed become a living plant? Because God works for it.</p>
+<p><em>He makes grass grow for the cattle, and plants for people to cultivate— bringing forth food from the earth: wine that gladdens human hearts, oil to make their faces shine, and bread that sustains their hearts.</em></p>
+<p>Everything God does, is for us. The water is for the mountains, which is for the grass for the cattle, which in its turn is for us.
+Everything is for gladdening and sustaining our hearts and to make our faces shine, perhaps from health, pride or happiness.</p>
+<p><em>The trees of the Lord are well watered, the cedars of Lebanon that he planted. There the birds make their nests; the stork has its home in the junipers. The high mountains belong to the wild goats; the crags are a refuge for the hyrax.</em></p>
+<p>And while everything is for us, God lets us live in peace and harmony and provides all others, the animals, with a home as well.</p>
+<p><em>Psalm 104:19-23 NIV</em></p>
+<p><em>He made the moon to mark the seasons, and the sun knows when to go down. You bring darkness, it becomes night, and all the beasts of the forest prowl. The lions roar for their prey and seek their food from God. The sun rises, and they steal away; they return and lie down in their dens. Then people go out to their work, to their labor until evening.</em></p>
+<p>Just as the waters know their place, they obey God and do not go where God does not allow them to go, so the sun and the moon obey Him as well.
+And both the sun and the moon are made for us, the moon marks the seasons, it gives us a way to count months and indicate our date, and the sun drives away lions, for they hunt at night while people live during the day.</p>
+<p><em>Psalm 104:24-26 NIV</em></p>
+<p><em>How many are your works, Lord ! In wisdom you made them all; the earth is full of your creatures. There is the sea, vast and spacious, teeming with creatures beyond number— living things both large and small. There the ships go to and fro, and Leviathan, which you formed to frolic there.</em></p>
+<p>There are so many things we have not thought of which You actually made <em>for us</em>! Even a thing as night and day we can forget, then what about all the other smaller things?
+There are also things we cannot answer. We do not know what purpose mosquitoes have in this world for example, but You must have thought about it and know why it is beneficial for us.
+There are things of which we do not even know their existence, let alone their purpose for us. Does the Leviathan really exist or something alike? And why does it exist and what does it do?
+The sea is still perhaps the most beautiful place on earth with billions of kinds of animals and plants. Your creativity is endless, o Lord.</p>
+<p><em>Psalm 104:27-30 NIV</em></p>
+<p><em>All creatures look to you to give them their food at the proper time. When you give it to them, they gather it up; when you open your hand, they are satisfied with good things. When you hide your face, they are terrified; when you take away their breath, they die and return to the dust. When you send your Spirit, they are created, and you renew the face of the ground.</em></p>
+<p>And all of these creatures and billions of plants know You and obey You.
+All of these creatures know where they get their food from, they know Whom to fear. They know You have the power to destroy and build.
+Unlike the billions of people who have been given minds to think with and knowledge and even Your presence among them, and still do not believe in Your existence, in Your power, in Your Son, and in <em>Your love for us</em>.</p>
+<p><em>Psalm 104:31-32 NIV</em></p>
+<p><em>May the glory of the Lord endure forever; may the Lord rejoice in his works— he who looks at the earth, and it trembles, who touches the mountains, and they smoke.</em></p>
+<p>We hope that God will always receive the glory that is due His, and that the world He created will always give Him the glory He deserves. The glory He deserves is the fear we must have for Him, like the Earth and the mountains have. By merely a look or touch from God they start shivering.
+Give me this kind of fear for You, O Lord.</p>
+<p><em>Psalm 104:33-35 NIV</em></p>
+<p><em>I will sing to the Lord all my life; I will sing praise to my God as long as I live. May my meditation be pleasing to him, as I rejoice in the Lord . But may sinners vanish from the earth and the wicked be no more. Praise the Lord , my soul. Praise the Lord .</em></p>
+<p>On my power alone I cannot praise You all of my life, but with Your power I can do so. I will meditate for You and praise You with songs and with my words.
+I ask You that in all you have created, remove sin and remove the wicked people.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

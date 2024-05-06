@@ -1,0 +1,354 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 37 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-37">
+<h1>Psalm 37<a class="headerlink" href="#psalm-37" title="Link to this heading">#</a></h1>
+<p><em>Psalm 37:1-2 NIV</em></p>
+<p><em>Do not fret because of those who are evil or be envious of those who do wrong;</em>
+<em>for like the grass they will soon wither, like green plants they will soon die away.</em></p>
+<p>Unconsciencely we often always envy those who do wrong. Take the most popular guy or girl in your class, why is he so popular? He is only popular because the <em>populus</em>, that is the people or the world, which is the devil, makes him popular.
+So if you are loved by many in this world, you are most probably not loved by God in the other world, being heaven.
+This popular guy always has a reason for his popularity, and it’s not just sports or intelligence. In movies one can always see the smart guys, who do nothing wrong, are excluded from the rest and deemed unpopular or even as geeks.
+The popular guy usually has a big mouth, lots of girlfriends and goes partying a lot, that is what makes him popular. The girl is pretty, but that does not make her popular, it is what she does with it. Flirting with people and showing she dares a lot.</p>
+<p><em>Psalm 37:3-4 NIV</em></p>
+<p><em>Trust in the Lord and do good; dwell in the land and enjoy safe pasture.</em>
+<em>Take delight in the Lord , and he will give you the desires of your heart.</em></p>
+<p>All I need to remember, if I could do my life over again, is to trust in the Lord, obey the Lord, delight in the Lord. Then I would not be scared and make wrong decisions, I would have listened to what God wanted and I would have liked what God wanted and not desired what others have.</p>
+<p><em>Psalm 37:5-6 NIV</em></p>
+<p><em>Commit your way to the Lord ; trust in him and he will do this:</em>
+<em>He will make your righteous reward shine like the dawn, your vindication like the noonday sun.</em></p>
+<p>What is implied here is that as certain as the sun will rise and shine over all and visible to all, so also everyone will see God’s vindication for you.</p>
+<p><em>Psalm 37:7 NIV</em></p>
+<p><em>Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.</em></p>
+<p>Where the first verse speaks of people who do bad, this verse speaks of them even succeeding, which is almost always true in one’s life.
+Wait for the Lord, but why should we wait for? Will we be successful, will the Lord punish them for their bad things?</p>
+<p><em>Psalm 37:8-9 NIV</em></p>
+<p><em>Refrain from anger and turn from wrath; do not fret—it leads only to evil. For those who are evil will be destroyed, but those who hope in the Lord will inherit the land.</em></p>
+<p>The answer to my last question still is not given in this verse, but this verse tells us what to do and sometimes that is just what we need.
+Stay away from anger and wrath, that is indeed a lesson I have learned in life. Sin in any form, but often through anger, causes a breach in one’s guard of the heart. As Philippians 4:6,7 says it is the <em>peace</em> of God that guards your heart and mind, and anger is not peace.
+Fret is being used three times here. Do not worry, do not think about it. It leads to <em>evil</em>!</p>
+<p>This verse gives a specific warning <em>again</em> because one might think he has done a good job with refraining from anger and turning from wrath. But that it not enough. Very often a bit of anger remains and we call that fretting, or it results in fretting. And if this piece is not cut out, it will grow again.
+Here is what will happen if it is not cut out. It leads to evil, the person will become evil and evil will be destroyed.</p>
+<p>But hope does miracles, just hoping in Him will get you to heaven and spend eternity with Him, because <em>hope in Him</em> means you acknowledge He is the Almighty, He has come to save you and He will save you.</p>
+<p><em>A little while, and the wicked will be no more; though you look for them, they will not be found.</em>
+<em>But the meek will inherit the land and enjoy peace and prosperity.</em></p>
+<p>You might wonder <em>A little while? has it not been already two millennia since this verse has been written?</em> Yes, that is true, but the context applies to our present day as well.
+How often have you not seen this in movies and even in your own life: a person is popular and has, so it seems, everything anyone could want, but he is not righteous and someone will get him for that. In Kickass 2 it is the popular girls, in back to the future it is Biff.
+You will not hear from them again, you will be blessed by God if you are true to Him and that person will be gone, his name vanished.</p>
+<p><em>The wicked plot against the righteous and gnash their teeth at them;</em>
+<em>but the Lord laughs at the wicked, for he knows their day is coming. (Psalm 37:10-13 NIV)</em></p>
+<p>If we stick to the popular guys and girls in class, such as in teen movies as <em>Mean Girls</em>, we see that these popular people are not just popular because they are cool and have many of the things others do not have. They have done something to get this popular and need to do something to stay popular.
+It sounds almost pathetic but it would not seem impossible to me that they are even planning things to do the next day to get the attention of others.
+Little do they know, their popularity gets to an end. One can only sustain a lie for so long, put on a mask for so long, before being found out that they too are just normal people as well.</p>
+<p><em>The wicked draw the sword and bend the bow to bring down the poor and needy, to slay those whose ways are upright.</em>
+<em>But their swords will pierce their own hearts, and their bows will be broken. (Psalm 37:14, 15 NIV)</em></p>
+<p>The popular ones do not realize that all of their ways to attack people, will return to themselves. One possibility is that the one they pick one will take revenge on them. But whether this will happen or not, it is for sure that their character will change.
+Just like a person’s changes when one is taught to restrain himself, be patient and not give, so also a person changes and let the bad in him go out and practices it even more. How often have we not seen in movies that these popular persons become people living in trailers. No matter how good one is at sports, usually the football jockeys are the popular ones, only few will enter into the NFL, and without the right character traits, without respect for each other, one cannot enter a serious professional sports league as the NFL.</p>
+<p><em>Psalm 37:16-17 NIV</em></p>
+<p><em>Better the little that the righteous have than the wealth of many wicked;</em>
+<em>for the power of the wicked will be broken, but the Lord upholds the righteous.</em></p>
+<p>One would think something is written here like: better the little things combined of many, than something worth of only one. But that is not written here. This verse says that whatever the righteous have, ~and only few~ are righteous, it is still better than what many wicked people have.
+Why? The answer comes in the next verse. It is not about wealth, wealth is never the goal, but rather what you can obtain by it.
+If it is for power, then the Lord’s answer is easy, for He says that <em>the power of the wicked will be broken</em>. So if you want your power to sustain, then be righteous. It does not matter how much you have, what matters is how much you have left in the end.</p>
+<p><em>Psalm 37:18-19 NIV</em></p>
+<p><em>The blameless spend their days under the Lord ’s care, and their inheritance will endure forever. In times of disaster they will not wither; in days of famine they will enjoy plenty.</em></p>
+<p>Believers have always been seen to be poor, while the wicked were rich, while actually it is the other way around. God’s children are under His care, that means that He is always there to protect them, at the same time indicating that money is not what it is about. As said before, money is not the goal, it is used to buy something, such as protection.
+The wicked’s money can only protect for so long and only on the outside zit cannot give them comfort. The Lord gives us love, warmth, family, trust and promises until eternity, even in the next world. The power of money ends on this one.</p>
+<p><em>Psalm 37:20-22 NIV</em></p>
+<p><em>But the wicked will perish: Though the Lord ’s enemies are like the flowers of the field, they will be consumed, they will go up in smoke.</em></p>
+<p>Indeed, as said before, flowers look prettier, but last much shorter. Nothing will be left of them, no traces. For them it is a reward if they may get remembered in history, as a wicked person! For the righteous everything he does is a reward, because working for God and with God is a privilege not given to all.</p>
+<p><em>The wicked borrow and do not repay, but the righteous give generously;</em>
+<em>those the Lord blesses will inherit the land, but those he curses will be destroyed.</em></p>
+<p>The wicked have put it unto themselves to be destroyed, for they only receive, and borrow, but never give. One will swell up and explode.
+One needs to keep receiving in order to live. And receiving comes automatically when giving. Just like breathing, you have to push your air out and by lifting your chest, a vacuum will exist which will automatically suck in the air.
+So give to the Lord your whole shape and being, to your neighbors and fellowmen, and God will fill you with His life.</p>
+<p>Psalm 37:23-24 NIV</p>
+<p>The Lord makes firm the steps
+of the one who delights in him;
+though he may stumble, he will not fall,
+for the Lord upholds him with his hand.</p>
+<p>What is the meaning of taking firm steps? Is it the speed with which you travel, or how big your steps are? Neither of those, it is about how steady each foot stays on the ground and will not be moved to another direction.
+It is also about when stepping on the wrong place, in a hole for example, you will be flexible enough to lift up your foot and step somewhere else.
+Lastly, it means accepting help which means you need to hold God’s hand all the way. If you grab His hand when you stumble, you will be too late by then.</p>
+<p><em>Psalm 37:25-26 NIV</em></p>
+<p><em>I was young and now I am old, yet I have never seen the righteous forsaken or their children begging bread.</em>
+<em>They are always generous and lend freely; their children will be a blessing.</em></p>
+<p>Focus on the word forsaken. Something may go not as planned, something very bad perhaps, but that does not mean you are forsaken.
+Focus on the word Blessing. For how many parents are the children not a blessing? More than you might think, perhaps they are a bother, a burden, a reason not to go on a holiday financially, or a reason to go on a holiday, to get rid of them. But if your children are a blessing to you, this is the best thing you can wish, next to a wife who is a blessing to you.</p>
+<p>I think my previous interpretation of this verse has the wrong focus. See below.
+I really do not know how to explain this verse. Do I need to explain this? Yes, because the truth is that there are innocent people begging for bread.
+Of course one could interpret this on different ways, for one there are no innocent people, and secondly, perhaps David just had not seen them, for he was a king who spent much of his lifetime inside his kingdom. However, he was a grown man before he became a king and an experienced soldier, so he had seen many other cities.
+This means the second argument is not valid anymore.</p>
+<p><em>Psalm 37:27-29 NIV</em></p>
+<p><em>Turn from evil and do good; then you will dwell in the land forever.</em>
+<em>For the Lord loves the just and will not forsake his faithful ones.</em></p>
+<p><em>Wrongdoers will be completely destroyed ; the offspring of the wicked will perish.</em>
+<em>The righteous will inherit the land and dwell in it forever.</em></p>
+<p>Great attention was given to the numbering of these verses, but I am wondering why these two paragraphs have the same verse number.
+Leaving that aside it is clear that goodness prevails. God gives far more attention to the ones who are just, righteous and their reward. He rather talks with you about your reward I am heaven, than about evil and wicked people not getting the inheritance of God.</p>
+<p><em>Psalm 37:30-33 NIV</em></p>
+<p><em>The mouths of the righteous utter wisdom, and their tongues speak what is just.</em>
+<em>The law of their God is in their hearts; their feet do not slip.</em></p>
+<p>Four aspects about the righteous person are mentioned here. With every part of their body the righteous person does the right things.
+Does this mean that a righteous person will never make a mistake? No, but it does mean that if this person really is righteous this mistake is relatively small and infrequent.
+Read further below.</p>
+<p><em>The wicked lie in wait for the righteous, intent on putting them to death;</em>
+<em>but the Lord will not leave them in the power of the wicked or let them be condemned when brought to trial.</em></p>
+<p>Of course the wicked will take any chance on getting this person, to see if he says or does something wrong. But even when they catch the righteous person doing something wrong, or even fabricate proof, the Lord will protect this person.
+About being condemned, however, I have read about many innocent people, if I may assume that what I have read is true, still being condemned to prison and even death sentence. Is that a contradiction with the truth?</p>
+<p>To understand this it is of importance that the next verses are read as well.
+There you will see that the condemnation for wicked men is to be destroyed, to be found no more. But the righteous man will inherit the land and will have a future! Perhaps not on this earth, but surely in heaven.</p>
+<p><em>Psalm 37:34-38 NIV</em></p>
+<p><em>Hope in the Lord and keep his way.</em>
+<em>He will exalt you to inherit the land;</em>
+<em>when the wicked are destroyed, you will see it.</em></p>
+<p>There are things you will only understand afterwards. What is there to understand? That God will not let you be condemned, and will punish the wicked.
+But whether we understand this or not, there are many things we cannot understand now, here in earth, but we need to have hope. That is what it is about.</p>
+<p>I have seen a wicked and ruthless man flourishing like a luxuriant native tree, but he soon passed away and was no more;
+though I looked for him, he could not be found.</p>
+<p><em>Consider the blameless, observe the upright; a future awaits those who seek peace.</em>
+<em>But all sinners will be destroyed; there will be no future for the wicked.</em></p>
+<p>Do not be misled by the meaning of <em>future</em>, the future is not here on earth. It is in eternity.</p>
+<p><em>Psalm 37:39-40 NIV</em></p>
+<p><em>The salvation of the righteous comes from the Lord ;</em>
+<em>he is their stronghold in time of trouble.</em>
+<em>The Lord helps them and delivers them;</em>
+<em>he delivers them from the wicked and saves them, because they take refuge in him.</em></p>
+<p>This <em>because</em> probably means, God cannot save you if you do not find your refuge in Him.
+Deliver me from the wicked, Lord, from all temptations caused by the devil. Test me so that I may grow, grow more mature, more like You and more near You.</p>
+<p>TODO difference deliver and to save</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

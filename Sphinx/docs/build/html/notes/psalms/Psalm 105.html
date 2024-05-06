@@ -1,0 +1,301 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 105 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-105">
+<h1>Psalm 105<a class="headerlink" href="#psalm-105" title="Link to this heading">#</a></h1>
+<p><em>Psalm 105:1-4 NIV</em></p>
+<p><em>Give praise to the Lord , proclaim his name; make known among the nations what he has done. Sing to him, sing praise to him; tell of all his wonderful acts. Glory in his holy name; let the hearts of those who seek the Lord rejoice.</em></p>
+<p>Both the ends of Psalms 103 and 104 end and begin with Praise the Lord, Hallelujah, and now Psalm 105 as well. Obviously there is never enough praise for our God.
+Even if we tell it to all the world and to every creature, and even to the angels, then still it would not be enough praise for our Lord Almighty, Who deserves all glory in the whole world from every creature both living and not living.</p>
+<p><em>Look to the Lord and his strength; seek his face always.</em></p>
+<p>Yes, the Lord is strong, stronger than we can imagine. Stronger than any foe, and any thought that tries to enter our minds and distract us from our focus.
+Only with God can we persevere for He helps us on the right track, bit by bit, showing us the way, being soft on us, not throwing us in deep waters right away, but leading us with hope. When we do wrong, He will not accuse us immediately.</p>
+<p>If I stay up late, I am tempted to do all kinds of things on the Internet, but yesterday the Lord helped me not to do that by making sure that what I saw on my screen was pure. If any commercial was present I might have given in to my temptation, but God kept the temptation far from me, because He knows I cannot handle it.
+Keep the temptations far from me, Lord.</p>
+<p><em>Psalm 105:5-7 NIV</em></p>
+<p><em>Remember the wonders he has done, his miracles, and the judgments he pronounced, you his servants, the descendants of Abraham, his chosen ones, the children of Jacob. He is the Lord our God; his judgments are in all the earth.</em></p>
+<p>We must always remember both the good things and the bad things. In this case he wonders God has done for us and the warnings He pronounced, judgements.
+God needs to judge for Who else will do it? He is the judge, the most Righteous One people will ever find.
+Everything is judged by Him. It is said <em>do not</em> <em>judge</em>, but – even though that is incorrect – that is said because we tend to judge wrongly, too quick and by outer appearance. God, however, never makes a mistake in judging. He knows us by heart, He knows our hearts, for He created us and He formed us (ref. Ps. 103:11).</p>
+<p><em>Psalm 105:8-11 NIV</em></p>
+<p><em>He remembers his covenant forever, the promise he made, for a thousand generations, the covenant he made with Abraham, the oath he swore to Isaac. He confirmed it to Jacob as a decree, to Israel as an everlasting covenant: “To you I will give the land of Canaan as the portion you will inherit.”</em></p>
+<p>God never forgets His promises. Even though the promise was made to an ancestor and the offspring does not know anything about this promise, He will still keep it because God is faithful.
+He even swore to Himself and He confirmed it as a <em>decree</em> and as an <em>everlasting covenant</em>. It is not just a small promise, He wants the people to know about it.</p>
+<p><em>Psalm 105:12-15 NIV</em></p>
+<p><em>When they were but few in number, few indeed, and strangers in it, they wandered from nation to nation, from one kingdom to another. He allowed no one to oppress them; for their sake he rebuked kings: “Do not touch my anointed ones; do my prophets no harm.”</em></p>
+<p>God protects, and even more so when we are weak and small. No one will oppress His people.
+But what about the people, the Jewish people, who are bullied in school, or the Jews during the Second World War? Yes, they are protected, but not in the way we see it. The perpetrators will be accused, they will be punished.</p>
+<p><em>Psalm 105:16-19 NIV</em></p>
+<p><em>He called down famine on the land and destroyed all their supplies of food; and he sent a man before them— Joseph, sold as a slave. They bruised his feet with shackles, his neck was put in irons, till what he foretold came to pass, till the word of the Lord proved him true.</em></p>
+<p>As we have seen and as we will see, God destroyed the country of Egypt with the ten plagues. But before that, one man, Joseph, had to suffer until what the Lord said proved God true. In this way his family of seventy was saved from famine and the many next generations had a land of their own.
+In the same way the Israelites had to suffer during those four hundred years to prove God’s Words to be true, and thereby save their future family from oppression by the Egyptians and give them a land of their own, Israel.</p>
+<p><em>Psalm 105:20-22 NIV</em></p>
+<p><em>The king sent and released him, the ruler of peoples set him free. He made him master of his household, ruler over all he possessed, to instruct his princes as he pleased and teach his elders wisdom.</em></p>
+<p>Eventually it was the king of the land itself who set Joseph free and made him master, with power and wisdom received from God.
+The Israelites were released by the Pharaoh himself, all glory to God Who persuaded him, and sent away laden with gold.</p>
+<p><em>Psalm 105:23-38 NIV</em></p>
+<p><em>Then Israel entered Egypt; Jacob resided as a foreigner in the land of Ham. The Lord made his people very fruitful; he made them too numerous for their foes, whose hearts he turned to hate his people, to conspire against his servants.</em></p>
+<p>The Lord gives us so much blessings that other people will hate us. Not out of jealousy perse, but for other reasons.
+When Christians find proof of scientific facts that give strength to believers, the world laughs at them, as if it is meaningless because the world has more than enough counter evidence for its worldly. Yet on the inside they are burning with fire because we are not convinced by them.
+That is because they too have a desire given to them by Satan to convince the world to have their perspective as well.</p>
+<p><em>He sent Moses his servant, and Aaron, whom he had chosen. They performed his signs among them, his wonders in the land of Ham. He sent darkness and made the land dark— for had they not rebelled against his words? He turned their waters into blood, causing their fish to die.</em></p>
+<p>God can send darkness, He can let animals die. He can do anything He wants, we do not always understand His ways, but He does it because He is good. He has a higher way than we have.</p>
+<p><em>Their land teemed with frogs, which went up into the bedrooms of their rulers. He spoke, and there came swarms of flies, and gnats throughout their country.</em></p>
+<p>No person is exempt from God’s wrath, not even kings, for they are merely measly human beings as well and put in place only by the hand of God. They forgot their place in front of God and God will make them remember.
+Gods work reaches everywhere, even in the smallest outreach, even in the darkest places within our thoughts and in our hearts.</p>
+<p><em>He turned their rain into hail, with lightning throughout their land; he struck down their vines and fig trees and shattered the trees of their country.</em></p>
+<p>What used to be a blessing God can turn around and make it a curse. The rain which used to give them water for crops and fruit, now destroyed everything they planted in the form of hail.
+God let the plants and trees grow, He can destroy it as well.
+No matter how strong, a vine or a thick branch or even trunk, God can destroy it, in any way He wants.</p>
+<p><em>He spoke, and the locusts came, grasshoppers without number; they ate up every green thing in their land, ate up the produce of their soil.</em></p>
+<p>With His voice He can summon all created things on Earth, both living and unliving, he weather and the animals. Locusts, billions of them, and each of them listening to the Lord Almighty.
+God knew the locusts would eat up everything that was meant for the people, perhaps he even ordered the locusts to do so, but remember that God’s ways are higher than ours. He alone knows what is best for His people, for those who fear Him.
+This might, or will, involve people getting hurt, just so that His beloved may grow.</p>
+<p><em>Then he struck down all the firstborn in their land, the firstfruits of all their manhood.</em></p>
+<p>Then even humans were killed, amongst which many children, perhaps innocent children. It hurt God He had to do this, but was there any other way? We might think we know the answer. Would God not know what we think already? Would He not have thought of that already?</p>
+<p><em>He brought out Israel, laden with silver and gold, and from among their tribes no one faltered. Egypt was glad when they left, because dread of Israel had fallen on them.</em></p>
+<p>You bring us out victorious and richer than ever. We do not know how hard the battle will be, but we do know that we will come out victorious, because You are victorious. You have overcome the Satan.</p>
+<p><em>Psalm 105:39-41 NIV</em></p>
+<p><em>He spread out a cloud as a covering, and a fire to give light at night. They asked, and he brought them quail; he fed them well with the bread of heaven. He opened the rock, and water gushed out; it flowed like a river in the desert.</em></p>
+<p>God cares for us, no matter where we are. Even in the desert where water and food are not in sight, He can provide food. Where man can think of no way out, God already has a plan that will always work.
+He does not give meager rations, He can provide luxury food, like meat in the desert! How much more so when we live with food and wealth all around us? God can use it all for His own good.</p>
+<p><em>Psalm 105:42-45 NIV</em></p>
+<p><em>For he remembered his holy promise given to his servant Abraham. He brought out his people with rejoicing, his chosen ones with shouts of joy; he gave them the lands of the nations, and they fell heir to what others had toiled for— that they might keep his precepts and observe his laws. Praise the Lord .</em></p>
+<p>God kept the Israelites alive because He had a greater purpose for them, to enter the promised land.
+God has a purpose with my life and will keep me alive for this reason. Why then do I have to worry about staying alive? What good is there to worry about whether I have a job, or the amount of salary? There is none and it is all futile.
+All I need to think about is how I can honor God and give Him all glory He deserves.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

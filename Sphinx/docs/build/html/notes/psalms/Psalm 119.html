@@ -1,0 +1,319 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 119 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-119">
+<h1>Psalm 119<a class="headerlink" href="#psalm-119" title="Link to this heading">#</a></h1>
+<p><em>http://bible.com/111/psa.119.1-2.niv Blessed are those whose ways are blameless, who walk according to the law of the Lord . Blessed are those who keep his statutes and seek him with all their heart—</em></p>
+<p>This verse can be interpreted in two ways. Of course, one way is the ulterior way and it means that those who are blameless, are blessed by God. Those who keep God’s statutes are blessed by God.
+It is a promise God gives us, and He will honor it. He even blesses us when we are not obeying, how much more will he bless us when we <em>are</em> and even seeking Him with all of our hearts?
+The second interpretation, which is probably not meant to be interpreted like this, is that if anyone is keeping God’s ways, keeping His statutes and seeking Him with all his heart, you can know that he has been blessed, or rather <em>had been</em> blessed by God, because no person can follow God’s statutes without being blessed first by God.</p>
+<p><em>http://bible.com/111/psa.119.3-6.niv they do no wrong but follow his ways.</em></p>
+<p>Those blessed people do no harm to others. To the world they may <em>seem</em> harmful, but they are building up others.</p>
+<p><em>You have laid down precepts that are to be fully obeyed. Oh, that my ways were steadfast in obeying your decrees! Then I would not be put to shame when I consider all your commands.</em></p>
+<p>The psalmist writes very honestly that he wishes that his ways were steadfast. So do I wish for being steadfast and not being put to shame, even though You do not shame me and others do not know, but I feel ashamed myself for sinning so often even while the commands You have given me are so simple.
+Every time I study the Bible and read Your commands, the more I know of Your commands, the more I am ashamed.</p>
+<p><em>http://bible.com/111/psa.119.7-11.niv</em>
+<em>I will praise you with an upright heart as I learn your righteous laws.</em></p>
+<p>Lord, I <em>want</em> to praise You with an upright heart. If my heart is not upright and I am singing praise songs to You, I feel hypocritical.
+I do like to have two faces, because I know in my heart that I have sinned. I do not want to be like a pharisee, merely obeying your Law, rather I want to delight in Your Law.</p>
+<p><em>I will obey your decrees; do not utterly forsake me.</em></p>
+<p>David, or the psalmist, even acknowledges here that he needs you in order to obey your decrees. Please help me in maintaining that.</p>
+<p><em>How can a young person stay on the path of purity? By living according to your word.</em>
+<em>I seek you with all my heart; do not let me stray from your commands.</em>
+<em>I have hidden your word in my heart that I might not sin against you.</em></p>
+<p>I too, Lord, am keeping Your Word in my heart, but that does not mean I am obeying it at all times. It also does not mean I am thinking of it all the time. Sometimes I only realize after I am have sinned, sometime I realize it was during my sin, and sometimes even before I sin.
+So my question is, <em>how</em> can a young <em>man</em> (translation of the NIV 1984) stay <em>pure</em>?
+The answer is to <em>live</em> according to Your Word. But then my question is, how do I <em>live</em> according to Your Word?
+Let me read more of this Psalm, perhaps I can find the answer there.</p>
+<p><em>http://bible.com/111/psa.119.12-18.niv</em>
+<em>Praise be to you, Lord ; teach me your decrees.</em></p>
+<p>First of all, I have to learn God’s decrees. In the past many teachers have taught me what decrees there are in the Bible, what things are allowed and what is not.
+I praise the Lord for bringing those people in my life, and having been taught the right things.</p>
+<p><em>With my lips I recount all the laws that come from your mouth.</em></p>
+<p>There many laws and there is no ending in learning new laws, but I need to remember these, for when I was a young man I found out I was disobeying half of them, figuratively speaking. I knew them by heart, but I did not even withhold myself from sinning. Only in hindsight can I say how much I have sinned and that I had actually known all the time.</p>
+<p><em>I rejoice in following your statutes as one rejoices in great riches.</em></p>
+<p>I have discovered that following Your statutes gives me more pleasure than following the ways of the world. Being rich, powerful and good-looking is nothing compared to following Your statutes and experiencing Your peace. Your peace, after all, is the real peace, the only thing that remains in heaven heaven with love and other attributes you created.</p>
+<p><em>I meditate on your precepts and consider your ways. I delight in your decrees; I will not neglect your word. Be good to your servant while I live, that I may obey your word.</em></p>
+<p>I have to learn to meditate on Your Word, your precepts, and not simply obey Your Law but do it in Your way as well.
+I have to do it in such a way that I delight in it and that I do not neglect it. First of all, there are laws I do not like to keep. But knowing it is from You, I should delight in them, because I know they are for the better. Second of all, as mentioned before, there are laws I neglected, such as sex before marriage, dating non-believers and illegally downloading movies. I know now that I need your Holy Spirit to guide me and I need to obey Him and by obeying Him more regularly I will recognize His voice and train myself to obey God and to withhold temptations.</p>
+<p><em>Open my eyes that I may see wonderful things in your law.</em></p>
+<p>All of these verses, one by one, are so beautiful and true. Truly they could not have been written by man alone, it must have been Your inspiration. Every verse here is a key verse, a verse to memorize.</p>
+<p><em>http://bible.com/111/psa.119.19-32.niv</em>
+<em>I am a stranger on earth; do not hide your commands from me.</em></p>
+<p>I feel like a stranger as well, coming to a country where I do not know the law. However, now I am in this world, which is all to familiar, but I saw that You were in fact the ruler, and not the king or president. Your Law was in the real law, and not the country’s law. And now all that I have learned in school, about the truth, about history, politics and law, science, sex and health, and especially ethics are of no value in Your world.
+Because even though we live here in this world, we will be judged according to Your Law. The judge will be You, and not someone from Earth. Even our advocate will be the Holy Spirit Himself and the price paid will be Your Son’s blood.</p>
+<p>The other way around, I am a stranger in this world as well, because I am God’s child and the world’s. But even though I am a stranger and even if I had not known the country’s law, I would not misbehave because the Lord’s precepts are stricter than the world’s. Everything that a Christian is not allowed to do, is always not allowed, or allowed, everywhere in the world, and never compulsory.</p>
+<p><em>My soul is consumed with longing for your laws at all times.</em></p>
+<p>And as much as I am consumed by knowledge, about the workings of this world, of science, general knowledge and other facts, so I am consumed by longing for Your Law. Not as a hypocrite, but as one truly searching for the truth, in order to know what is best for me and my fellowmen, and striving for that situation, I want to know You and Your Law.</p>
+<p><em>You rebuke the arrogant, who are accursed, those who stray from your commands. Remove from me their scorn and contempt, for I keep your statutes.</em></p>
+<p>I am asking You for some protection, because I cannot grow up morally in an immoral environment. Let me not be tempted to follow their ways, but let me be pure.</p>
+<p><em>Though rulers sit together and slander me, your servant will meditate on your decrees. Your statutes are my delight; they are my counselors.</em></p>
+<p>In the midst of darkness, I see light in your decrees. There has never been a moment where I thought that I would have been better off if I had not obeyed Your commands. In every situation, Your way has always been the best way.
+Even when everyone is working together to get rid of me, I know the answer of escaping the situation is easy, by following your decrees.
+In this world this may not seem like an escape, but I know that it is not this world where I belong to.</p>
+<p>＃sermon Suppose I am in a country where killing a man is wrong, even when it is to protect another innocent man, but in my own country it is the law to save the innocent, in the situation that the bad person wants to kill the innocent person and I have to make a choice between the two actions, my actions will depend on where I will be judged.
+As said above, I will be judged by God Himself, so I choose to obey God’s laws.</p>
+<p><em>I am laid low in the dust; preserve my life according to your word.</em></p>
+<p>Father, I can understand why Christians are laying in the dust. It is because others walk over us and that is because we seem weak, in the eyes of the world we do not stand up for ourselves. This is indeed true, because we stand up for You.
+Give us strength in keeping Your Word. Preserve our lives, not because we do not want to die, but for the sake of Your Name, so that You he world may not think she is right in treating Your children this way.
+In the current situation in 2015, stand up for Israel, oh Lord. I know Israel has forsaken You, they think they are honoring You with traditions from days past, and they are thinking of a way to get into heaven without having to go through Jesus Christ, Your Son <em>,</em> but help Your children.
+Do not let them be cast away as in the Second World War, do not let there be another Holocaust.</p>
+<p><em>I gave an account of my ways and you answered me; teach me your decrees.</em></p>
+<p>I have to be honest with You, everyone has to, before You will accept me and teach me. I have been honest with You, admitting my sins and You have answered me, forgiven me. Now I need to know how to not sin anymore. Therefore, teach me Your decrees, please.</p>
+<p><em>Cause me to understand</em></p>
+<p>Your Law seems discriminating for some, such as not letting gay people marry, and restricting freedom for others, such as not having the right for euthanasia and abortion.</p>
+<p><em>the way of your precepts, that I may meditate on your wonderful deeds.</em></p>
+<p>＃keyverse ＃sermon
+Not the precept itself, which tells me what or what not to do, is beautiful, but the way it works. We humans only have short term vision, but You know what happens on the long run <em>.</em> And the way everything fits together if we keep your precepts is amazing. Diseases would be wiped out and broken marriages restored, all by keeping Your precepts.</p>
+<p><em>My soul is weary with sorrow; strengthen me according to your word.</em></p>
+<p>Father, it is no coincidence that as I am reading this now, I feel weary. It is for this reason that so many pastors advise on reading in Your Word in the morning, because if I were to read this at night, I would have been weary all day long.</p>
+<p><em>Strengthen me according to Your Word</em>, the psalmist David writes. Not (just) through Your Word. I think it means, as Your Word explains the magnificence of Your wonders, so do that in me as well.</p>
+<p><em>Keep me from deceitful ways; be gracious to me and teach me your law. I have chosen the way of faithfulness; I have set my heart on your laws.</em></p>
+<p>I know the Satan wants to get to my sinful nature, but I have put hat down. He keeps digging it up and sometimes he succeeds, but I ask You to let me focus on Your Law because I chosen to be faithful to You. Your Law is in my heart, I long for righteousness and I long to keep Your Law.</p>
+<p><em>I hold fast to your statutes, Lord ; do not let me be put to shame.</em></p>
+<p>Does David mean being put to shame by those who do not believe in God? Perhaps, even in those days there were godless people laughing at believers for believing in a God they could not see. <em>Why go through all the trouble,</em> they thought. But I do not care about what they think of me. I want to hold fast to whatever You tell me to do.</p>
+<p><em>I run in the path of your commands, for you have broadened my understanding.</em></p>
+<p>And the reason why I want to walk on the path of Your commands, is because it lets me understand You better, it lets me know more about You, and the world and its ways.</p>
+<p><em>TODO OPZOEKEN</em>
+Charlie challenge</p>
+<p>＃sermon
+Leren
+Observeren
+Interpreteren
+Praktiseren</p>
+<p>Voorbeeld. Sommige bomen, zoals wilg, zullen altijd groeien. Moeten altijd bijgesneden worden omdat …. ＃sermon</p>
+</section>
+<section id="biblestudy-devotionals-psalms-tags-politics-abortion">
+<h1>biblestudy/devotionals/psalms #tags/politics/abortion<a class="headerlink" href="#biblestudy-devotionals-psalms-tags-politics-abortion" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

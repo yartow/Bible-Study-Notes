@@ -1,0 +1,290 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 25 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-25">
+<h1>Psalm 25<a class="headerlink" href="#psalm-25" title="Link to this heading">#</a></h1>
+<p><em>In you, Lord my God, I put my trust.</em></p>
+<p><em>I trust in you; do not let me be put to shame, nor let my enemies triumph over me. No one who hopes in you will ever be put to shame, but shame will come on those who are treacherous without cause. (Psalm 25:1-3 NIV)</em></p>
+<p>Thank You, Lord , for assuring me that I will not be put to shame. I know as a Christian I bear a greater responsibility to be your image. People will look at me and say, that is how a Christian looks like. And if I do something wrong, they will say the same.
+I cannot always stay away from sin my whole life, but when I sin, I know that I will not be put to shame. Shame comes from within, not from other people. I will not be ashamed for You, Whom I believe in. People may laugh at me that God is not keeping His Word, not protecting His children, but I know better. I know that You have Your plans, and these are higher than man’s thoughts.
+Please forgive me when I feel ashamed, because now I know I was wrong for every time I fell ashamed. My hope in You was not big enough.</p>
+<p><em>Psalm 25:4-7 NIV</em></p>
+<p><em>Show me your ways, Lord , teach me your paths.</em>
+<em>Guide me in your truth and teach me, for you are God my Savior, and my hope is in you all day long.</em>
+<em>Remember, Lord , your great mercy and love, for they are from of old.</em></p>
+<p>The guidance of the Lord is always good and His paths are the right paths to walk on. They are the perfect paths and the only one to fully accomplish His Will.
+Always ask for guidance from the Lord, never think you can do it yourself or without guidance. Never think you know what path is right.
+Remember how God was merciful to you in the past and how He loved you ever when you did not know Him. Remember how He has forgotten all that is bad about you, all your sins and bad ways.</p>
+<p><em>Do not remember the sins of my youth and my rebellious ways; according to your love remember me, for you, Lord , are good.</em></p>
+<p>According to His love, is what we should ask, for we can ask no more of Him or anyone else. Then again, His love is unending.</p>
+<p><em>Psalm 25:8-11 NIV</em></p>
+<p><em>Good and upright is the Lord ; therefore he instructs sinners in his ways.</em>
+<em>He guides the humble in what is right and teaches them his way.</em>
+<em>All the ways of the Lord are loving and faithful toward those who keep the demands of his covenant.</em>
+<em>For the sake of your name, Lord , forgive my iniquity, though it is great.</em></p>
+<p>God instructs us. We should be grateful for that alone. He does it for free, He reminds us of it, we do not have to go to class, rather He is coming to is Personally! We do not have to pay for any material nor schedule any time.
+The only thing He requires is to be humble, only those will He guide.
+There can be no bad outcome for those who follow His instructions, because He has promised here that His ways are loving and faithful, yet only to those who keep the demands of His covenant.
+That is why we should ask forgiveness, because we have not kept His demands, not all of them.</p>
+<p><em>Psalmen 25:12-15 NIV</em></p>
+<p><em>Who, then, are those who fear the Lord ? He will instruct them in the ways they should choose.</em>
+<em>They will spend their days in prosperity, and their descendants will inherit the land.</em></p>
+<p>The question arises here who are the lucky ones, to be taught by God personally? The answer given here, however, is one t another question: what will they receive?
+They will get custom instructions for each of them. Verse 12 can be understood in two ways (perhaps only one is correct, technically). The first interpretation is that God instructs them in the way He chooses, which is logical. Nothing happens outside of God’s will. The second interpretation is that God let’s the instruction depend on the way they choose to go. This interpretation does not exclude the first one, but gives it a sight subtlety.</p>
+<p>What is sure, though, is that anyone who lets himself be instructed by God <em>humbly</em> will spend his days in prosperity, he will feel blessed every day. Every invisible blessing, no matter how small, will be visible to him so he can give more Praise to God.</p>
+<p><em>The Lord confides in those who fear him; he makes his covenant known to them.</em>
+<em>My eyes are ever on the Lord , for only he will release my feet from the snare.</em></p>
+<p>Just as I would not make a promise to anyone I do not trust, so God will only confide with those who fear Him, which means those who know God is watching them all the time and therefore everything they do is for Him. That is why it says, <em>my eyes are ever on the Lord</em>.
+The feet in the snare, would that mean a trap? Does that mean our feet are trapped (into this world)?
+Actually, after reading Matthew Henry’s Concise Commentary I come to the conclusion that before we were trapped we merely thought we were free. Yet the Trapper is God, and after trapping us He brings us into His home, from whereupon we shall only look at Him.</p>
+<p><em>Psalm 25:16-19 NIV</em></p>
+<p><em>Turn to me and be gracious to me, for I am lonely and afflicted. Relieve the troubles of my heart and free me from my anguish.</em></p>
+<p>Father, without the people around me in church, I am alone. No friends to hang out with, no one who thinks like I do. But even the friends in church do not understand me (completely). Please be gracious to me, do not let me lose my friends.
+The troubles of my heart are being stuck in this financial position. Even though I say I have my hope in You and that I have peace in the fact that I know You will bring this situation to the good, it is not nice to be kept from many things because of a lack of money.
+There are many choices I need to make in which I do not have the luxury to choose anything I want. I often need to choose the cheaper option, such as less food, not going out to eat. My dentist’s bill I shall need to postpone as well as my tax payments.
+However, there are also opportunities I can not take, such as starting a company at the right time. I need to see this in a positive way, for if it were the way You wanted me to take, You surely would have given me the opportunity. Also, God wants me to rely on Him, the God Who creates opportunities, not merely grabbing opportunities already present. Thus He wants me to find new ways and take the possible harder way.</p>
+<p><em>Look on my affliction and my distress and take away all my sins. See how numerous are my enemies and how fiercely they hate me!</em></p>
+<p>Still I ask the Lord to take away my affliction, that is my pain and stress, it is never pleasant to have those. Moreover take away my sins, forgive me for what I have done and take away everything, including this affliction and distress, so that they may not tempt me to go a way You would not want me to go.
+I have many enemies in front of me, the devil himself with all its desires he offers, but also my old self, telling me to go the way of effectiveness even if it can cause disturbance in relations.</p>
+<p><em>Psalm 25:20-22 NIV</em></p>
+<p><em>Guard my life and rescue me; do not let me be put to shame, for I take refuge in you.</em>
+<em>May integrity and uprightness protect me, because my hope, Lord , is in you.</em></p>
+<p>Let me be humble enough to beg you to guard my life, because I admit it, I cannot save myself.
+Do not let me be put to shame, I have been saying s much and worked so hard to keep Your image up, Your reputation high, do not let me destroy all the hard work You have done in me.</p>
+<p><em>Deliver Israel, O God, from all their troubles!</em></p>
+<p>It would seem too easy to just ask You to deliver me, but apparently I can ask You this with so much boldness.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

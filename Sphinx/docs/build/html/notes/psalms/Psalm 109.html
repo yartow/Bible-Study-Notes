@@ -1,0 +1,294 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 109 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-109">
+<h1>Psalm 109<a class="headerlink" href="#psalm-109" title="Link to this heading">#</a></h1>
+<p><em>Psalm 109:1-5 NIV</em></p>
+<p><em>My God, whom I praise, do not remain silent, for people who are wicked and deceitful have opened their mouths against me; they have spoken against me with lying tongues. With words of hatred they surround me; they attack me without cause.</em></p>
+<p>Perhaps it is, perhaps it seems so, but it is as if wicked people are accusing me as well. As long as I live in a wicked world, there will always be some wickedness in the people surrounding me, whether intentional or not.
+My manager, Dave, who tries to protect himself during an appraisal. My pastor, Johannes, who tries to convince me not to use Rick Warren’s or Saddleback’s material anymore.
+Tonight I will discuss this latter topic with him, give me strength, Lord, but especially understanding, because He does not know what he is talking about. His judgment is clouded by the Satan and his own previous experience.</p>
+<p><em>In return for my friendship they accuse me, but I am a man of prayer. They repay me evil for good, and hatred for my friendship.</em></p>
+<p>I cannot say I am a man of prayer, but I would want to be. I personally think this is the hardest part of being a Christian, praying. It is surrendering yourself completely to You, Lord, and having faith at the same time You are hearing me and will do something about it.
+That is why I thank You so much for giving me Your Word, and especially the Psalms, for they teach me how to pray. I can say the words that David or Asaph said and pray them back to You. I hope you will accept my written prayer, even though I did not think of the words and inspiration myself.
+It is true, and now I understand better, that it is impossible for people to pray without Your power and grace. I would not have I inspiration to pray, the willpower to do it every day.
+My sin would be in my way every time I pray, my own will would rule over Your will, I would not be able to honestly say “let Your will be done.”
+I would not know what to pray for because the only things I would pray for, if I ever got to praying, would be my own selfish things.
+It is said that there are many people who are really good and do good things, but do not believe in Christ. They forget, however, that their goodness, all of their goodness, is given to them by God. The way their character is formed, is led by God.</p>
+<p><em>Psalm 109:6-10 NIV</em></p>
+<p><em>Appoint someone evil to oppose my enemy; let an accuser stand at his right hand. When he is tried, let him be found guilty, and may his prayers condemn him. May his days be few; may another take his place of leadership. May his children be fatherless and his wife a widow. May his children be wandering beggars; may they be driven from their ruined homes.</em></p>
+<p>I really do not understand how to cope with these feelings that the author is expressing. It seems like hatred and unforgiveness is taking place here. Although the latter, unforgiveness, is partially dealt with by giving God the right to avenge. Still, I do not know what is going on in the author’s heart.
+The punishments he asks for are severe, however, and continue on to his wife and children.</p>
+<p><em>Psalm 109:11-15 NIV</em></p>
+<p><em>May a creditor seize all he has; may strangers plunder the fruits of his labor.</em></p>
+<p>Is it irony or humor, that it seems like these things happened to us? Creditors have come to our house, and colleagues have taken away my credits.</p>
+<p><em>May no one extend kindness to him or take pity on his fatherless children. May his descendants be cut off, their names blotted out from the next generation.</em></p>
+<p>This has not happened, and I know it is because of God’s grace.</p>
+<p><em>May the iniquity of his fathers be remembered before the Lord ;</em></p>
+<p>My father’s sins, his greed and lust for money, or more his sloth (although he did not love money nor was he lazy to work for his money, he just wanted to earn money faster), have led him to loose good opportunities in life and in effect losing the opportunities to spend more time with his wife and family.
+The generation before that either did not love my parent’s generation, or loved them in the wrong way, but most certainly did not let children grow up in God’s way, which made my parents to who they are right now.</p>
+<p>I always thought our family had the curse of not being able to make good business or become rich. But I know now that it is the sin of each generation that prevented it. Because of their sin, they were missing out on God’s purpose in their lives and not letting their children be blessed by that.
+Only since this generation there have been Christians, because of my mother’s side and now a whole generation has been blessed with education and prosperity, and the next generation will have that even more.</p>
+<p><em>may the sin of his mother never be blotted out. May their sins always remain before the Lord , that he may blot out their name from the earth.</em></p>
+<p>Even though my mother has sinned as well, she has been the one to bring us closer to You, Lord, and I thank You and her for that. That is the difference between someone who loves and fears You and someone who does not.
+Even though we sin, we still ask you to take of us and our children, so that they will grow up knowing Your Name and Your wonderful deeds and especially fear You and know Your love.</p>
+<p><em>Psalm 109:16-20 NIV</em></p>
+<p><em>For he never thought of doing a kindness, but hounded to death the poor and the needy and the brokenhearted. He loved to pronounce a curse— may it come back on him. He found no pleasure in blessing— may it be far from him.</em></p>
+<p>The author is explaining here why he so badly wants the person who hurt him to be punished. He wants that that which he did to others will also be inflicted upon himself.
+First of all, the enemy hounded the weak people in society, the poor, needy and brokenhearted. For what reason? No legitimate ones. How do I know this? Because he <em>loved to</em> <em>pronounce a curse</em>.
+If one needs to pronounce a curse, one should not love it. One should hate to do so, because this person will be inflicted, and will suffer, usually for a long time.
+Also if one does not find pleasure in blessing others, his intentions are bad.
+Perhaps that is why the author asks that his enemy will have no blessings either. Perhaps his enemy will realize how it feels not to be blessed, or realize that he has already been blessed, which one usually only realizes when their blessings are taken away.</p>
+<p><em>He wore cursing as his garment; it entered into his body like water, into his bones like oil. May it be like a cloak wrapped about him, like a belt tied forever around him. May this be the Lord ’s payment to my accusers, to those who speak evil of me.</em></p>
+<p>In the same way, and perhaps with the same purpose, the author is asking that this cursing of his accuser will return to the accuser himself, so that he will realize how difficult it is to live under a curse.</p>
+<p><em>Psalm 109:21-25 NIV</em></p>
+<p><em>But you, Sovereign Lord , help me for your name’s sake; out of the goodness of your love, deliver me.</em></p>
+<p>Lord, I need Your deliverance, only You can deliver me. And the only plea I have us Your goodness. For you do not owe me anything, but I owe You. You had not made any promise to save me from hell, but You still called me. All of it is because of Your goodness and Your grace.</p>
+<p><em>For I am poor and needy, and my heart is wounded within me. I fade away like an evening shadow; I am shaken off like a locust. My knees give way from fasting; my body is thin and gaunt. I am an object of scorn to my accusers; when they see me, they shake their heads.</em></p>
+<p>It is often in weakness that I call upon You. I am sorry for that, Lord, please forgive me. It is when I am weak that I see my weaknesses and see how others look at me and start caring more about that. Please let me ignore what other people think of me, let me ignore their scorn.
+If my body is weak because of fasting for You, I am proud of it. But let it not be because the enemy is attacking me.</p>
+<p><em>Psalm 109:26-29 NIV</em></p>
+<p><em>Help me, Lord my God; save me according to your unfailing love. Let them know that it is your hand, that you, Lord , have done it.</em></p>
+<p>If I say <em>according to Your unfailing love</em> it actually means <em>to the maximum</em>, because Your love is the greatest thing there is a both figuratively as literally. So of the author says here <em>save me according to Your love</em> it means <em>save me as much as possible</em>. Your love covers everything, there is nothing You cannot forgive - except an insult to the Holy Spirit.
+But above all, inasmuch as You have saved me, let the world know that it is You Who have done that. I do not know with what kind of proof, and for me it is impossible to convince others, but with You it is possible.</p>
+<p><em>While they curse, may you bless; may those who attack me be put to shame, but may your servant rejoice. May my accusers be clothed with disgrace and wrapped in shame as in a cloak.</em></p>
+<p>If my enemies curse me, I will survive, because You bless me. I will not become joyful if my enemies are punished, but only by the joy that You give me.</p>
+<p><em>Psalm 109:30-31 NIV</em></p>
+<p><em>With my mouth I will greatly extol the Lord ; in the great throng of worshipers I will praise him. For he stands at the right hand of the needy, to save their lives from those who would condemn them.</em></p>
+<p><em>I must</em> <em>remember that God is the One Who saved me from condemnation, that is a reason to praise Him. I thank Him for something that has</em> <em>not</em> happened to me, because of His protection.
+With my mouth I must extol Him; my mouth should not be used to hurt others or make them feel bad.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

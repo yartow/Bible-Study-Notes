@@ -1,0 +1,478 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>Psalm 119 Part 2 - Lumache 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">Lumache 0.1 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">Lumache 0.1 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html">Luke 24 (ESV)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Luke%2024%20%28ESV%29.html#biblestudy-devotionals-tags-events-ascension">biblestudy/devotionals #tags/events/ascension</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html">Psalm 97 (LSB)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Psalm%2097%20%28LSB%29.html#biblestudy-devotionals-psalms">biblestudy/devotionals/psalms</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="psalm-119-part-2">
+<h1>Psalm 119 Part 2<a class="headerlink" href="#psalm-119-part-2" title="Link to this heading">#</a></h1>
+<p><em>http://bible.com/111/psa.119.32-35.niv</em></p>
+<p><em>Teach me, Lord , the way of your decrees, that I may follow it to the end.</em></p>
+<p>＃keyverse
+Without understanding your decrees, we already know it is better than any law of any country. Understanding Your decree will help us, however, to keep it, to follow it to the end of our lives.</p>
+<p><em>Give me understanding, so that I may keep your law and obey it with all my heart. Direct me in the path of your commands, for there I find delight.</em></p>
+<p><em>I am weak and therefore I have to ask You this. Give me understanding, because I too often cannot keep Your Law nor obey it with</em> <strong>all</strong> my heart. But I know that in Your Law I find delight. I know that the key to happiness, to true joy can be found there.</p>
+<p><em>http://bible.com/111/psa.119.36-45.niv</em>
+<em>Turn my heart toward your statutes and not toward selfish gain.</em></p>
+<p>Much too often I am more focused on my glory than on Your glory, I am thinking <em>what’s in it for me</em> while I should be thinking what is in it for You and the body of Christ.
+I can understand very clearly why some pastors of mega churches would be addicted to the fame they have and the money and power in reach.
+Let me not become like that, Lord, let me stay humble before You, like Paul was, still working for his own money, serving the congregations throughout Europe, and even literally serving in jail time.
+＃sermon Good title for sermon, about prison ministry and Charlies Colson.</p>
+<p><em>Turn my eyes away from worthless things;</em></p>
+<p>In a sense the second line of this verse has to do with the first one. Our lives are not preserved when we look at the wrong things, whether we look at materials, looks, wealth and fame, or with lust at other women, all of these ways lead to hell. But if we look upwards to You, Lord, then we will be preserved.
+Help me to turn my eyes away from things, like you helped Job as well, and look only at the good things.</p>
+<p><em>preserve my life according to your word.</em></p>
+<p>Dear Lord, I am not asking You to let me live, I only live if that is according to Your will. But if You let me live, then let it be a fruitful life where I can be of Your service and where I can build Your Kingdom.</p>
+<p><em>Fulfill your promise to your servant, so that you may be feared.</em></p>
+<p>Let me fear You more, from the depth of my heart, let me know if you that You always keep Your promises, even the ones about punishment.</p>
+<p><em>Take away the disgrace I dread, for your laws are good. How I long for your precepts! In your righteousness preserve my life.</em></p>
+<p>I am disgraced because I follow your precepts, because I stand by Your side. I honor You by saying that marriage is Your institution and others say I am conservative. They are not in fact disgracing me, but You, Lord!
+That is why I long for Your precepts, they give me freedom, they give me true wisdom and understanding. No more ethical dilemmas, but knowing what is right and wrong.
+Your precepts really have preserved me. They have kept the guilt and pressure given me by the devil away. Because You told me what was wrong or right, I did not have to doubt that anymore.</p>
+<p><em>May your unfailing love come to me, Lord , your salvation, according to your promise; then I can answer anyone who taunts me, for I trust in your word.</em></p>
+<p>Your unfailing love has already proven itself, it has given me strength, even before I knew it. When people were taunting me, my old self would attack back at them, but Your Holy Spirit let me not realize it until after they were gone, or it softened the pain.</p>
+<p><em>Never take your word of truth from my mouth, for I have put my hope in your laws.</em></p>
+<p>I hope to remember Your Words always, because they give me light in the darkness of my life. Let me not be like some who have forgotten about You and now live in the dark. They do a lot of things that You dislike, such as lying, getting drunk, getting a partner who does not believe, and all without knowing or feeling it is really bad.
+Their conscience will get to them, but by that time it will be already too late.</p>
+<p><em>I will always obey your law, for ever and ever.</em></p>
+<p>I can say that I am not able to obey Your law, unless Your Holy Spirit gives me strength. I know You love me, otherwise I would not have survived until now, I would have been depressed all along, but I am joyful, at many times and in many situations, so I know it is You working in me. And You have promised that You would never take the Holy Spirit away.</p>
+<p><em>I will walk about in freedom,</em></p>
+<p>And how strange it may sound to the world, but the more precepts You give me, the more <em>real freedom</em> I enjoy. I understand heaven much better when I do not enjoy the freedom that this world gives me. Because I know that the freedom of the world is a false one, once I get into that I cannot go back.
+＃sermon it is like a flask used to trap bees. It is like losing your virginity, you cannot go back and be a virgin anymore.</p>
+<p><em>for I have sought out your precepts.</em></p>
+<p>＃keyverse
+True understanding of your precepts will lead to freedom. Your precepts are the exits in the maze of the devil, they are the tricks to escape from His chains.
+Like an enormous maze that would take us all our lives to get out of, we are only getting closer to the center when we use our own power. But with God’s instructions we can get out.
+However, a question of many is, if we make wrong turns again even after we have escaped from the maze, will we enter the maze again?
+No, because this maze consists only of one way streets. You can never go back and go another way.
+The good thing about God’s instructions is that there is always a shortcut, like in the IKEA, to step out of the maze in one step.
+Note, however, that even if you follow all of the instructions of God, you will still end up at the outer wall, which is so thick you cannot pass. So even if you are so close to the outside, you are still not there.</p>
+<p>There are only two ways to get out. You start taking the right turns immediately after you enter the maze, or you use the jump card.</p>
+<p>To make the analogy more fitting, if you jump out, you’re not out yet, you’re just in an outer maze. You can and will never go back into the old maze. So you know that there’s no way out except for going to the outer borders.
+You are already saved when you are in the outer maze, but you want to be on a higher level when the game ends, so that is the reason why you want to follow God’s instructions, not merely to get out.
+The only way to get out is when the game ends because of the time limit.</p>
+<p><em>http://bible.com/111/psa.119.46-48.niv</em>
+<em>I will speak of your statutes before kings and will not be put to shame, for I delight in your commands because I love them.</em></p>
+<p>Even if I had to speak to the king of the world, I would not be ashamed to do that. They might <em>intend</em> to put me to shame, but they will not succeed, because I know that Your statutes are the only statutes that are correct.
+I delight in them and I love them. Who can say that he loves the law of a country?
+Sure, I have seen judges and lawyers fighting for what seems to be right, because the law to them is their “Bible” as a figure of speech, but only because that is the only standard they have. They know that human ethics are changing and opinions are like waves, the law is the only thing that comes closest to a stable factor.
+However, even the law changes, through human intervention, and even the law contains mistakes. Lawyers do not love the law, they grab on to it because it is the only thing they can grab on to, to give them a little peace of mind.</p>
+<p>Ironically our we really use the Bible as our “Bible” and we <em>do</em> love the Law written in there. We love it because it takes care of us, it is specifically meant for each person who reads it, and whoever reads it will hear God’s voice.
+＃sermon We love the Law because it is created by God, Whom we love. And we love everything that is created by Him.</p>
+<p><em>I reach out for your commands, which I love, that I may meditate on your decrees.</em></p>
+<p>I love Your Law so much I do not want to forget it. I want to understand it unto the unlimited depths of it. Your Law is not one or two dimensional. It needs to be applied in he right context, with live, given other circumstances.
+It is difficult to apply, but with Your wisdom I can do that. That is what intrigues me as well.
+An example of this is punishment. Your Law clearly defines punishments for certain sins and crimes. But it also contains prerequisites for love and compassion, and second chances.</p>
+<p><em>http://bible.com/111/psa.119.49-50.niv</em>
+<em>Remember your word to your servant, for you have given me hope. My comfort in my suffering is this: Your promise preserves my life.</em></p>
+<p>There are many ways I have suffered,</p>
+<p>Sometimes it was my own fault, (refer to Bible verse), but at other times it was for the Lord.
+Example Sinterklaas. Ik verklaar u nu man en huisvrouw. Zie Spreuken 31.</p>
+<p>But in everything I know that when I suffered for You, it was to preserve my life.</p>
+<p><em>http://bible.com/111/psa.119.51-53.niv</em>
+<em>The arrogant mock me unmercifully, but I do not turn from your law. I remember, Lord , your ancient laws, and I find comfort in them.</em></p>
+<p>No matter how much the arrogant try to persuade me, I will not give in, Lord. I will keep Your law, because that is the only place where I can find comfort.</p>
+<p><em>Indignation grips me because of the wicked, who have forsaken your law.</em></p>
+<p>A feeling of righteousness comes over me for all the unrighteousness that has been done to others whenever I see the wicked forsaking Your Law. I cannot believe how they can be so immoral, walking over innocent people, the weak, while they were once weak themselves.
+＃sundayschool</p>
+<p><em>Psalm 119:54-56</em>
+<em>54 Your decrees are the theme of my song</em>
+<em>wherever I lodge.</em>
+<em>55 In the night, Lord, I remember your name,</em>
+<em>that I may keep your law.</em></p>
+<p><em>#lyrics</em>
+Even in my dreams, Lord, You are my God and You protect me. Even in my dreams I know what is wrong and I know what is right, for Your statutes are living words within me.
+I sing about You and I sing about Your Law. Let me stop singing about a love unwanted by You. That is not the kind of love You have created.
+Let me stop singing about the pain caused by this world, because it was not intended by You and I should have known better, all along.
+If even in my dreams I know Whom to obey, and what the right way is, why can I not do it in real life?</p>
+<p><em>56 This has been my practice:</em>
+<em>I obey your precepts.</em></p>
+<p>Indeed, wherever I am, You are always the main theme. Even if the topic of subject is something totally different, You are always the theme. At any time and place, You are present, because You are all-present and because You are forevermore. You are Who You are!</p>
+<p><em>http://bible.com/111/psa.119.57-60.niv</em>
+<em>You are my portion, Lord ; I have promised to obey your words.</em></p>
+<p>My reward is You, oh Lord, knowing You so intensely like most people will ever get to. I want to obey Your words, I <em>want</em> to, not because You force me or bring fear in me, but even without those, I know that that is the answer to a life of peace and joy.</p>
+<p><em>I have sought your face with all my heart; be gracious to me according to your promise.</em></p>
+<p>I have sought You ever since I was young. You have shown Yourself to me more often than I deserve, for when I found You I often forgot about You just as fast and went on with my own life and will. <em>Thinking</em> it was my own life, but only to discover it is Your life that lives within me.
+My life is only a borrowed one, one that lasts for 70 or 80 years, and I have wasted tens of years of that. Fortunately, I might have another 40 years left.
+I give them all to You, Lord. My Lord, Who died for me.</p>
+<p><em>I have considered my ways and have turned my steps to your statutes. I will hasten and not delay to obey your commands.</em></p>
+<p><strong>*In the same way as David I have thought of following my own ways and come to the conclusion that Your ways are better still. After I had come to this conclusion I did not need any more time*** ****re</strong>** considering my ways, because I had lost, there is no second chance and all that is left of me is to follow You.</p>
+<p><a class="reference external" href="http://bible.com/111/psa.119.58-61.niv">http://bible.com/111/psa.119.58-61.niv</a>
+<em>Though the wicked bind me with ropes, I will not forget your law.</em></p>
+<p>And because I have nothing of myself to lose, it does not matter whether he wicked bind me with ropes, or whether the devil threatens me with losing my job, career and dream, my house, my family or even my local church, I will not forget Your Law and the only thing the devil achieves by letting me sin, is that I need You even more than I thought I did.
+<em>#sermon</em> Example. Every morning I do my Silent Time. Sometimes I am so busy that I do not have time for it and at other times I really forget about it, but this particular one time I really did not feel like doing it, on the way to work while in the train.
+On the way back I thought of doing it anyhow. The devil kept me busy with a few things that I had to finish from work, so I though <em>oh no, less time to do my Silent Time now</em>.
+Arriving on he train station, however, it appeared to be that there were no trains going to my home city, so I was forced to wait for the next train, or to enter a train which was so crowded with people, and would eventually get me there at the same time anyway.
+My next train did not arrive either, and that was probably because I had not finished my Silent Time yet. God wanted me to do this so badly, that he changed my situation for me!
+That night I could feel the devil disturbing my sleep and in the morning I did not feel like doing my Silent Time again, but I had learned from yesterday’s lesson.
+What I learned was, whatever the devil does, he can only compel me to realize that I need God even more than I ever thought.
+Apparently I even need God to have my daily Silent Time, and there is nothing to be ashamed about it.</p>
+<p><em>http://bible.com/111/psa.119.62-64.niv</em>
+<em>At midnight I rise to give you thanks for your righteous laws.</em></p>
+<p>Even in the middle of the night, in my case at 3pm rather than midnight, I know that You are watching over me, protecting me in all kinds of ways. Keeping me from bad websites and doing only what is necessary on the computer. Thank You, Lord. I would have forgotten to thank You for this if it were not for this verse remembering me about it.
+But apart from protection, I sense Your presence deeply in the night, because it is quiet then and there is no distraction except for sleep.</p>
+<p><em>I am a friend to all who fear you, to all who follow your precepts.</em></p>
+<p>Yes, Lord, I am friends with anyone following Your commands. Every religion has a command not to have sex before marriage, and the Islam has commands to not picture You or to misuse Your Holy Name.
+Let us work together with Muslims to show them that You are the real God on which the Quran is inspired.</p>
+<p><em>The earth is filled with your love, Lord ; teach me your decrees.</em></p>
+<p>David understands that the world is full of decrees. A gentile or heathen would see his life as constrained when following God, but David sees it as full of love.
+<em>#sermon</em> When your mom or dad tells you many things you are not allowed to do, you may not sleep later than 10 o’clock, you are not allowed to watch certain movies or have girlfriends before a certain age, you might see this as a restriction on your freedom.
+But if your parents do not say anything about your life, if you want to do drugs and they allow you, would you think you are being loved?</p>
+<p><strong>http://bible.com/111/psa.119.65-68.niv</strong>
+<em>Do good to your servant according to your word, Lord .</em></p>
+<p>I can interpret this verse different from how I have previously done. It may mean <em>do to me what Your Word says is good</em>.
+My other interpretation was one of proportional measure instead of of explanation. I interpreted something like <em>do good to me according to your kindness</em> as <em>the amount of kindness You have, please treat me well in proportion</em>.</p>
+<p>However, it may mean something else when You say <em>according to your powers, help others</em>, because then it refers to a measure of capacity.</p>
+<p>＃sermon Capacity, proportionality, explanation
+Do what’s in your power, proportional to the love, energy and money you have, in the way you should do it.</p>
+<p><em>Teach me knowledge and good judgment, for I trust your commands.</em></p>
+<p>Thank You for Your knowledge, I know nothing that is of myself. You were always there, without You I have an IQ of zero. Everything I know is because You led me there, all of my interests in subjects is because you have given me those, all my judgements, based in knowledge and experience is because You have let me experience things in life and let me experience You Yourself.
+That is why I trust You in every circumstance. You have shown me You are trustworthy</p>
+<p><em>Before I was afflicted I went astray, but now I obey your word. You are good, and what you do is good; teach me your decrees.</em></p>
+<p>It wanted to say that it had been a long time since I have been astray, but actually I am astray every day.
+Please keep on teaching me, help me to become humble like You, Lord Jesus.</p>
+<p><strong>http://bible.com/111/psa.119.69-72.niv</strong>
+<strong>Though the arrogant have smeared me with lies, I keep your precepts with all my heart.</strong></p>
+<p>Fortunately no arrogant people have smeared me with lies, but even if they had, I would keep Your precepts. As I said before Your precepts are the only things in this world that remain, he only things that are stable <strong>.</strong>
+Though the people from my church are not arrogant and though they have not smeared me with lies, it feels a little like this after hearing, yesterday, about not being on the list of nominees for the next council.
+Some people do not want me there because they have a bad impression of me, others because my ways and ideas do not coincide with theirs.</p>
+<p><strong>Their hearts are callous and unfeeling, but I delight in your law.</strong></p>
+<p>I do not care about what they feel or not feel, when it concerns me. I delight in Your Law, Your Law and all that is written in Your Word are my guidance and benchmark, and with that I compare myself to see whether I fulfill Your precepts <strong>.</strong></p>
+<p><strong>It was good for me to be afflicted so that I might learn your decrees.</strong></p>
+<p>Again You show that You are Wonderful and that You are my Creator, for You know me from my inmost being. Both in the situation of my house as in the church, it was good for me to be affected.</p>
+<p><strong>The law from your mouth is more precious to me than thousands of pieces of silver and gold.</strong></p>
+<p>In the situation of my house, a thousand pieces of gold would have helped me for sure, but I had rather have knowledge of Your Law, because I know that is, by definition, the right way to go and solve my problems.
+In the situation in the church I would like to have the majority of the votes, but I would not want it if Your Law is not uphold.</p>
+<p><em>http://bible.com/111/psa.119.73-77.niv</em>
+Y <em>our hands made me and formed me; give me understanding to learn your commands.</em></p>
+<p>It is You Who made me, You know what the capabilities are of my understanding. You know what troubles I have with which commands, because You formed me.
+I ask You for understanding to learn Your commands.</p>
+<p><em>May those who fear you rejoice when they see me, for I have put my hope in your word.</em></p>
+<p>If those who fear You rejoice, it is because they see something of You. If they rejoiced when they saw David, the psalmist, it was because they saw something of You in David. David had put his hope in Your Word and it showed.
+Thus, it is not asking You to put Your hope in me, but putting my hope in You and Your Word, which will reveal Your presence in me.</p>
+<p><em>I know, Lord , that your laws are righteous, and that in faithfulness you have afflicted me.</em></p>
+<p>Everything that has happened to me and anything that will happen to me, is righteous because You will and afflicted me in faithfulness. This means that You will keep Your promises to me. What You have started in me, You will continue until the day if Jesus Christ.
+If I truly have shown leadership and obedience to You, I know You will make me a true leader in due time and place.</p>
+<p><em>May your unfailing love be my comfort, according to your promise to your servant.</em></p>
+<p>It is as David says, Your unfailing love is my comfort, if I lose everything I still know I can depend on You. That is a promise I can depend on.</p>
+<p><em>Let your compassion come to me that I may live, for your law is my delight.</em></p>
+<p>If it were for me, I would be dead already, seeing the many laws I have broken. But because of Your compassion You forgive me my transgressions, and Your Law that is resembling of death for everyone now resembles my delight, because it is the one thing that gives me life. Without it, my life here would be in chains, created by myself, which I have built up in my life with every sin. A shackle for each sin, just like in Dickens’ Christmas Carol.</p>
+<p><em>Psalm 119:78-80</em></p>
+<p><em>May the arrogant be put to shame for wronging me without cause; but I will meditate on your precepts.</em></p>
+<p>I may wish for all kinds of punishments for the arrogant and for those who have afflicted me, but what I will do is focus on Your precepts. I will leave the punishment up to You, Lord.</p>
+<p><em>May those who fear you turn to me, those who understand your statutes.</em></p>
+<p>I wish for the same things as David, that I have You, first of all, by my side, and on Earth those people who fear You and know Your statutes.</p>
+<p><em>May I wholeheartedly follow your decrees, that I may not be put to shame.</em></p>
+<p>By being put to shame David probably means both on Earth as well as in heaven on Judgment Day. This pastor, the grandson of Billy Graham, who admitted having an affair with someone, is of course put to shame because he did not wholeheartedly follow Your decrees. But he is also put to shame in front of You, because many people in his church, who might have been on the brink of believing, now will not believe anymore, unless it is by Your grace to call them back. And many believers now have lost a lot of confidence in him and in the church elders, with everlasting scars is mistrust in every church they will visit.</p>
+<p><strong>http://bible.com/111/psa.119.81-86.niv</strong>
+<em>My soul faints with longing for your salvation, but I have put my hope in your word. My eyes fail, looking for your promise; I say, “When will you comfort me?”</em></p>
+<p>This too sounds like a coincidence because it was only yesterday that I thought of longing for Your salvation. It is taking a long time and the longing grows worse, which could mean that I keep loving the world less, which is a good thing.
+David’s eyes failed, he could not find Your promise, but I have numerous promises from You. Promises that You have already fulfilled and promises that will be fulfilled.
+Your promise to finish what You have started in me, I have not seen it fulfilled yet, but I am confident of it. And having this knowledge I can see the world, and every day in a new light.</p>
+<p><em>Though I am like a wineskin in the smoke, I do not forget your decrees.</em></p>
+<p>What does this metaphor mean? Surrounded and blinded? ＃question</p>
+<p><em>How long must your servant wait? When will you punish my persecutors?</em></p>
+<p>I know I have been waiting for a while, to get started on really implementing ideas which I think will make the people in my local church work better. I apologize for that, because I only now realize it does not change anything to their commitment. I apologize as well because I have not prayed for it, not that I remember, for your will to happen. What I want is commitment of the church members to take up a task and to fulfill it according to their SHAPE.
+But the first step of commitment has got nothing to do with efficiency and organization.
+Father, please help our church and forgive me for moving too fast. Let me submit to authority and prayer and let me be patient to wait for Your time.</p>
+<p><em>The arrogant dig pits to trap me, contrary to your law.</em></p>
+<p>Yes, many people do not abide by the rules. How can we Christians win then? It is possible, everything is possible with You.
+Thank You for giving me such a fruitful experience with You, so I may know that everything that is not possible with humans, is possible with You</p>
+<p><em>All your commands are trustworthy; help me, for I am being persecuted without cause.</em></p>
+<p>I know that there have been times in my life when I was thought <em>what have I done wrong to deserve this</em> <em>?</em> Of course, there many reasons why I have deserved it. Simply summing up the sins I have done in any random week would get to this or an even worse punishment.
+But God is forgiving, and that is why I am tend to</p>
+<p><em>http://bible.com/111/psa.119.87-89.niv</em>
+<em>They almost wiped me from the earth, but I have not forsaken your precepts.</em></p>
+<p>Sometimes it seems as if the devil has control over every area of my life, when both the situation at work is not blooming and church neither, or even at home, he tempts me to follow his lead. But what a bad person is this Satan!
+There is one place where it is never bad, and that is the Holy Spirit, who lives in me and fills my spiritual temple, my mind and my heart. As long as He is there, whether He is at my work, in my church or in my family, and things cannot go bad.</p>
+<p><em>In your unfailing love preserve my life, that I may obey the statutes of your mouth.</em></p>
+<p>Your love is unfailing and is what I need for my failing love and failing faith in You. My failing obedience and understanding of Your Law. Everything is failing with me, except for that which is from You.</p>
+<p><em>Your word, Lord , is eternal; it stands firm in the heavens.</em></p>
+<p>As always, and as ministers centuries ago have abided in Your Word, it is true and provides life and answers and direct contact with You.</p>
+<p><strong>http://bible.com/111/psa.119.90-93.niv</strong>
+<em>Your faithfulness continues through all generations; you established the earth, and it endures.</em></p>
+<p>Your faithfulness is what is keeping the human race alive. In Your faithfulness You had chosen Noah, even though You could have wiped out humanity.
+You established the Earth, and it is still here, even though humankind has done many things which could have destroyed it. We have got You to thank that acid raid has not destroyed the world nor the hole in the ozone layer.</p>
+<p><em>#question</em> What would Moses mean by <em>it endures</em>? Perhaps the establishment is still enduring, which is, as I wrote, God is still repairing this world (of everything we have broken) or He is still building, new animals and species.
+Or it could be that His faithfulness is still enduring.</p>
+<p><em>Your laws endure to this day, for all things serve you.</em></p>
+<p>God’s Law still endures. It does not matter in what time we live, we will always see that Your Law eventually leads to the best situation.</p>
+<p><em>If your law had not been my delight, I would have perished in my affliction.</em></p>
+<p>It is because You still cared about me that You called me while I was in my affliction.
+In my moments of sun, I could not stop sinning. I discovered I was weak and it was as if I was addicted to sin.
+It is only because You shouted out to me that it was wrong, through Your Holy Spirit, that I could realize it, and through Your Power, because with my own power I could not get out of this vicious circle.</p>
+<p><em>I will never forget your precepts, for by them you have preserved my life.</em></p>
+<p>Without Your precepts, I would still be in the same position as I where I was ten or twenty years ago, without Your power and knowledge and wisdom. But I see You have been preparing me for all this, by giving me the experiences I need.</p>
+<p><em>http://bible.com/111/psa.119.94-100.niv</em>
+<em>Save me, for I am yours; I have sought out your precepts.</em></p>
+<p>I only ask that You save what is Yours and I am Yours. So I ask You, please save me, Lord. I do not know I need to be saved, I think I know of some fields in my life where I need to be saved, but there are many more. I have many wounds in my soul that have not been healed and have been festering all my life. Only you can clean it.
+Give me the opportunity to start a Celebrate Recovery group in my church, to let Your Holy Spirit heal the people of my church and of others in Rotterdam.
+I pray for this small city, which is easy for You. But I know You are a big God and that I can ask bigger things of You <em>.</em> I apologize for thinking only about my church. The reason I wanted Celebrate Recovery was because I wanted the people in my church to heal, in order to take part in servanthood. But that is too small a thing to ask of such a great God like You.
+I pray that in all of the Netherlands, to begin with, new Celebrate Recovery groups will rise and that current Celebrate Recovery groups will grow <em>.</em>
+I pray that it may start with our little Chinese church but that we may open our doors for everyone and that others from all around Rotterdam will know about our Chinese church.
+I pray that our church will grow and that in this way we will have a great outreach and make Celebrate Recovery an fixed program in the curriculum of all Chinese churches.
+I pray that our church will be revived, that people stand up to praise You and give their lives for You.
+I pray that new missionaries will start and there will be programs to sponsor our members to study theology.
+I pray that my church will be a giving church.
+I pray that my church will not be confined to what is called the CCGN, but that it will spread to all of the Netherlands first, and later to Belgium, France and the rest of Europe.
+I pray that we will have spiritual consultants traveling to South America to set up and aid churches, and not just churches but aid in poverty and education as well.
+Let this church that I attend, which is not mine but Yours, become Yours by giving themselves fully You and obeying Your Law. And then save it, because it is Yours.</p>
+<p><em>The wicked are waiting to destroy me, but I will ponder your statutes.</em></p>
+<p>I know the wicked are waiting to destroy me. Let them wait, I say, they can wait all they want. But I will not be destroyed, unless it is God’s will. I will ponder His statutes, His Word is my life and it gives me life. Apart from His Word, this life has no meaning.</p>
+<p><em>To all perfection I see a limit, but your commands are boundless.</em>
+<em>#keyverse</em></p>
+<p>I cannot say it often enough, but there is literally no end to Your perfection. You are the definition of perfection and your commands are perfect in every sense. Even though most of it is written by human hands, it is inspired and fully controlled by You and every command in the right context is perfect.</p>
+<p><em>Oh, how I love your law! I meditate on it all day long.</em>
+<em>#keyverse</em></p>
+<p>I love your Law and I want to live under it in the sense that I know he freedom I have within Your Law. I want to enjoy life like You have meant it, without fear, jealousy, pain, addictions, and disappointments.
+I know that is only in heaven, but we can have part of it right now, in Your Kingdom and that is when we obey Your Law.</p>
+<p><em>Your commands are always with me and make me wiser than my enemies.</em></p>
+<p>If I keep to Your commands, it makes me wiser than my enemies. I should not use this wisdom against my fellow Christians, that is what I have been doing wrong, considering them as my enemies in my strive for showing who is the best or who is right.
+Forgive me Father, for I put my longing for a position as the one who has most knowledge knowledge on a higher place than being the one who loves best and has the best relationships.</p>
+<p><em>I have more insight than all my teachers, for I meditate on your statutes. I have more understanding than the elders, for I obey your precepts.</em></p>
+<p>Perhaps not more than <em>all</em> my teachers, bit yes, I do think I have received a lot of insight from You. But I have to admit that those insights have been given to me by You, and many times through teachers.
+I think I have more understanding than the elders as well, at least in my own church, but for all this I give You credit. It is Your Word, Your living Word, that I give all honor.
+Your Word proves it lives because it lives within me and You apply it through Your Holy Spirit on each and every situation. There are an infinite amount of situations where Your Word is useful.</p>
+<p><em>http://bible.com/111/psa.119.101-103.niv</em>
+<em>I have kept my feet from every evil path so that I might obey your word.</em></p>
+<p>Wherever I have seen an evil path I have tried to ignore it. I know I have not fully succeeded in that, and some times I am not even doing my best, but wherever I have done so correctly, I know it was You working through me and letting me make the right choices.
+Please help me to be more aware of evil paths so that I can obey Your Word, because on the evil path it is impossible to obey You.</p>
+<p><em>I have not departed from your laws, for you yourself have taught me.</em></p>
+<p>Indeed, in times that I sinned, it was not because of some words that I changed my mind about living for You, but it was You Yourself Who came to me and told me of my sins, about the accumulation and the consequences.
+And not only that, You have shown me several times how You felt, the pain I caused others and myself was all absorbed by You in order to atone for <em>my</em> sins!
+I am so sorry, Lord, to have made You suffer so much.</p>
+<p><em>How sweet are your words to my taste, sweeter than honey to my mouth!</em></p>
+<p>And for that reason Your Words taste so much sweeter. I would not compare it with honey but with money. Where all he money in the world could not fully satisfy me nor could it erase my pain or make me feel less guilty nor comfort me, Your Words can do that and prevent me falling in pits and giving me a full and blessed life, both in this world and in the next.
+If only those rich people would realize that.</p>
+</section>
+<section id="biblestudy-devotionals-psalms">
+<h1>biblestudy/devotionals/psalms<a class="headerlink" href="#biblestudy-devotionals-psalms" title="Link to this heading">#</a></h1>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Graziella
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>
