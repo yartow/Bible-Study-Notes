@@ -14,7 +14,12 @@ This repository holds Bible-study notes, chiefly devotional commentaries written
 - `biblestudy:devotionals/`: the devotional commentaries. (Finder shows the colon in this folder name as a slash.)
   - `01. Genesis/` through `66. Revelation/`: one folder per book, in canonical order. A note's images sit in a subfolder named after the note, e.g. `15. Ezra/Ezra 7 (LSB)/`.
   - `_removed/`: quarantined files (exact duplicates, non-devotionals, unused images), plus the organizer's reports and undo manifests. Nothing in it has been deleted.
+  - `_conflicts/<date>/`: Bear versions of notes that could not be merged automatically during an import.
 - `scripts/organize_devotionals.py`: deduplicates the notes and sorts them into the book folders. See `README.md`.
+- `scripts/import_bear.py`: imports the notes from Bear, read straight from Bear’s database (read-only), with a three-way merge. The base is the previous import, kept on the `bear-export` branch. A manual export in `imports/YYYY-MM-DD/` still works as a fallback.
+- `scripts/push_to_bear.py`: sends committed repo edits back into Bear through Bear’s URL API.
+- `scripts/bear.py`: shared code for reading Bear’s database and writing through its URL API. Never write into Bear’s database; it would break iCloud sync.
+- `imports/`: raw Bear exports, dry-run reports, and `_bear-backups/`. Ignored by git.
 - `01. Bear/`: an older copy that git still tracks but that no longer exists on disk. Don't restore or commit it without asking.
 
 ## Note Conventions
@@ -49,5 +54,13 @@ The CMOS review of the existing notes is a separate, planned task. Don’t start
 
 - Don’t change the wording of a devotional without asking. Mechanical fixes such as moving files or repairing links are fine when the task calls for them.
 - Always run `scripts/organize_devotionals.py` as a dry run first and show the user the summary before running it with `--apply`.
-- `biblestudy:devotionals/` is not tracked by git yet, so the `_removed/` quarantine and the undo manifest are the only safety net. Never delete anything from `_removed/` without asking.
+- Notes are imported from Bear with `scripts/import_bear.py` (see `README.md`), not with the organizer. When the user asks for an import:
+  1. Run the import with `--dry-run` and show the summary.
+  2. Run it with `--yes` only after the user agrees.
+- Edits are sent back to Bear with `scripts/push_to_bear.py`. It writes into the user’s Bear library, so:
+  1. Run it with `--dry-run` and show the summary.
+  2. Push (`--only <path>` or `--yes`) only after the user agrees.
+- Merge a note in `_conflicts/<date>/` only with the user's agreement, because those are their words on both sides. Delete a conflict copy only after its note is merged.
+- Never rewrite, rebase, or delete the `bear-export` branch. It is the merge base for the next import.
+- Never delete anything from `_removed/` without asking.
 - Some notes are in Dutch (e.g. the children’s series for Nathan). CMOS applies only to English text.

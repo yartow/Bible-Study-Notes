@@ -1,3 +1,7 @@
 
 romans/.DS_Store
 .DS_Store
+
+# Bear exports, dry-run reports, and push backups (see README: Importing from Bear)
+imports/
+__pycache__/

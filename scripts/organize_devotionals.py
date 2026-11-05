@@ -252,6 +252,7 @@ class Planner:
         self.rewrites: dict[Path, dict[str, str]] = {}  # final note rel -> {old: new}
         self.broken: list[tuple[Path, str]] = []
         self.ds_store: list[Path] = []
+        self.image_dest: dict[Path, Path] = {}  # image src rel -> destination rel
 
     # ---------- scanning ----------
     def scan(self) -> None:
@@ -358,6 +359,7 @@ class Planner:
             for src in note.links.values():
                 if src not in claimed:
                     claimed[src] = Path(REMOVED, category, src)
+        self.image_dest = claimed
         for src, dest in claimed.items():
             if dest != src:
                 self.moves.append((src, "image", dest, self.images[src]))
@@ -365,6 +367,19 @@ class Planner:
             if src not in claimed:
                 self.moves.append((src, "image:orphan", Path(REMOVED, "orphans", src),
                                    self.images[src]))
+
+    def final_text(self, note: Note) -> str:
+        """The note's text with its planned image-link rewrites applied."""
+        text = read_text(self.root / note.rel)
+        changes = self.rewrites.get(note.target, {})
+        if not changes:
+            return text
+
+        def swap(m: re.Match) -> str:
+            new = changes.get(m.group(2))
+            return m.group(1) + new + m.group(3) if new else m.group(0)
+
+        return IMAGE_LINK.sub(swap, text)
 
     # ---------- execution ----------
     def apply(self, out_dir: Path, stamp: str) -> Path:
@@ -388,7 +403,7 @@ class Planner:
                 shutil.copy2(path, self.root / backup)
                 text = read_text(path)
 
-                def swap(m: re.Match) -> str:
+                def swap(m: re.Match, changes=changes) -> str:
                     new = changes.get(m.group(2))
                     return m.group(1) + new + m.group(3) if new else m.group(0)
 

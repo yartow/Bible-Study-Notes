@@ -18,7 +18,10 @@ biblestudy:devotionals/
     66. Revelation/
     _removed/                 quarantined files, reports, undo manifests
 scripts/
-    organize_devotionals.py
+    organize_devotionals.py   sort and deduplicate the notes
+    import_bear.py            import the notes from Bear
+    push_to_bear.py           send repo edits back to Bear
+    bear.py                   reads Bear (read-only) and writes through its URL API
 ```
 
 Each book has its own folder, numbered in canonical order from `01. Genesis` to `66. Revelation`. Books without notes yet have no folder.
@@ -69,6 +72,61 @@ Each run writes a report to `_removed/`. The report lists:
 - every quarantined file, with the reason.
 
 It is safe to run the script again. Notes that are already in place stay where they are.
+
+## Importing from Bear
+
+Bear is where the notes are written, so the library is refreshed from Bear from time to time. `scripts/import_bear.py` reads the notes straight from Bear’s database, opened read-only, so no export is needed. It cleans up the notes and merges them in one step.
+
+1. **Run the import** from the repository root:
+
+   ```sh
+   python3 scripts/import_bear.py --dry-run   # report only
+   python3 scripts/import_bear.py             # asks before applying
+   ```
+
+   The script collects every note tagged `#biblestudy/devotionals` (or a subtag) and lays the notes out as Bear’s Markdown export would. It then sorts and deduplicates them the same way as the organizer. It prints a summary and asks **Apply and commit? [y/N]**.
+
+   If two notes in the same tag have the same title, the older one keeps the plain name and the newer one gets ` 2`. That order never changes, even after a note is edited. (Bear’s own export orders them by last edit instead.)
+
+   A Markdown export made by hand still works as a fallback. Put it in `imports/YYYY-MM-DD/` and pass the folder: `python3 scripts/import_bear.py imports/2026-12-01`. `imports/` is ignored by git.
+
+2. **Read the summary.** Each note falls into one of these groups:
+
+   | Result | Meaning |
+   | --- | --- |
+   | Unchanged | The same in Bear and in the repo |
+   | New | A new note in Bear; it is added to its book folder |
+   | Updated from Bear | Changed in Bear only; the Bear version is taken |
+   | Merged | Changed in both places, on different lines; both changes are kept |
+   | **Conflict** | The same lines changed in both places. The repo version stays, and the Bear version is saved to `_conflicts/<date>/` for you to merge by hand |
+   | Repo edits kept | Changed in the repo only (e.g. a style fix); see the next section |
+   | Missing from this export | Deleted or renamed in Bear. The repo copy is kept and listed |
+
+   The full report is saved as `biblestudy:devotionals/_removed/import-report-<date>.md` and committed with the import.
+
+3. **Resolve any conflicts.** Merge the Bear copy in `_conflicts/<date>/` into the note, delete the copy, and commit. Then send the merged note back to Bear (next section).
+
+The import only runs if `biblestudy:devotionals/` has no uncommitted changes. To decide what changed, it compares each note with the version from the previous import. That version is kept as a snapshot on the git branch `bear-export`, which you never need to check out. To undo an import, run the command the script prints at the end:
+
+```sh
+git reset --hard HEAD~1 && git branch -f bear-export <previous snapshot>
+```
+
+The previous snapshot's ID is also recorded in the import commit message, under `Bear-Export-Previous:`.
+
+## Sending Edits Back to Bear
+
+Edits made in the repo, such as style fixes, go back into Bear with `scripts/push_to_bear.py`:
+
+```sh
+python3 scripts/push_to_bear.py --dry-run                       # report only
+python3 scripts/push_to_bear.py --only "15. Ezra/Ezra 7 (LSB).md" # one note
+python3 scripts/push_to_bear.py                                 # asks before pushing
+```
+
+The script writes through Bear’s official URL API, never into Bear’s database, so iCloud sync keeps working. It pushes only committed edits, and only to notes that Bear hasn’t changed since the last import. A note that was edited in Bear too is listed as **changed in Bear**: run the import first, then push again. Bear keeps its own image links, because the repo edit is merged into Bear’s text line by line. The script skips any note whose title line changed, since that would rename the note in Bear.
+
+Before each change, Bear’s current text is saved in `imports/_bear-backups/<timestamp>/`, and afterward the script reads Bear again to confirm it. Bear opens in the background while the script runs.
 
 ## Style
 
