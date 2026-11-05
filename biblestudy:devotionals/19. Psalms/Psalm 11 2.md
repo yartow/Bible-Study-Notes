@@ -1,11 +1,21 @@
 # Psalm 11
-Could it be that this part is meant for me? Could it be that I am the one who is fleeing for the difficulties in church? In a sense I am letting the foundation be destroyed, because I know I could be letting people down.
+*Psalm 11:1-3 NIV*
 
-On the other hand, I need to know that *the Lord is in His holy temple* and that *He observes the sons of men*, which means that He is watching and would not allow anything to happen that is not according to His will. 
-The dilemma then lies in whether I have done my best, my utmost, to do whatever I can as far as it is within my power.
-I know that until recently it seemed wise to not suggest or initiate any more ideas, and I had done my best and it seemed best - in order to keep the peace with the authorities - that I retreat. However, now it seems that the authorities have come to terms with me and admit they appreciate my ideas.
-It seems better to let the heat cool down just a little bit more before getting back.
+*In the Lord I take refuge. How then can you say to me: “Flee like a bird to your mountain. For look, the wicked bend their bows; they set their arrows against the strings to shoot from the shadows at the upright in heart. When the foundations are being destroyed, what can the righteous do?”*
 
-I am afraid though that I am withdrawing for the wrong reasons.
+When not if
+I am not the foundation of the church, God is.
+If the foundation of God is gone, His Word, then nothing can be done anymore. What would be the foundation of the Sunday school? That the teachers teach from the Bible.
+
+*Psalm 11:4-7 NIV*
+
+*The Lord is in his holy temple; the Lord is on his heavenly throne. He observes everyone on earth; his eyes examine them. The Lord examines the righteous, but the wicked, those who love violence, he hates with a passion. On the wicked he will rain fiery coals and burning sulfur; a scorching wind will be their lot.*
+
+*For the Lord is righteous, he loves justice; the upright will see his face.*
+
+Do not worry, is the message here, because the Lord is still the One and Only King. He knows everything and everyone, both their actions and thoughts.
+I cannot keep anything hidden from the Lord, and I know I will be punished for the wickedness inside me.
+
+Notulen en actiepunten zondagsschool Todo
 
 #biblestudy/devotionals/psalms

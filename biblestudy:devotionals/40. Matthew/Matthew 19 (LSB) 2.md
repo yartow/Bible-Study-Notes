@@ -1,6 +1,7 @@
 # Matthew 19 (LSB)
+#biblestudy/devotionals/matthew/2024
 
-> TEACHING ABOUT DIVORCE
+> ### TEACHING ABOUT DIVORCE
 > 
 > **Matt. 19:1**   Now it happened that when Jesus had finished these words, He departed from Galilee and came into the region of Judea beyond the Jordan; **2** and large crowds followed Him, and He healed them there.
 > 
@@ -74,8 +75,24 @@ This is not in contrast with Jesus' words that the young man must **keep the com
 
 This verse is used as an argument by opponents of Jesus' godhood, among which the LDS #tags/religion/lds, Jehova's Witnesses #tags/religion/jw and Muslims #tags/religion/islam #tags/apologetics/trinity #tags/theology/christology/godhood. In most translations it says "Good Master", such as in the KJV. The opponents claim that Jesus' answer that **[there] is *only* One who is good** implied that He was not good. But they fail to notice that Jesus never said that He was not good. As a matter of fact Jesus *did* say He was good (see e.g. John 10:11). He merely let the young man note #todo/opzoeken #questions/language/english difference between "note" and "notice", that the word *good* should sparingly be used, because **[there] is only one Who is good**.
 
-> **18** *Then* he *said to Him, “Which ones?” And Jesus said, “YOU SHALL NOT MURDER; YOU SHALL NOT COMMIT ADULTERY; YOU SHALL NOT STEAL; YOU SHALL NOT BEAR FALSE WITNESS; **19** HONOR YOUR FATHER AND MOTHER; and YOU SHALL LOVE YOUR NEIGHBOR AS YOURSELF.” **20** The young man *said to Him, “All these things I have kept; what am I still lacking?” **21** Jesus said to him, “If you wish to be complete, go *and* sell your possessions and give to the poor, and you will have treasure in heaven; and come, follow Me.” **22** But when the young man heard this statement, he went away grieving; for he was one who owned much property.
-> 
+
+
+
+> **18** *Then* he *said to Him, “Which ones?” And Jesus said, “YOU SHALL NOT MURDER; YOU SHALL NOT COMMIT ADULTERY; YOU SHALL NOT STEAL; YOU SHALL NOT BEAR FALSE WITNESS; **19** HONOR YOUR FATHER AND MOTHER; and YOU SHALL LOVE YOUR NEIGHBOR AS YOURSELF.” 
+
+Is there a special reason why Jesus did not mention the 10th commandment? Perhaps Jesus knew that the man would not be able to say that he had held these all of his life, and so he did not want to discourage him yet. The 10th commandment may be the most difficult one to keep, because it encompasses all aspects of life, including sex, money and power. The young man would be discouraged later, yet for another reason. 
+If we are discouraged because of the sin we have committed it should not be so because we cannot keep all of the Law. The Law itself is not merciful, but God is. He understands our shortcomings and will forgive us for these. What He will not accept, however, is that we do not give Him all of our hearts *in advance*. 
+**Example.** Any woman who is about to marry a man expects her future husband give his life to her, all of it. At the same time she expects that the husband is not perfect and will make mistakes. 
+The young man is this case not even prepared to give all of himself to follow Jesus right now. 
+#biblestudy/discovery
+
+
+> **20** The young man *said to Him, “All these things I have kept; what am I still lacking?” **21** Jesus said to him, “If you wish to be complete, go *and* sell your possessions and give to the poor, and you will have treasure in heaven; and come, follow Me.” **22** But when the young man heard this statement, he went away grieving; for he was one who owned much property.
+
+The truth is, even without the tenth commandment the young man was unaware of his shortcomings here, for the commandment **love your neighbor as yourself** encompasses all relational commandments (i.e. the last six of the Ten Commandments) and it requires a high standard love. For example, it is not sufficient to say that one loves his neighbor a little and has therefore kept this command. No, the standard is to love him **as yourself** or even more, namely to love him as much as Jesus loves you (John 13:34). Clearly, the young man loved himself more than his neighbors, since he was willing to keep this money for himself but not share it with others.
+Jesus' requirement is to be perfect or, as translated here, **complete** (Matthew 5:48). This requirement applies to everyone, but as mentioned in the notes above, Jesus is merciful and requires His followers merely to be *willing* to lay down their lives—the actual act of laying down one's live is reserved for only a(n honorable) few. The young man was not even *willing* to do so. Perhaps Jesus would have stopped him in giving away his money, or stopped him half-way, after having given half of it away, just like Abraham was stopped in killing his son. But here, the young man failed miserably, which is probably the reason why he grieved and realized he was not going to have eternal life. 
+This is perhaps one of the most sad realizations described in the Bible. Usually the ones who do not enter the kingdom of God do not realize this or do not even want to enter it, but this young man did want to and had spent a great effort from a young age on. What would happen to him next? Would he give up all of his "good" works since these would not let him enter eternal life anyway? This is a very likely result
+
 > **Matt. 19:23**   And Jesus said to His disciples, “Truly I say to you, it is hard for a rich man to enter the kingdom of heaven. 
 
 Of course riches are not the only things that are hard to give up, but it is one of the most tempting things. Jesus warns more often about money than about lust. It is easier to be poor and enter the kingdom of heaven and then become rich, then to become rich first and then try to enter, for to enter, the gate is narrow and everything needs to given up, but everything gained within the kingdom of heaven may be kept. 
@@ -90,37 +107,25 @@ Provide an example of what cannot be brought into new realms
 
 > **24** And again I say to you, it is easier for a camel to go through the eye of a needle, than for a rich man to enter the kingdom of God.” **25** And when the disciples heard *this*, they were very astonished and said, “Then who can be saved?” **26** And looking at *them* Jesus said to them, “With people this is impossible, but with God all things are possible.”
 
+What man needs to give up is almost impossible. In fact, the only person who ever gave up everything, except for food, was Jesus. There are many in this world who give up much of themselves in order to reach a higher state, just like Sikhs, but — perhaps unaware if this themselves — they have not given up power, prestige or attention. The first Buddha came up with the doctrine to give up everything, but he himself did that because he could not answer question of why there is pain in life and how it had to be solved. This in itself caused him pain, and he could not let go if this question before it was answered. It became an obsession for him until he found the answer, or so he thought. 
+So even the Buddha needs to give up some things, even though he is propagator of emptying oneself. Also, he has not even found the answer to this question, because not only is there still pain and poverty in this world, it is present in all of the Buddhist countries, possibly with the exception of Japan, but Japan is anything but empty. It is full of materialism, status and other worldly things. Even better, it is those countries where there is most welfare, where the principles of Buddhism are put in practice. Ironically, these are countries with a Judeo-Christian background. It is people who have plenty who wish to have the tranquility of those who have little and not worry about higher purposes, and it is those who have little who want to have the tranquility of mind to not worry about daily living. All layers of the Maslow pyramid are covered by worries in all societies. Only the Christian faith does not have any worries, either about what to eat and wear (Matthew and 6 #todo/opzoeken/reference) or about big plans for the future (Matthew where shall we go to next year #todo/opzoeken/reference) it even about one's purpose, which is clearly to serve the Lord and abide in Him (#todo/opzoeken/reference). 
+
 It **is impossible** for people to give up everything for God. There have been rich men of course who became Christians and kept their wealth, but not without being willing to give it up first. It is only through Christ's mercy that they could keep their wealth. If Christ had asked those persons to give it all up at the very instance when they asked Jesus into their hearts, they would not have been able to do so, unless the Holy Spirit worked through them to give them the power for this. It would be like asking a married man to give up his wife and children in order **to enter the kingdom of God**. In fact, family and wordly materials are the only two examples Jesus mentions in v. 29.
 The emphasis is put on riches because this is a form of pride—the greatest of all sins. The riches are used to glorify oneself and promote independence of God. Family can be idolized, but in most cases it involves a healthy form of self-sacrificial love. 
 
-Waarom is er een treinstation in Breukelen en waarom is het op die plek gebouwd? Het is een station langs de snelweg, er is een McDonald's, maar er zijn geen woningen rond het station en niet veel grote bedrijven. Waar er woningen zijn, is een paar kilometer verderop, en waar er bedrijven zijn, zijn er grote parkeerplaatsen, dus waarschijnlijk reizen de meeste mensen met de auto daar. 
-#tags/ai/chatgpt
-
-A person who has not genuinely left all he has for Christ, will eventually return to his former possessions, just like Peter had done two times. He had already met Jesus and been with him (John 1:42-43) but had soon left Him, to return to his own fishing company, only to follow Him again later (Luke 5:8-10).
 
 
-
-> MANY WHO ARE FIRST WILL BE LAST
+> ### MANY WHO ARE FIRST WILL BE LAST
 > 
-> **Matt. 19:27**   Then Peter answered and said to Him, “Behold, we have left everything and followed You; what then will there be for us?” **28** And Jesus said to them, “Truly I say to you, that you who have followed Me, in the regeneration when the Son of Man will sit on His glorious throne, you also shall sit upon twelve thrones, judging the twelve tribes of Israel. **29** And everyone who has left houses or brothers or sisters or father or mother or children or farms for My name’s sake, will receive one hundred times as much, and will inherit eternal life. **30** But many *who are* first will be last; and *the* last, first.
+> **Matt. 19:27**   Then Peter answered and said to Him, “Behold, we have left everything and followed You; what then will there be for us?” **28** And Jesus said to them, “Truly I say to you, that you who have followed Me, in the regeneration when the Son of Man will sit on His glorious throne, you also shall sit upon twelve thrones, judging the twelve tribes of Israel.
 
-#todo/opzoeken and will also obtain persecution
- 
-This is another reminder for us that many principles in the kingdom of God are reversed. In this world we need to become the lowest and the last, in order to become first in the eyes of God.
-A holistic perspective on this—and a take-away for Christians—is to look at the long term. Jesus always promotes the long term, not only for the benefits in the afterlife, but also for those in this life.
+#tags/theology/eschatology/newworld/reward
+Not much is written in the Bible about the reward of those who follow Jesus. It is obvious that the persecuted ones receive a greater reward (cf. Matthew 5:10-12) and this reward will be **one hundred times as much** in the *new world* and confirmed in Revelation 22:12. 
+Note that the word **regeneration** is used by the KJV and has been translated as *new world* by the ESV. The ESV is much like the KJV, but makes it more readable for modern readers, while keeping the interpretation and literalness #questions/language/english . The LSB improves on the ESV again, by changing some parts to have an even more literal interpretation. This is done with this word as well. Even though the *new world* would be much easier to understand and less to be confused with the regeneration of our new bodies and spirit, it must be clear that the new world is not a world that is an improvement of this one. It is not that God cleans the air and the oceans, for example, in order to make Earth the new paradise. No, all of it will go away, even the sun, and a new Heaven and new Earth will be *generated*. #biblestudy/discovery
+Another important point to mention is that the **twelve thrones** may be symbolic. It may simply mean that there is a hierarchy in the New World and these disciples will have a high—or even the highest—position there. 
+One question that remains is why Jesus mentioned twelve thrones, even though only eleven would take place on these thrones. Again, perhaps it was symbol, and there could 11 or 50 thrones, or He did not want to explain too much, and meant that 11 were meant for the true disciples and the twelvth #todo/opzoeken  for Paul. #questions/language/english #biblestudy/questions/matthew 
 
-## Gebedspunten
-- [ ] Sandra
-- [ ] Nathan
-- [ ] Paul's gezondheid
-- [ ] Levi's gezondheid
-- [ ] Nina's gezondheid en moeders gezond
-- [ ] Kerk
-  - [ ] Zoeken naar een nieuwe kerk
-  - [ ] Opbouwen HuisKerk
-- [ ] Quincy's gezondheid
-- [ ] Renzo werk
-- [ ] Sammy Yayi bruiloft
-- [ ] Gerard en Anna
+> **29** And everyone who has left houses or brothers or sisters or father or mother or children or farms for My name’s sake, will receive one hundred times as much, and will inherit eternal life. **30** But many *who are* first will be last; and *the* last, first.
 
-#biblestudy/devotionals/matthew/2024
+*MacSBNnkjv* says this statement means that in the kingdom of God everyone ends up the same. He has got a few significant arguments for this. This verse is adjacent to the next parable, and it is also one of the principles of the Kingdom (cf. notes on Matthew 18:1). However, there is another principle in the Kingdom, which is that those who were last in this world, will be first in Heaven. See for example the stories about Lazarus and the rich man #todo/opzoeken/reference , and Matthew 20:27-28. 
+The statement here refers backwards—to sacrifice (v. 29)—and forward—to equal rewards regardless of the work one has done. See also notes on Matthew 20:16. 
