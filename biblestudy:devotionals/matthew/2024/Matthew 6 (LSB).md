@@ -1,0 +1,51 @@
+# Matthew 6 (LSB)
+#biblestudy/devotionals/matthew/2024
+
+Matthew 6:1-34 ESV
+[1]  “Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. [2]  “Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do in the synagogues and in the streets, that they may be praised by others. Truly, I say to you, they have received their reward. [3] But when you give to the needy, do not let your left hand know what your right hand is doing, [4] so that your giving may be in secret. And your Father who sees in secret will reward you.
+
+Pride always lures in a corner and the Christian needs to be constantly aware that he must give out of love for his neighbor and out of love and fear of God. The reward hat God gives will always be greater than that of man.
+
+[5]  “And when you pray, you must not be like the hypocrites. For they love to stand and pray in the synagogues and at the street corners, that they may be seen by others. Truly, I say to you, they have received their reward. [6] But when you pray, go into your room and shut the door and pray to your Father who is in secret. And your Father who sees in secret will reward you.
+
+This does not mean that public prayer is not allowed, but the intention of the heart must always be to glorify God. This also means that if there is any risk of God's glory being overshadowed by one's beautiful words, one must lessen the use of that. The shadow must never tde overheersen the substance.
+It is the same with music, no matter the intent or how beautiful the music is, as soon as people focus more on the music than on God, the music should become less.
+
+[7]  “And when you pray, do not heap up empty phrases as the Gentiles do, for they think that they will be heard for their many words. [8] Do not be like them, for your Father knows what you need before you ask him.
+
+The fact the **Father knows what you need** does not negate the need to pray. A true child of God will always feel the need to speak with His Father, not only when he needs help, but also to share his thoughts and to hear His Father's thoughts.
+
+[9] Pray then like this: “Our Father in heaven, hallowed be your name.
+
+Hallowed is another word for sanctified, that is, to be made holy. The Father's **name** here refers to His reputation and glory. To make holy means to set something apart, so that it does not get damaged or stained in any sense. That is why expensive china is stored in a cupboard and only only used for special occasions. In the same way God's reputation should never be stained and His Name should not be used for anything that does not involve the worship of Him. This does not only include the names and titles of God, such as Yahweh, but everything pertaining to the Father, that is, even His children. If Christians do anything that has a negative effect on God or on other Christians, God's reputation is stained and not made holy.
+So does this mean that when a Christian is not worshipping God and involved in practices that are not Christlike he should not say he is a Christian? The answer is that he should always be worshipping God. The priests of the Old Testament needed to be purified before they worshipped God in the Tabernacle or Temple and before they ate from the Holy Bread, but the Christian needs to be purified all his life.
+
+[10]  Your kingdom come, your will be done, on earth as it is in heaven. [11]  Give us this day our daily bread, [12]  and forgive us our debts, as we also have forgiven our debtors. [13]  And lead us not into temptation, but deliver us from evil. [14]  For if you forgive others their trespasses, your heavenly Father will also forgive you, [15] but if you do not forgive others their trespasses, neither will your Father forgive your trespasses.
+
+This could not be written any more clear. There is no unconditional forgiveness from God. This does not mean that man has to work for his forgiveness, however. The assumption, not presumption, is that people become Christians, by grace, and then are forgiven by God. Imbued in the Christian is the longing to become more like Jesus and forgive one's neighbors. However, this is not working for one's salvation. To become saved does not mean that one does not have to do anything, and what one does, is not necessarily counted as work.
+**Example.** If I were to say, “You need to promise me that you will forgive him, and then I will solve this problem for you." If you forgive this person and if I solve this problem, this does not mean you have contributed in any way to solving the problem. It is completely I who solved it, but I was only willing to solve it on my own conditions. In the same way God will forgive and grant eternal life, but He sets His own conditions for that.
+Therefore, it can be assumed that the Christian is forgiven, because he will forgive others as well. If a Christian does not have this longing to become like Jesus he is not a Christian, or, as some say, will soon fall out of Christianity.
+Atm beetje raar komt dit stuk over. Hoort bij alinea hierboven.
+[16]  “And when you fast, do not look gloomy like the hypocrites, for they disfigure their faces that their fasting may be seen by others. Truly, I say to you, they have received their reward.
+
+Perhaps Jesus is using hyperboles here or He is using a figure of speech when He refers to the **hypocrites** who **disfigure their faces**. The point is, however, that it is not that they merely do not maintain a good outer appearance, being cleanly shaved, with oiled hair etc. but that they purposely make their outer appearance messy so that others know they are fasting. This is an extreme form of hypocrisy and the complete opposite of humility.
+
+[17] But when you fast, anoint your head and wash your face, [18] that your fasting may not be seen by others but by your Father who is in secret. And your Father who sees in secret will reward you. [19]  “Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, [20] but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. [21] For where your treasure is, there your heart will be also.
+
+The meaning of this verse is often misunderstood. It means that whatever you physically treat as your treasure, that is what you will long for. If a person, for example, invests a lot in his collection of car models, then his heart will be there. Even if he did not care about cars to begin with, but simply because of the fact that he invested so much time and money in it, his heart will be there. This is because man has a natural tendency to want their return on investment, which is why it is difficult for people who gamble to stop[^1].
+Examples where one did not put his heart in, but eventually became his treasure are often seen in stories concerning an inherited business. The TV series *Yellowstone*, for example, shows the story of Kevin Costner #tags/people/actors who inherited a big piece of land in Yellowstone tdd and has put in so much money and time to protect it from being taken by others that he cannot back out of it anymore. Eventually he still loses all of the land because he treated the land as treasure instead of his family.
+
+[22]  “The eye is the lamp of the body. So, if your eye is healthy, your whole body will be full of light, [23] but if your eye is bad, your whole body will be full of darkness. If then the light in you is darkness, how great is the darkness!
+
+This is especially a warning to men who are more sensitive to visual appearance. Naturally, it is men who are mesmerized by the beauty of women, while women usually are attracted by other characteristics of men, such as their maturity.
+
+[24]  “No one can serve two masters, for either he will hate the one and love the other, or he will be devoted to the one and despise the other. You cannot serve God and money. [25]  “Therefore I tell you, do not be anxious about your life, what you will eat or what you will drink, nor about your body, what you will put on. Is not life more than food, and the body more than clothing? [26] Look at the birds of the air: they neither sow nor reap nor gather into barns, and yet your heavenly Father feeds them. Are you not of more value than they? [27] And which of you by being anxious can add a single hour to his span of life? [28] And why are you anxious about clothing? Consider the lilies of the field, how they grow: they neither toil nor spin, [29] yet I tell you, even Solomon in all his glory was not arrayed like one of these.
+
+The beauty of flowers is incomparable to man-made beauty, whether in a macro or on a micro scale. It has even been said that the male peacocks feathers were a nightmare to Darwin, because the eye (but also the beauty of it) cannot be explained in an evolutionary context. #todo/nogaftemaken 
+However, regardless of how beautiful flowers are and how intricately they are made, or even insects and animals, man is made even more intricately and is more unique to the animal world than anything else—if not the body then the mind. The human mind is able to contain a vast array of data, has a higher intelligence, is able to communicate on a higher level than any other animal creature, and even has understands the concept of God.
+
+[30] But if God so clothes the grass of the field, which today is alive and tomorrow is thrown into the oven, will he not much more clothe you, O you of little faith? [31] Therefore do not be anxious, saying, ‘What shall we eat?’ or ‘What shall we drink?’ or ‘What shall we wear?’ [32] For the Gentiles seek after all these things, and your heavenly Father knows that you need them all. [33] But seek first the kingdom of God and his righteousness, and all these things will be added to you. [34]  “Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble.
+
+https://bible.com/bible/59/mat.6.1-34.ESV
+
+[^1]: Of course, even if one has a break-even or better, gamblers continue for another reason which is greed. But the reason they cannot stop when at a loss is because of the reason mentioned above.

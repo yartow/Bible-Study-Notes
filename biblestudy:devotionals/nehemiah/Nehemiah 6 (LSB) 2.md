@@ -1,0 +1,19 @@
+#  Nehemiah 6 (LSB)
+### Enemies Try to Make Nehemiah Fearful
+> **Neh. 6:1**   Now it happened when it was heard by Sanballat, Tobiah, Geshem the Arab, and the rest of our enemies that I had rebuilt the wall, and *that* no breach remained in it, aalthough at that time I had not made the doors to stand in the gates, **2** that Sanballat and Geshem sent*a message* to me, saying, “Come, let us meet together at 1Chephirim in the plain of aOno.” But they were planning to 2do me harm. **3** So I sent messengers to them, saying, “I am doing a great work and I cannot come down. Why should the work stop while I leave it and come down to you?” **4** And they sent*messages* to me four times in this manner, and I responded to them in the same manner. **5** Then Sanballat sent his young man to me in the same manner a fifth time with an open letter in his hand. **6** In it was written, 
+> 	“It is heard among the nations, and 1Gashmu says, that ayou and the Jews are planning to rebel; therefore you are rebuilding the wall. And you are to be their king, according to these words. **7**  		“You have also 1set up prophets to call out in Jerusalem concerning 2you, ‘A king is in Judah!’ So now it will be heard by the king according to these words. So now, come, let us take counsel together.” **8** Then I sent*a message* to him, saying, 
+> 	“Such words as you are saying have not been done, but you are adevising them in your own heart.”
+> **9** For all of them were *trying* to frighten us, 1thinking, “Their hands will 2become limp in *doing* the work, and it will not be done.” But now, a*O God*, strengthen my hands.
+> 
+> **Neh. 6:10**   Now I entered the house of Shemaiah the son of Delaiah, son of Mehetabel, awho was 1confined at home, and he said, “Let us meet together in the house of God, within the temple, and let us close the doors of the temple, for they are coming to kill you, and they are coming to kill you at night.” **11** But I said, “aShould a man like me flee? And could one such as I go into the temple*just* to live? I will not go in.” **12** Then I recognized 1that surely God had not sent him, but he spoke*his* prophecy against me because Tobiah and Sanballat had hired him. **13** He was hired for this reason, athat I might become afraid and act accordingly and sin, so that they could give*me* a bad name in order that they could reproach me. **14** aRemember, O my God, Tobiah and Sanballat according to these works of theirs, and also Noadiah bthe prophetess and the rest of the prophets who were *trying* to make me afraid.
+
+### The Wall Is Finished
+> **Neh. 6:15**   So athe wall was finished on the twenty-fifth of *the month* Elul, in fifty-two days. **16** aNow it happened that when all our enemies heard*of it*, and all the nations surrounding us saw*it*, 1their confidence fell. And bthey knew that it was from our God that this work had been accomplished. **17** Also in those days many letters went from the nobles of Judah to Tobiah, and Tobiah’s*letters* came to them. **18** For many in Judah were sworn by oath to him because he was the son-in-law of Shecaniah the son of Arah, and his son Jehohanan had taken the daughter of Meshullam the son of Berechiah*as a wife*.
+
+**Tobiah** is related to many important people of good reputation. His father-in-law, **Shecaniah** was the one who suggested the desperate but necessary measures (see [[Ezra 10 (LSB)]], and his son, **Jehohanan**—although it is unclear whether Jehohanan was Tobiah's or Shecaniah's son, that is Tobiah's brother-in-law—who is clearly referred to as one of the leaders (Nehemiah 12:13, 42) and who himself is again son-in-law of **Meshullam**, a leader mentioned often in Ezra en Nehemiah.
+
+> **19** Moreover, they were speaking about his good deeds in my presence and bringing my words to him. Then Tobiah sent letters to make me afraid.
+
+
+#biblestudy/devotionals/nehemiah
+#tags/bible/ezra

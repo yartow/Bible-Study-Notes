@@ -1,0 +1,48 @@
+# Exodus 39 (LSB)
+#biblestudy/devotionals/exodus
+
+> ### Making the Holy Garments
+> **Ex. 39:1**   Moreover, from the blue and purple and scarlet *material*, they made finely woven garments for ministering in the holy place as well as the holy garments which were for Aaron, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:2**   He made the ephod of gold, *and* of blue and purple and scarlet *material*, and fine twisted linen. **3** Then they hammered out gold sheets and cut *them* into threads to be woven in *with* the blue and the purple and the scarlet *material* and the fine linen, the work of a skillful designer.
+
+It must have been an enormous tedious task to make the **gold [...] threads** for the **ephod**. Note that in this age the #questions/language/english/word technology for smelting iron was not even widely known yet #todo/opzoeken/reference in a fight against the ... the Israelites had bronze weapons and were more likely to lose. 
+
+> **4** They made joining shoulder pieces for the ephod; it was joined at its two *upper* ends. **5** The skillfully woven band which was on it was like its workmanship, of the same material: of gold, *and* of blue and purple and scarlet *material*, and fine twisted linen, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:6**   They made the onyx stones, set all around in filigree *settings* of gold; they were engraved *like* the engravings of a signet, according to the names of the sons of Israel. **7** And he placed them on the shoulder pieces of the ephod, *as* stones of remembrance for the sons of Israel, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:8**   He made the breastpiece, the work of a skillful designer, like the workmanship of the ephod: of gold, *and* of blue and purple and scarlet *material*, and fine twisted linen. **9** It was square; they made the breastpiece, *having been* folded double, a span long and a span wide when folded double. 
+
+#todo/opzoeken I am not sure why the **breastpiece [was] folded double**, but it could be that the bottom two places where the breastpiece was attached to the #todo/opzoeken was a weaker place. Now, however, this was attached to the middle, where it might have been attached to two layers of cloth, and less prone to tear. #biblestudy/discovery
+
+> **10** And they mounted four rows of stones on it. The first row *was* a row of ruby, topaz, and emerald; **11** and the second row, a turquoise, a sapphire, and a diamond; **12** and the third row, a jacinth, an agate, and an amethyst; **13** and the fourth row, a beryl, an onyx, and a jasper. They were set in their filigree *settings* with gold filigree. 
+
+According to David Pawson #tags/people/christian/minister all of the **stones** mentioned are found in Israel. Even more so, Israel is the only place in the world where *all* stones can be found. Thus, the combination of these stones is unique and in a way representative to Israel. 
+It would be like the combination of cheese, clogs and windmills being representative to the Netherlands (although the latter two alone would be sufficient by themselves). 
+If ever an Israelite watch is to be made, it should have these twelve stones. Coincidentally, a watch as twelve hours as well.
+
+> **14** The stones were corresponding to the names of the sons of Israel; they were twelve, corresponding to their names, *engraved with* the engravings of a signet, each with its name for the twelve tribes. **15** They made on the breastpiece chains of a twisted work of cords in pure gold. **16** They made two gold filigree *settings* and two gold rings, and put the two rings on the two ends of the breastpiece. **17** Then they put the two gold cords in the two rings at the ends of the breastpiece. **18** They put the *other* two ends of the two cords on the two filigree *settings* and put them on the shoulder pieces of the ephod at the front of it. **19** They made two gold rings and placed *them* on the two ends of the breastpiece, on its inner edge which was next to the ephod. **20** Furthermore, they made two gold rings and placed them on the bottom of the two shoulder pieces of the ephod, on the front of it, close to the place where it joined, above the skillfully woven band of the ephod. **21** They bound the breastpiece by its rings to the rings of the ephod with a blue cord, so that it would be on the skillfully woven band of the ephod, and that the breastpiece would not come loose from the ephod, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:22**   Then he made the robe of the ephod of woven work entirely of blue; **23** and the opening of the robe was *at the top* in the center, as the opening of a coat of mail, with a binding all around its opening, so that it would not be torn.
+
+The **binding all around its opening** was probably not a new invention, but it was smart to put this up as an instruction.
+
+> **24** They made pomegranates of blue and purple and scarlet *material and* twisted *linen* on the hem of the robe. **25** They also made bells of pure gold and put the bells between the pomegranates all around on the hem of the robe, **26** alternating a bell and a pomegranate all around on the hem of the robe for the ministry, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:27**   They made the tunics of finely woven linen for Aaron and his sons, **28** and the turban of fine linen, and the headdresses of the caps of fine linen, and the linen undergarments of fine twisted linen, **29** and the sash of fine twisted linen, and blue and purple and scarlet *material*, the work of the weaver, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:30**   They made the plate of the holy crown of pure gold and wrote upon it *with* engraved writing *as found on* a signet, “Holy to Yahweh.” **31** They fastened a blue cord to it, to fasten it on the turban above, just as Yahweh had commanded Moses.
+> 
+> **Ex. 39:32**   Thus all the service of *constructing* the tabernacle of the tent of meeting was completed; and the sons of Israel did according to all that Yahweh had commanded Moses; so they did. **33** They brought the tabernacle to Moses, the tent and all its furnishings: its clasps, its boards, its bars, and its pillars and its bases; **34** and the covering of rams’ skins dyed red, and the covering of porpoise skins, and the screening veil; **35** the ark of the testimony and its poles and the mercy seat; **36** the table, all its utensils, and the bread of the Presence; **37** the pure *gold* lampstand, with its arrangement of lamps and all its utensils, and the oil for the light; **38** and the gold altar, and the anointing oil and the fragrant incense, and the veil for the doorway of the tent; **39** the bronze altar and its bronze grating, its poles and all its utensils, the laver and its stand; **40** the hangings for the court, its pillars and its bases, and the screen for the gate of the court, its cords and its pegs, and all the equipment for the service of the tabernacle, for the tent of meeting; **41** the woven garments for ministering in the holy place and the holy garments for Aaron the priest and the garments of his sons, to minister as priests. **42** Thus, according to all that Yahweh had commanded Moses, so the sons of Israel did in all their service. **43** And Moses saw all the work, and behold, they had done it; just as Yahweh had commanded, so they had done. Then Moses blessed them.
+
+This was one of the few times in history when Israel was obedient and wholeheartedly gave to God. The other times were when contributions were needed for the building of the Temple and when they were desperate and cried out to God because of the oppression by their enemies in the period of the Judges, and when they were under good leadership, such as Ezra and Nehemia, and a few of the slightly better kings, such as David and Josia. 
+**Example.** I see the same kind of behavior in churches with lukewarm Christians. Whenever there is something that the church members can do, physically, if it is not too big, they will do it eagerly, as if they put God first in their heart. Within Eastern and Middle-Eastern cultures, for example, I often see during sermons or other talks that are, disrespectfully said, not as interesting, people show their hospitality by pouring drinks for others, standing up and giving their seat to others or getting a chair for those who enter late and have no seat. It actually seems quite like the behavior of Martha, although the story does not mention her attitude towards Jesus' words.
+Even though this hospitality in itself is not a bad thing, the same attention is not given to the sermon itself, or to the strict adherence of God's Law. 
+In the Chinese Church I went to these small gestures are very common, borne from within the Chinese culture, carrying superficial traits and gestures of hospitality towards others, even when deeply disliking them. I know of very generous people from area of Wen Zhou, who are known for their big outward expenditure behavior. #questions/language/english/word who have donated tens of thousands of euros to the church—just like the Israelites did for their Tabernacle—but who could not keep the simple law to render unto Caesar what is his, and therefore pay their taxes.
+#biblestudy/discovery Ultimately. God cares more about the long-term obedience on every field of one's life, not just in outward appearance and hospitality. 
+
+#biblestudy/questions/exodus
+
+* How did the Israelites make or obtain the olives and olive oil needed to make enough oil to let the candles burn day and night? 
+* How did they get the porpoise skins? Did some go all the way back to the Red Sea to kill porpoises? 

@@ -1,0 +1,24 @@
+# Mark 16 (LSB)
+> ### Jesus Is Risen!
+> **Mark 16:1**   And when the Sabbath passed, Mary Magdalene, and Mary the *mother* of James, and Salome, bought spices, so that they might come and anoint Him. **2** And very early on the first day of the week, they came to the tomb when the sun had risen. **3** And they were saying to one another, “Who will roll away the stone for us from the entrance of the tomb?”
+
+Assuming this is a question the women had already thought of, but simply now said out loud, this shows the faith the women had and their attitude in taking action. They trusted God would provide. It is a question like Isaac asked Abraham when they went up Mount Moriah. Although he did not know where they would get the sacrifice for God, this did not stop him from going along with his father (Genesis 22:7).
+
+> **4** And looking up, they saw that the stone had been rolled away, although it was very large. **5** And entering the tomb, they saw a young man sitting on the right side, wearing a white robe; and they were amazed. **6** And he said to them, “Do not be amazed; you are looking for Jesus the Nazarene, who has been crucified. He has risen; He is not here; behold, the place where they laid Him. **7** “But go, tell His disciples and Peter, ‘He is going ahead of you to Galilee; there you will see Him, just as He told you.’” **8** And they went out and fled from the tomb, for trembling and astonishment were gripping them; and they said nothing to anyone, for they were afraid.
+
+Being filled with fear, **trembling and astonishment** is a logical response after having seen an angel. This was also the case with Zechariah, the father of John the Baptist, and Joseph and Mary. In each of those cases as well as here, the angel comforted the listener. The glory with which the angel was covered was of course the glory of God, just like Moses' face was covered with radiance after having been with God for only forty days (Exodus 30? #todo/opzoeken/reference ). The angels had been with since Creation and most likely their whole body was radiant. This also shows that the glory of God does not only cause amazement, but also fear. 
+In contrast, in Islam, when the prophet Muhammad met the angel Jibriel—the Arabic version of Gabriel—Jibriel did not comfort Muhammad, but rather made him even more afraid by forcing him to read, which he could not. So the angel was asking him something he did not know, could not do, and when he did not, he choked him. This description of Jibriel shows that the Qur'an is not inspired by the same God as that of the Bible. #tags/religion/islam However, the Qur'an says that the Bible, both the Old and the New Testament are both trustworthy, which makes the Qur'an inconsistent. #biblestudy/apologetics/islam
+
+> **Mark 16:9**   [Now after He had risen early on the first day of the week, He first appeared to Mary Magdalene, from whom He had cast out seven demons. **10** She went and reported to those who had been with Him, while they were mourning and crying. **11** And when they heard that He was alive and had been seen by her, they refused to believe it.
+> 
+> **Mark 16:12**   After that, He appeared in a different form to two of them while they were walking along on their way to the countryside. **13** And they went away and reported it to the others, but they did not believe them either.
+> 
+> ### The Great Commission
+> **Mark 16:14**   Afterward He appeared to the eleven themselves as they were reclining *at the table*; and He reproached them for their unbelief and hardness of heart, because they had not believed those who had seen Him after He had risen. **15** And He said to them, “Go into all the world and preach the gospel to all creation. **16** “He who has believed and has been baptized shall be saved; but he who has disbelieved shall be condemned. **17** “And these signs will accompany those who have believed: in My name they will cast out demons, they will speak with new tongues; **18** and they will pick up serpents, and if they drink any deadly *poison*, it will not hurt them; they will lay hands on the sick, and they will recover.”
+> 
+> **Mark 16:19**   So then, the Lord Jesus, after He had spoken to them, was taken up into heaven and sat down at the right hand of God. **20** And they went out and preached everywhere, while the Lord worked with them, and confirmed the word by the signs that followed.]
+> 
+>   [*And they promptly reported all these instructions to Peter and his companions. And after that, Jesus Himself sent out through them from east to west the sacred and imperishable preaching of eternal salvation.*]
+> 
+
+#biblestudy/devotionals/mark/lsb

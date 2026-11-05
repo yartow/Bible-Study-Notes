@@ -1,0 +1,23 @@
+# Genesis 12 (LSB)
+> ### Yahweh Appears to Abram
+> **Gen. 12:1**   And Yahweh said to Abram, 
+> 	“Go forth from your land, 
+> 	And from your kin 
+> 	And from your father’s house, 
+> 	To the land which I will show you;
+> **2** 	And I will make you a great nation, 
+> 	And I will bless you, 
+> 	And make your name great; 
+> 	And so you shall be a blessing;
+> **3** 	And I will bless those who bless you, 
+> 	And the one who curses you I will curse. 
+> 	And in you all the families of the earth will be blessed.”
+> 
+> **Gen. 12:4**   So Abram went forth as Yahweh had spoken to him; and Lot went with him. Now Abram was seventy-five years old when he departed from Haran. **5** So Abram took Sarai his wife and Lot his brother’s son, and all their possessions which they had accumulated, and the persons which they had acquired in Haran, and they departed to go forth to the land of Canaan; thus they came to the land of Canaan. **6** And Abram passed through the land as far as the site of Shechem, to the oak of Moreh. Now the Canaanite *was* then in the land. **7** Then Yahweh appeared to Abram and said, “To your seed I will give this land.” So he built an altar there to Yahweh who had appeared to him. **8** Then he proceeded from there to the mountain on the east of Bethel, and he pitched his tent with Bethel on the west and Ai on the east; and there he built an altar to Yahweh and called upon the name of Yahweh. **9** And Abram journeyed on, continuing toward the Negev.
+> 
+> ### Abram and Sarai in Egypt
+> **Gen. 12:10**   Now there was a famine in the land; so Abram went down to Egypt to sojourn there, for the famine was severe in the land. **11** And it happened as he drew near to entering Egypt, that he said to Sarai his wife, “Now behold, I know that you are a woman beautiful in appearance; **12** and it will be when the Egyptians see you, that they will say, ‘This is his wife’; and they will kill me, but they will let you live. **13** “Please say that you are my sister so that it may go well with me because of you, and that I may live on account of you.” **14** Now it happened when Abram came into Egypt, that the Egyptians saw that the woman was very beautiful. **15** And Pharaoh’s officials saw her and praised her to Pharaoh; and the woman was taken into Pharaoh’s house. **16** Therefore he treated Abram well because of her; and sheep and oxen and donkeys and male and female servants and female donkeys and camels came into his possession.
+> 
+> **Gen. 12:17**   But Yahweh struck Pharaoh and his house with great plagues because of Sarai, Abram’s wife. **18** Then Pharaoh called Abram and said, “What is this you have done to me? Why did you not tell me that she was your wife? **19** “Why did you say, ‘She is my sister,’ so that I took her for myself as a wife? So now, here is your wife, take her and go.” **20** So Pharaoh commanded *his* men concerning him; and they sent him away with his wife and all that belonged to him.
+
+#biblestudy/devotionals/genesis/2024

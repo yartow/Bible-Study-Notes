@@ -1,0 +1,64 @@
+# 1 John 5 (LSB)
+
+> ### Overcoming the World
+> **1John 5:1**   Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the One who gives *new* birth loves also the one who has been born of Him. 
+
+It is only normal to love those who are loved by the one we love. This is a continuation of the previous chapter. See notes on [[1 John 4 (LSB)*|1 John 4:20]].  
+
+> **2** By this we know that we love the children of God, when we love God and do His commandments.
+
+The result of the previous verse is shown **when we love God and do His commandments**. At first this may seem unrelated, but sixty percent of everything that God has commanded us is for the benefit of our neighbor, namely the last six commandments of [[Exodus 20 (LSB)/The Commandments of Yahweh|Exodus 20:2ff]]. Even those who love their neighbor are unknowingly fulfilling God's commandments. It has been said #todo/opzoeken/reference that one must know the Word in order to love one another, for if one does not know God's Word, how can he know the Truth and love in the right way? The fact, however, is that some people love each other *partially* in the right way. *Mostly*, the love of the world is selfish, but sometimes there appears an unselfish love. It could be, for example, that someone decides to stay loyal to his wife for the right reason, that is because he loves her, and so abide by God's Eight Commandment. He knows this part of the Truth and thus this commandment of the Word, even if he has never read the Word. So the saying is still true that one must *know* the Word. So some know the truth of the Word even though they do not realize it.
+
+> **3** For this is the love of God, that we keep His commandments; and His commandments are not burdensome. 
+
+Sometimes it feels very much like a burden to love and forgive one another and to continuously do so, but John clearly tells us that **His commandments are not burdensome**. He states it as a fact. The reason is explained in v. 4, see also notes there. This statement is a not a relativization as in that some commandments of God are really hard to do and that compared to those things, the commandments we do cannot be called burdensome. Corrie ten Boom for example #tags/people/christian/martyrs had to explicitly forgive the Nazi concentration camp guard because he literally asked her for forgiveness, right in front of her. The Nazi guard  #tags/history/war/world_two had mistreated them in such a way that he was at least partially guilty of her sister's death. Compared to her situation, how can we call forgiveness to our neighbors burdensome? No, it is not a matter of comparison, for then Corrie ten Boom could have called the commandments burdensome and we could not, but John implicitly says this is not burdensome for *anyone*. 
+There is in fact no one who can call these commandments burdensome, even though it is true that when all of humanity compares its burdens to Jesus' burdens on the cross, no one can even stand in His shadow. No one's burdens can compare with those of Jesus, that is true, but it is not the reason why John's statement are factually true. He states this because His commandments literally *are not burdensome*. One cannot say for example that eating is burdensome and that one *has to do this* in order to stay alive, for it is something that one is pleased to do. Now whether one is pleased with something depends on many factors, for example whether one is hungry and whether one knows or appreciates the taste of the food. In the same way, keeping God's commandments is no pleasure for those who do not love God and who do not want God to be hurt. But those who do love Him will be pleased to do anything that will give Him pleasure. Just like a man who is willing to buy his beloved an expensive ring, even if it costs him a big portion of his salary—some even say the engagement ring has to be at least 1.5 times his salary—will not say it was a burden to buy the ring. 
+It is not right to speak of a burden when one receives more than he has given. At the moment of buying the winning lottery ticket this might have been a burden to the one who did not know whether he would win, but afterwards the burden is negligible compared to his reward. In the same way all of our work is a mere *investment* in the Kingdom of God for which we see the rewards both in this life as well as in the next. 
+
+> **4** For everything that has been born of God overcomes the world; and this is the overcoming that has overcome the world—our faith.
+
+John explains himself why God's commandments are not burdensome, and that is because the one **born of God overcomes the world**. This is the real answer and the answer given in the notes on the previous verse is subject to this one. Will one who has overcome the world call anything as small as any worldly matter "burdensome"? He will not. No one who can lift up the world will find anything on Earth a burden to carry. This is a matter of comparison, but not between people but between what one is able to do and has done. 
+Now we have not yet overcome the world but we already have the power. Jesus has overcome the world and has shown it by rising from the dead, defying the laws of nature, including those of physics, chemistry and biology, and so much more. The most amazing of these is the power of forgiveness, of self-control against hatred, jealousy and all other kinds of sin. #todo/opzoeken Write (somewhere else) about Jesus defying psychology, theology, math and astronomy, when He speaks of other dimensions. Though, unbelievable, we have this power in us as well through the Holy Spirit, which we obtained through our faith. If anyone has this power, is anything a burden then? It only is when one *does not use this power*. Christians can so easily go back into their weak flesh and do all things through their own strength and then find that it is hard, while it makes so much more sense to stay in the spirit and do all things through His strength (cf. Philippians 4:13). Because of our own pride though, because we want to say that we have done it by *our strength*, that is why we return to the flesh. #church/material/sermon
+
+> **1John 5:5**   Who is the one who overcomes the world, but he who believes that Jesus is the Son of God? **6** This is the One who came by water and blood, Jesus Christ; not with the water only, but with the water and with the blood. It is the Spirit who bears witness, because the ==Spirit is the truth==. 
+
+What does it mean for someone to come with the water and the blood? The first thing that comes into mind is the natural birth, which is water. In the *full version* of v. 7 this is explained, [[/The Johannine Comma|see notes there]]. 
+
+#composed/bible/1john added pericope (title) here
+### The Johannine Comma
+
+> **7** For there are three that bear witness: **8** the Spirit and the water and the blood; and the three are in agreement. 
+
+Before we get into the meaning of these two verses, it is important to note that the complete version of these verses is not recorded in all manuscripts. Within the major English versions, only the KJV has the full version, while in the Dutch versions these are only the SV and HSV, while the NBG51 has this, but included between brackets. #todo/opzoeken KJV only version? Disappointingly not even the NASB and LSB include these (although from the ESV this was expected, because even though of all progressive translations it is the most orthodox, out of all orthodox it is the most progressive). #todo Add a note or disclaimer on translations. 
+
+> 1 John 5:7-8 (KJV) 7 For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one. 8 And there are three that bear witness in earth, the Spirit, and the water, and the blood: and these three agree in one.
+
+In Heaven there are three Persons Who **bear record** that the person, the man, Jesus of Nazareth, is the Son of God and on Earth there are also three, though not three persons. In Heaven it is of course the Father Himself, but also His spoken and written Word. Note that the Word, which is the Bible as well, is part of Heaven and not of Earth. This is because God's Word is materialized into a book, but the very Word itself is of course not on paper, but a concept. Similar to the Law—either that of God or of humans—it is a thing that is set and decided upon and even if all the books of the law were burned, the Law would still exist. The last Person to testify of this is the Holy Spirit. There probably are many examples that can be thought of. The Father has prophesied multiple times in His Word through His Spirit the coming of the Messiah (although this is a testimony to the person of Jesus), but the best example is that of Jesus' baptism, where the Father spoke (the Word) and the Spirit descended on Him.
+Here on Earth Jesus showed through His life that He was the Son of God. Some would say through His sinless life, others would say through His supernatural authoritative teachings and still others would say through His miracles. The last one is the testimony of the Spirit, for Jesus could not be the Son of God of the Spirit would not work through Him. Most likely the water is His supernatural birth from a virgin, in Bethlehem which was foretold, with a star (or two, or comets instead of stars) that was seen by the whole world (even in China #todo/opzoeken/reference !) and perhaps many more prophecies that were fulfilled that day. 
+And lastly, His blood, which is a symbol of His death, was a testimony through the fulfilling of many other prophecies. 
+
+> **9** If we receive the witness of men, the witness of God is greater; for the witness of God is this, that He has borne witness about His Son. 
+
+The **witness of God**, or in other words, the testimony, has still not been given. The last part of this verse provides information about what this witness (or testimony) is *about*, i.e. it is **about [God's] Son**—not what this testimony actually is. The actual answer is provided in v. 11. 
+John postpones answers and uses of parentheses like these in other places as well (see the footnotes on the [[1 John 2 (LSB)/Essay. What is the new commandment?|essay on 1 John 2:6]]). 
+
+#todo/nogaftemaken Inhoudelijk dieper op ingaan.
+
+> **10** The one who believes in the Son of God has this witness in himself. The one who does not believe God has made Him a liar, because he has not believed in the witness which God has borne witness about His Son.
+
+Here the precondition and consequence of this witness is given. The precondition is that one must believe **in the Son of God** before he can obtain the promise in v.11 which God witnesses to. The consequence of this is that he himself then becomes a witness because he will have **this witness in himself**. 
+This is always the case, by definition, when people come to faith. For they did not believe at first, but they came to believe when they had witnessed Jesus, the living God. And then believers become witnesses of Jesus Himself but they also become testimonies of the eternal life that comes along with it, showing to others the effect of eternal life in practice.  #todo/nogaftemaken 
+
+> **11** And the witness is this, ==that God gave us eternal life, and this life is in His Son.== **12** He who has the Son has the life; he who does not have the Son of God does not have that life.
+> 
+> ### That You May Know
+> **1John 5:13**   These things I have written to you who believe in the name of the Son of God, so that you may know that you have eternal life. **14** And this is the confidence which we have before Him, that, if we ask anything according to His will, He hears us. **15** And if we know that He hears us *in* whatever we ask, we know that we have the requests which we have asked from Him.
+> 
+> **1John 5:16**   If anyone sees his brother committing a sin not *leading* to death, he shall ask and *God* will for him give life to those who commit sin not *leading* to death. There is a sin *leading* to death; I do not say that he should make request for this. **17** All unrighteousness is sin, and there is a sin not *leading* to death.
+> 
+> **1John 5:18**   We know that no one who has been born of God sins; but He who was begotten of God keeps him, and the evil one does not touch him. **19** We know that we are of God, and that the whole world lies in *the power of* the evil one. **20** And we know that the Son of God has come, and has given us understanding so that we may know Him who is true; and we are in Him who is true, in His Son Jesus Christ. This is the true God and eternal life.
+> 
+> **1John 5:21**   Little children, guard yourselves from idols.
+
+#biblestudy/devotionals/1john/2023
+#biblestudy/devotionals/1john

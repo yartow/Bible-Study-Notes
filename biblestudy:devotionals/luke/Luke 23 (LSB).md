@@ -1,0 +1,41 @@
+# Luke 23 (LSB)
+> ### Jesus Before Pilate
+> **Luke 23:1**   Then their whole assembly rose up and brought Him before Pilate. **2** And they began to accuse Him, saying, “We found this man misleading our nation and forbidding to pay taxes to Caesar, and saying that He Himself is Christ, a King.” **3** So Pilate asked Him, saying, “Are You the King of the Jews?” And He answered him and said, “You yourself say *it*.” **4** Then Pilate said to the chief priests and the crowds, “I find no guilt in this man.” **5** But they kept on insisting, saying, “He stirs up the people, teaching all over Judea, starting from Galilee even as far as this place.”
+> 
+> **Luke 23:6**   Now when Pilate heard *this*, he asked whether the man was a Galilean. **7** And when he learned that He belonged to Herod’s jurisdiction, he sent Him to Herod, who himself also was in Jerusalem in those days.
+> 
+> ### Jesus Before Herod
+> **Luke 23:8**   Now when Herod saw Jesus, he rejoiced greatly; for he had wanted to see Him for a long time, because he had been hearing about Him and was hoping to see some sign performed by Him. **9** And he questioned Him at some length, but He answered him nothing. **10** And the chief priests and the scribes were standing there, vehemently accusing Him. **11** And Herod with his soldiers, after treating Him with contempt and mocking Him, dressed Him in a bright robe and sent Him back to Pilate. **12** Now Herod and Pilate became friends with one another that very day; for before they had been enemies with each other.
+> 
+> ### Pilate Grants the Crowd’s Request
+> **Luke 23:13**   And Pilate summoned the chief priests and the rulers and the people, **14** and said to them, “You brought this man to me as one who incites the people to rebellion, and behold, having examined Him before you, I have found in this man no guilt of what you are accusing Him. **15** “No, nor has Herod, for he sent Him back to us; and behold, nothing deserving death has been done by Him. **16** “Therefore I will punish Him and release Him.” **17** [Now he was obliged to release to them at the feast one prisoner.]
+> 
+> **Luke 23:18**   But they cried out all together, saying, “Away with this man, and release for us Barabbas!” **19** (He had been thrown into prison for an insurrection made in the city and for murder.)
+
+I had always found it a strange thing why anyone would choose the murderer Barabbas over an innocent, friendly and kind man as Jesus. This is of course partially due to depictions of Barabbas. We do not know what Barabbas looked like. In the movie #tags/movies *The Passion of the Christ* he is depicted is a mad man with crazy hair. But in reality he was part of the insurrection against the Roman Empire which many, if not all, Jews supported, albeit not necessarily actively. Nor would everyone agree with the violence they used together with the Zealots[^1], but there still was a good amount of understanding for their cause. 
+Next to that, there was also an irrational stirring up of the crowd which caused people who did not even know the man to vouch for him, in the same way like pro-Palestine protesters want to cease the (current) Israel-Gaza war and the freedom and independence of Palestine (*in place of* Israel, with the Jews being kicked out of the country). #tags/history/war/israel/2023
+
+> **20** But again Pilate addressed them, wanting to release Jesus, **21** but they kept on calling out, saying, “Crucify, crucify Him!” **22** And he said to them a third time, “Why, what evil has this man done? I have found in Him no guilt *worthy of* death; therefore I will punish Him and release Him.” **23** But they were insistent, with loud voices asking that He be crucified. And their voices were prevailing. **24** And Pilate pronounced sentence that their demand be granted. **25** And he released the man they were asking for who had been thrown into prison for insurrection and murder, but he delivered Jesus to their will.
+> 
+> ### Simon Carries the Cross
+> **Luke 23:26**   And when they led Him away, they took hold of a man, Simon of Cyrene, coming in from the country, and placed on him the cross to carry behind Jesus.
+> 
+> **Luke 23:27**   And following Him was a large multitude of the people, and of women who were mourning and lamenting Him. **28** But Jesus, turning to them, said, “Daughters of Jerusalem, stop crying for Me, but cry for yourselves and for your children. **29** “For behold, the days are coming when they will say, ‘Blessed are the barren, and the wombs that never bore, and the breasts that never nursed.’ **30** “Then they will begin TO SAY TO THE MOUNTAINS, ‘FALL ON US,’ AND TO THE HILLS, ‘COVER US.’ **31** “For if they do these things when the tree is green, what will happen when it is dry?”
+> 
+> **Luke 23:32**   Now two others also, who were criminals, were being led away to be put to death with Him.
+> 
+> ### The Crucifixion
+> **Luke 23:33**   And when they came to the place called The Skull, there they crucified Him and the criminals, one on the right and the other on the left. **34** But Jesus was saying, “Father, forgive them; for they do not know what they are doing.” AND THEY CAST LOTS, DIVIDING UP HIS GARMENTS AMONG THEMSELVES. **35** And the people stood by, looking on. And even the rulers were scoffing at Him, saying, “He saved others; let Him save Himself if this is the Christ of God, His Chosen One.” **36** And the soldiers also mocked Him, coming up to Him, offering Him sour wine, **37** and saying, “If You are the King of the Jews, save Yourself!” **38** Now there was also an inscription above Him, “THIS IS THE KING OF THE JEWS.”
+> 
+> **Luke 23:39**   And one of the criminals hanging *there* was blaspheming Him, saying, “Are You not the Christ? Save Yourself and us!” **40** But the other answered, and rebuking him said, “Do you not even fear God, since you are under the same sentence of condemnation? **41** “And we indeed *are suffering* justly, for we are receiving what we deserve for what we have done; but this man has done nothing wrong.” **42** And he was saying, “Jesus, remember me when You come in Your kingdom!” **43** And He said to him, “Truly I say to you, today you shall be with Me in Paradise.”
+> 
+> **Luke 23:44**   And it was now about the sixth hour, and darkness fell over the whole land until the ninth hour, **45** because the sun was obscured. And the veil of the sanctuary was torn in two. **46** And Jesus, crying out with a loud voice, said, “Father, INTO YOUR HANDS I COMMIT MY SPIRIT.” Having said this, He breathed His last. **47** Now when the centurion saw what had happened, he *began* praising God, saying, “Certainly this man was righteous.” **48** And all the crowds who came together for this spectacle, when they observed what had happened, were returning, beating their chests. **49** And all His acquaintances and the women who accompanied Him from Galilee were standing at a distance, watching these things.
+> 
+> ### Jesus Is Buried
+> **Luke 23:50**   And behold, a man named Joseph, who was a Council member, a good and righteous man **51** (he had not consented to their counsel and action), *a man* from Arimathea, a city of the Jews, who was waiting for the kingdom of God; **52** this man went to Pilate and asked for the body of Jesus. **53** And he took it down and wrapped it in a linen cloth, and laid Him in a tomb cut into the rock, where no one had ever lain. **54** It was Preparation day, and the Sabbath was about to begin. **55** Now the women, who had come with Him from Galilee, followed and beheld the tomb and how His body was laid. **56** Then after they returned, they prepared spices and perfumes.
+> 
+>   And on the Sabbath they rested according to the commandment.
+
+#biblestudy/devotionals/luke
+
+[^1]: All Jews were against the Romans controlling their country, land and taxes. Out the four most know religious parties—the Pharisees, Essenes, Zealots and Sadducees—the Zealots were mostly known for this and for using violence to achieve their goal of overthrowing the government. Most likely the group that resided, defended and died at *Masada* were also Zealots, as depicted in the eponymous movie #tags/movies, starring Peter Fonda. 
