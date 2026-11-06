@@ -240,7 +240,7 @@ def main() -> None:
             print(f"Export: {export_root}  (date {stamp})")
         else:
             export_root, stamp = Path(tmp, "bear"), date.today().isoformat()
-            count = len(bear.materialize(export_root))
+            count = len(bear.materialize(export_root, link_images=True))
             print(f"Read {count} notes from Bear ({bear.DB_PATH.name}, read-only)  (date {stamp})")
         run_import(args, repo, lib, export_root, stamp)
 
@@ -326,6 +326,7 @@ def run_import(args: argparse.Namespace, repo: Path, lib: Path, export_root: Pat
         committed = True
     else:
         report_path = repo / "imports" / f"import-{stamp}-report.md"
+        report_path.parent.mkdir(exist_ok=True)
         report_path.write_text(text, encoding="utf-8")
     git("update-ref", f"refs/heads/{SNAPSHOT_BRANCH}", new_snapshot)
 

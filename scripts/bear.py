@@ -5,10 +5,11 @@ database, which would break iCloud sync. It goes through the official
 x-callback-url API ("add-text" with mode=replace_all), and the database is
 then read again to confirm the change.
 
-Bear stores image links bare, e.g. ![](Timeline.png). Its Markdown export,
-and therefore the repo, prefixes them with the note's folder:
-![](Ezra%207%20%28LSB%29/Timeline.png). to_export_form() and
-to_bear_form() convert between the two.
+Bear stores links to a note's images and attached files bare, e.g.
+![](Timeline.png). Its Markdown export, and therefore the repo, prefixes them
+with the note's folder: ![](Ezra%207%20%28LSB%29/Timeline.png).
+to_export_form() adds that prefix. Pushing doesn't need the reverse: the
+repo edit is merged into Bear's own text (see push_to_bear.py).
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ from __future__ import annotations
 import os
 import re
 import shutil
+import sys
 import sqlite3
 import subprocess
 import time
@@ -24,12 +26,15 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import quote, unquote
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from organize_devotionals import FILE_LINK, URL_SCHEME  # noqa: E402
+
 BEAR_DATA = Path.home() / "Library/Group Containers/9K33E3U3T4.net.shinyfrog.bear/Application Data"
 DB_PATH = BEAR_DATA / "database.sqlite"
-IMAGES_DIR = BEAR_DATA / "Local Files" / "Note Images"
+# Bear keeps images in "Note Images" and other attachments (PDFs, …) in "Note Files".
+ATTACHMENT_DIRS = (BEAR_DATA / "Local Files" / "Note Images", BEAR_DATA / "Local Files" / "Note Files")
 ROOT_TAG = "biblestudy/devotionals"
 
-IMAGE_LINK = re.compile(r"(!\[[^\]]*\]\()(<[^>]+>|[^)\s]+)(\))")
 UNSAFE_NAME = re.compile(r'[:/\\?*<>|"]')
 
 
@@ -41,7 +46,7 @@ class BearNote:
     created: float
     modified: float
     tags: list[str] = field(default_factory=list)  # below ROOT_TAG, e.g. "genesis/2024"
-    images: dict[str, Path] = field(default_factory=dict)  # file name -> file on disk
+    images: dict[str, Path] = field(default_factory=dict)  # attachment name -> file on disk
 
     @property
     def file_stem(self) -> str:
@@ -80,7 +85,8 @@ def devotional_notes(con: sqlite3.Connection | None = None) -> list[BearNote]:
            WHERE COALESCE(ZPERMANENTLYDELETED, 0) = 0 AND COALESCE(ZENCRYPTED, 0) = 0""").fetchall()
     for r in file_rows:
         if r["ZNOTE"] in notes and r["ZFILENAME"]:
-            notes[r["ZNOTE"]].images[r["ZFILENAME"]] = IMAGES_DIR / r["ZUNIQUEIDENTIFIER"] / r["ZFILENAME"]
+            places = [d / r["ZUNIQUEIDENTIFIER"] / r["ZFILENAME"] for d in ATTACHMENT_DIRS]
+            notes[r["ZNOTE"]].images[r["ZFILENAME"]] = next((f for f in places if f.is_file()), places[0])
     return sorted(notes.values(), key=lambda n: (n.title, n.created, n.id))
 
 
@@ -91,36 +97,22 @@ def note_text(note_id: str, con: sqlite3.Connection | None = None) -> str | None
 
 
 # ---------- text forms ----------
-def _is_local(link: str) -> bool:
-    return not re.match(r"^[a-z][a-z0-9+.-]*:", link, re.I)
-
-
 def to_export_form(text: str, stem: str, images: set[str] | None = None) -> str:
-    """Bear text -> the text of the exported file (and of the repo note)."""
+    """Bear text -> the text of the exported file (and of the repo note).
+
+    Links to the note's own images and attachments get the folder prefix.
+    """
     prefix = quote(stem)
 
     def swap(m: re.Match) -> str:
-        raw = m.group(2)
-        bare = raw.strip("<>")
-        if not _is_local(bare) or "/" in bare:
+        bare = m.group(2).strip("<>")
+        if URL_SCHEME.match(bare) or bare.startswith("#") or "/" in bare:
             return m.group(0)
         if images is not None and unquote(bare) not in images:
             return m.group(0)
         return f"{m.group(1)}{prefix}/{bare}{m.group(3)}"
 
-    return IMAGE_LINK.sub(swap, text)
-
-
-def to_bear_form(text: str) -> str:
-    """Repo text -> Bear text: image links lose their folder prefix."""
-
-    def swap(m: re.Match) -> str:
-        bare = m.group(2).strip("<>")
-        if not _is_local(bare) or "/" not in bare:
-            return m.group(0)
-        return f"{m.group(1)}{bare.rsplit('/', 1)[1]}{m.group(3)}"
-
-    return IMAGE_LINK.sub(swap, text)
+    return FILE_LINK.sub(swap, text)
 
 
 # ---------- export ----------
@@ -147,10 +139,13 @@ def export_layout(notes: list[BearNote]) -> list[tuple[BearNote, Path]]:
     return placed
 
 
-def materialize(dest: Path, notes: list[BearNote] | None = None) -> dict[Path, BearNote]:
+def materialize(dest: Path, notes: list[BearNote] | None = None,
+                link_images: bool = False) -> dict[Path, BearNote]:
     """Write a folder laid out like a Bear Markdown export.
 
     Returns each written note file (relative to dest) with its Bear note.
+    With link_images, images and attachments are symlinked instead of copied,
+    which is enough for planning (nothing is read from them but their bytes).
     """
     notes = notes if notes is not None else devotional_notes()
     written: dict[Path, BearNote] = {}
@@ -163,7 +158,10 @@ def materialize(dest: Path, notes: list[BearNote] | None = None) -> dict[Path, B
             if src.is_file():
                 img = path.parent / stem / name
                 img.parent.mkdir(exist_ok=True)
-                shutil.copy2(src, img)
+                if link_images:
+                    img.symlink_to(src)
+                else:
+                    shutil.copy2(src, img)
         written[rel] = note
     return written
 

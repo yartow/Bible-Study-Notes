@@ -112,7 +112,7 @@ The import only runs if `biblestudy:devotionals/` has no uncommitted changes. To
 git reset --hard HEAD~1 && git branch -f bear-export <previous snapshot>
 ```
 
-The previous snapshot's ID is also recorded in the import commit message, under `Bear-Export-Previous:`.
+The previous snapshot’s ID is also recorded in the import commit message, under `Bear-Export-Previous:`.
 
 ## Sending Edits Back to Bear
 
@@ -124,9 +124,9 @@ python3 scripts/push_to_bear.py --only "15. Ezra/Ezra 7 (LSB).md" # one note
 python3 scripts/push_to_bear.py                                 # asks before pushing
 ```
 
-The script writes through Bear’s official URL API, never into Bear’s database, so iCloud sync keeps working. It pushes only committed edits, and only to notes that Bear hasn’t changed since the last import. A note that was edited in Bear too is listed as **changed in Bear**: run the import first, then push again. Bear keeps its own image links, because the repo edit is merged into Bear’s text line by line. The script skips any note whose title line changed, since that would rename the note in Bear.
+The script writes through Bear’s official URL API, never into Bear’s database, so iCloud sync keeps working. It pushes only committed edits, and only to notes that Bear hasn’t changed since the last import. A note that was edited in Bear too is listed as **changed in Bear**: run the import first, then push again. A note whose Bear version is still waiting in `_conflicts/<date>/` is skipped until you merge it. Bear keeps its own image links, because the repo edit is merged into Bear’s text line by line. The script skips any note whose title line changed, since that would rename the note in Bear.
 
-Before each change, Bear’s current text is saved in `imports/_bear-backups/<timestamp>/`, and afterward the script reads Bear again to confirm it. Bear opens in the background while the script runs.
+Before each change, Bear’s current text is saved in `imports/_bear-backups/<timestamp>/`, and afterward the script reads Bear again to confirm it. Bear opens in the background while the script runs. Each push adds a commit to the `bear-export` snapshot, so the next push and import know that Bear now holds the pushed text.
 
 ## Style
 

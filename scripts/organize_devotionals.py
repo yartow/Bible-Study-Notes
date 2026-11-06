@@ -79,7 +79,9 @@ DUTCH_BOOK_WORDS = {
 }
 
 IMPORT_FOLDERS = re.compile(r"^(toaddfrom.*|essay|questions)$", re.I)
-IMAGE_LINK = re.compile(r"(!\[[^\]]*\]\()(<[^>]+>|[^)\s]+)(\))")
+# An image link ![](x.png), or a plain link [x.pdf](x.pdf) to an attached file.
+FILE_LINK = re.compile(r"(!?\[[^\]]*\]\()(<[^>]+>|[^)\s]+)(\))")
+URL_SCHEME = re.compile(r"^[a-z][a-z0-9+.-]*:", re.I)  # http:, bear:, data:
 TAG = re.compile(r"#biblestudy/devotionals/([0-9a-z]+)", re.I)
 TRANSLATION = re.compile(r"\(([A-Z]{2,5})\)")
 
@@ -200,6 +202,8 @@ class Note:
 def in_matching_folder(note: Note) -> bool:
     if not note.parsed or not note.top_folder:
         return False
+    if note.top_folder == note.parsed.book.folder:  # e.g. "01. Genesis"
+        return True
     top = squash(note.top_folder)
     return any(k == top or k.startswith(top) for k in note.parsed.book.keys)
 
@@ -219,26 +223,31 @@ def read_text(path: Path) -> str:
 
 
 def image_links(root: Path, note_rel: Path) -> tuple[dict[str, Path], list[str]]:
-    """Map each local image link in a note to the file it points to.
+    """Map each local image or attachment link in a note to the file it points to.
 
-    Returns the resolved links and the links whose file does not exist.
+    Returns the resolved links and the image links whose file does not exist.
+    A plain link counts only if it points to an existing file that is not a note.
     """
     out: dict[str, Path] = {}
     broken: list[str] = []
     text = read_text(root / note_rel)
-    for m in IMAGE_LINK.finditer(text):
+    for m in FILE_LINK.finditer(text):
         raw = m.group(2).strip("<>")
-        if re.match(r"^[a-z][a-z0-9+.-]*:", raw, re.I):  # http:, bear:, data:
+        is_image = m.group(1).startswith("!")
+        if URL_SCHEME.match(raw) or raw.startswith("#"):
+            continue
+        if not is_image and unquote(raw).lower().endswith(".md"):
             continue
         candidate = (root / note_rel.parent / unquote(raw)).resolve()
         try:
             rel = candidate.relative_to(root.resolve())
         except ValueError:
-            broken.append(raw)
+            if is_image:
+                broken.append(raw)
             continue
         if candidate.is_file():
             out[m.group(2)] = rel
-        else:
+        elif is_image:
             broken.append(raw)
     return out, broken
 
@@ -329,7 +338,7 @@ class Planner:
 
     def plan_images(self) -> None:
         claimed: dict[Path, Path] = {}  # image src -> destination
-        used_dest: dict[Path, str] = {}  # destination -> sha
+        used_dest: set[Path] = set()
         for note in sorted((n for n in self.notes if n.action == "keep"), key=keeper_rank):
             note_dir = note.target.parent
             for link, src in note.links.items():
@@ -341,13 +350,11 @@ class Planner:
                     else:
                         dest = note_dir / note.target.stem / src.name
                         n = 2
-                        while (dest in used_dest and used_dest[dest] != self.images[src]) or (
-                            dest not in used_dest and (self.root / dest).exists() and dest != src
-                        ):
+                        while dest in used_dest or ((self.root / dest).exists() and dest != src):
                             dest = dest.with_name(f"{src.stem}-{n}{src.suffix}")
                             n += 1
                     claimed[src] = dest
-                    used_dest[dest] = self.images[src]
+                    used_dest.add(dest)
                 new_link = quote(os.path.relpath(dest, note_dir), safe="/")
                 if unquote(link.strip("<>")) != unquote(new_link):
                     self.rewrites.setdefault(note.target, {})[link] = new_link
@@ -379,7 +386,7 @@ class Planner:
             new = changes.get(m.group(2))
             return m.group(1) + new + m.group(3) if new else m.group(0)
 
-        return IMAGE_LINK.sub(swap, text)
+        return FILE_LINK.sub(swap, text)
 
     # ---------- execution ----------
     def apply(self, out_dir: Path, stamp: str) -> Path:
@@ -407,7 +414,7 @@ class Planner:
                     new = changes.get(m.group(2))
                     return m.group(1) + new + m.group(3) if new else m.group(0)
 
-                path.write_text(IMAGE_LINK.sub(swap, text), encoding="utf-8",
+                path.write_text(FILE_LINK.sub(swap, text), encoding="utf-8",
                                 errors="surrogateescape")
                 w.writerow([note_rel, "rewrite-links", backup, ""])
             for rel in self.ds_store:
